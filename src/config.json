@@ -1,0 +1,60 @@
+{
+    "publicPath": "",
+    "namespace": "icjia-",
+    "defaultAvatar": "https://cdn.vuetifyjs.com/images/john.jpg",
+    "api": {
+        "base": "https://ifvcc.icjia-api.cloud",
+        "baseGraphQL": "https://ifvcc.icjia-api.cloud/graphql",
+        "baseClient": "https://ifvcc.icjia.cloud",
+        "forgetPassword": "/auth/forgot-password",
+        "resetPassword": "/auth/reset-password",
+        "resetPasswordCallback": "/reset",
+        "posts": "/posts",
+        "login": "/auth/local",
+        "timeout": 10000,
+        "register": "/auth/local/register"
+    },
+    "home": {
+        "eventLimit": 5,
+        "postLimit": 4
+    },
+    "timezone": "America/Chicago",
+    "underConstruction": false,
+    "hoursToShowUpdated": 1,
+    "search": {
+        "isCaseSensitive": false,
+        "includeScore": true,
+        "shouldSort": true,
+        "includeMatches": true,
+        "findAllMatches": true,
+        "minMatchCharLength": 3,
+        "location": 0,
+        "threshold": 0.6,
+        "distance": 100,
+        "useExtendedSearch": false,
+        "ignoreLocation": false,
+        "ignoreFieldNorm": false,
+        "keys": [
+            {
+                "name": "summary",
+                "weight": 1
+            },
+            {
+                "name": "title",
+                "weight": 1
+            },
+            {
+                "name": "headings",
+                "weight": 1
+            },
+            {
+                "name": "contentType",
+                "weight": 1
+            },
+            {
+                "name": "type",
+                "weight": 1
+            }
+        ]
+    }
+}

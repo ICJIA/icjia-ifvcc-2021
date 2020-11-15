@@ -4,16 +4,20 @@ import {
   createApolloClient,
   restartWebsockets,
 } from "vue-cli-plugin-apollo/graphql-client";
+import appConfig from "./config.json";
+console.log("appConfig", appConfig.api.baseGraphQL);
 
 // Install the vue plugin
 Vue.use(VueApollo);
 
 // Name of the localStorage item
-const AUTH_TOKEN = "apollo-token";
+const AUTH_TOKEN = "jwt";
 
 // Http endpoint
+// Http endpoint
 const httpEndpoint =
-  process.env.VUE_APP_GRAPHQL_HTTP || "http://localhost:4000/graphql";
+  appConfig.api.baseGraphQL || "http://localhost:1337/graphql";
+
 // Files URL root
 export const filesRoot =
   process.env.VUE_APP_FILES_ROOT ||
