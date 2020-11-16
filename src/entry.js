@@ -1,4 +1,4 @@
-if (isIE(window.navigator.userAgent))
+if (!isIE(window.navigator.userAgent))
   document.querySelector("#app").innerHTML = createBanner("ICJIA Intranet");
 else require("./main");
 
@@ -13,15 +13,14 @@ function createBanner() {
 
   return `
   <div style="text-align: center; font-size: 0.7em;">
+ 
     
-    <h1 style="font-weight: 900; font-size: 36px; margin-top: 100px; margin-bottom: 32px; font-family: 'Roboto', sans-serif !important;">
-          R<span style="color: #ccaa41">3</span>&nbsp;<span
-            >ICJIA IFVCC</span
-          >
-        </h1>
+   
 
-    <h1 style='font-family: Lato, sans-serif; margin-top: 50px; padding-top: 20px; padding-bottom:20px; background: #eee;'>
-      The ICJIA Illinois Family Violence Coordinating Councils site does not support Internet Explorer.
+         <img src="/img/icjia-logo.png" width="175" style="margin-top: 50px; margin-bottom: 10px" alt="ICJIA logo" />
+
+    <h1 style='font-family: Lato, sans-serif; margin-top: 40px; padding-top: 20px; padding-bottom:20px; background: #eee;'>
+      The <span style="color: blue">Illinois Family Violence Coordinating Councils</span> site does not support Internet Explorer.
       <br><br>
       Please upgrade to a modern, secure browser such as
       <a href='https://www.google.com/chrome/'>Chrome</a>,
