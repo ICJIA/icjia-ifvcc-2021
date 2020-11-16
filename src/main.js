@@ -5,6 +5,20 @@ import store from "./store";
 import vuetify from "./plugins/vuetify";
 import { createProvider } from "./vue-apollo";
 
+import "@/assets/app.css";
+import "@/components/_globals";
+import "alpinejs";
+// import "@/assets/css/github-markdown.css";
+import "@/filters";
+//import "material-design-icons-iconfont/dist/material-design-icons.css";
+// import Masonry from "masonry-layout";
+// NProgress
+// eslint-disable-next-line no-unused-vars
+import Nprogress from "nprogress";
+import "nprogress/nprogress.css";
+
+import "@fortawesome/fontawesome-free/css/all.css";
+
 Vue.config.productionTip = false;
 
 // Set up app wide read-only configs and install as plugin
