@@ -7,6 +7,24 @@ import { createProvider } from "./vue-apollo";
 
 Vue.config.productionTip = false;
 
+// Set up app wide read-only configs and install as plugin
+import { myApp } from "./services/AppInit";
+myApp.install = function () {
+  Object.defineProperty(Vue.prototype, "$myApp", {
+    get() {
+      return myApp;
+    },
+  });
+};
+Vue.use(myApp);
+
+import VueMeta from "vue-meta";
+
+Vue.use(VueMeta, {
+  // optional pluginOptions
+  refreshOnceOnNavigation: true,
+});
+
 new Vue({
   router,
   store,
