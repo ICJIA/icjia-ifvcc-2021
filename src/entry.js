@@ -1,4 +1,4 @@
-if (!isIE(window.navigator.userAgent))
+if (isIE(window.navigator.userAgent))
   document.querySelector("#app").innerHTML = createBanner("ICJIA Intranet");
 else require("./main");
 
