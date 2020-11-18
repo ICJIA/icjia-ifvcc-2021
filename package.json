@@ -7,10 +7,10 @@
     "build": "npm run schema && npm run build:lambda && vue-cli-service build",
     "test:unit": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint",
-    "schema": "get-graphql-schema https://ifvcc.icjia-api.cloud/graphql -j > schema.json",
-    "build:serve": "npm run build && serve ./dist --single",
     "build:lambda": "netlify-lambda build ./src/lambda",
     "build:modern": "npm run schema && npm run build:lambda && vue-cli-service build --modern",
+    "build:serve": "npm run build && serve ./dist --single",
+    "schema": "get-graphql-schema https://ifvcc.icjia-api.cloud/graphql -j > schema.json",
     "start:lambda": "netlify-lambda serve ./src/lambda"
   },
   "dependencies": {
@@ -63,6 +63,7 @@
     "sass": "^1.29.0",
     "sass-loader": "^10.1.0",
     "vue-cli-plugin-apollo": "^0.22.2",
+    "vue-cli-plugin-moment": "^0.1.1",
     "vue-cli-plugin-vuetify": "^2.0.7",
     "vue-template-compiler": "^2.6.12",
     "vuetify-loader": "^1.6.0"
