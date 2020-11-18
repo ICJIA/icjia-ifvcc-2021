@@ -11,12 +11,16 @@
     "build:modern": "npm run schema && npm run build:lambda && vue-cli-service build --modern",
     "build:serve": "npm run build && serve ./dist --single",
     "schema": "get-graphql-schema https://ifvcc.icjia-api.cloud/graphql -j > schema.json",
-    "start:lambda": "netlify-lambda serve ./src/lambda"
+    "start:lambda": "netlify-lambda serve ./src/lambda",
+    "release:major": "changelog -M && git add CHANGELOG.md && git commit -m 'updated CHANGELOG.md' && npm version major && git push origin && git push origin --tags",
+    "release:minor": "changelog -m && git add CHANGELOG.md && git commit -m 'updated CHANGELOG.md' && npm version minor && git push origin && git push origin --tags",
+    "release:patch": "changelog -p && git add CHANGELOG.md && git commit -m 'updated CHANGELOG.md' && npm version patch && git push origin && git push origin --tags"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.1",
     "alpinejs": "^2.7.3",
     "aos": "^2.3.4",
+    "auto-changelog": "^2.2.1",
     "axios": "^0.21.0",
     "cheerio": "^1.0.0-rc.3",
     "core-js": "^3.7.0",
