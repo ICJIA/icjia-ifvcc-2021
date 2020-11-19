@@ -1,72 +1,115 @@
 <template>
-  <div>
-    <v-app-bar app style="background: #fff" elevate-on-scroll>
-      <!-- <v-app-bar-nav-icon></v-app-bar-nav-icon> -->
-      <div class="d-flex align-center">
-        <v-img
-          alt="ICJIA Logo"
-          class="shrink mr-2 hover"
-          contain
-          src="/icjia-logo.png"
-          transition="scale-transition"
-          width="70"
-          style
-          @click="
-            $router.push('/').catch((err) => {
-              $vuetify.goTo(0);
-            })
-          "
-        />
-      </div>
-      <div
-        @click="
-          $router.push('/').catch((err) => {
-            $vuetify.goTo(0);
-          })
-        "
-        style="font-size: 24px; font-weight: bold; margin-left: 10px"
-        class="hover"
-      >
-        INTRANET
-      </div>
-      <!-- {{ $store.state.auth.isAuthenticated }} -->
-      <v-spacer></v-spacer>
-      <v-btn small text to="/news" class="hidden-sm-and-down"
-        >News & Updates</v-btn
-      >
-      <v-btn small text to="/forms" class="hidden-sm-and-down">Forms</v-btn>
-      <v-btn small text to="/documents" class="hidden-sm-and-down"
-        >Documents</v-btn
-      >
-      <v-btn small text to="/support" class="hidden-sm-and-down"
-        >Technical Support</v-btn
-      >
-      <v-btn small text to="/calendar" class="hidden-sm-and-down"
-        >Calendar</v-btn
-      >
+  <v-app-bar color="white" fixed height="90" class="noprint" app>
+    <div style="width: 15px" />
+    <v-img
+      :src="getImagePath(`/img/icjia-logo.png`, 0, 0, 100)"
+      :lazy-src="getImagePath(`/img/icjia-logo.png`, 0, 0, 1)"
+      alt="Illinois HEALS"
+      max-width="60"
+      style="margin-left: -5px; margin-right: 8px"
+      class="hover"
+      @click="gotoHome"
+    />&nbsp;&nbsp;&nbsp;&nbsp;
 
-      <v-btn icon to="/search">
-        <v-icon>mdi-magnify</v-icon>
-      </v-btn>
-      <v-menu left bottom>
-        <template v-slot:activator="{ on, attrs }">
-          <v-btn icon v-bind="attrs" v-on="on">
-            <v-icon>mdi-dots-vertical</v-icon>
-          </v-btn>
-        </template>
+    <v-toolbar-title class="heavy hover" @click="gotoHome">
+      <span
+        v-if="$vuetify.breakpoint.xs || $vuetify.breakpoint.sm"
+        class="brand-state"
+        style="margin-left: -0px"
+        >IL</span
+      >
+      <span v-else class="brand-state" style="margin-left: -0px"
+        >ILLINOIS&nbsp;|&nbsp;</span
+      >
+      <span class="brand-name">FAMILY VIOLENCE COORDINATING COUNCILS</span>
+    </v-toolbar-title>
 
-        <v-list>
-          <v-list-item to="/login">
-            <v-list-item-title>Logout</v-list-item-title>
-          </v-list-item>
-        </v-list>
-      </v-menu>
-    </v-app-bar>
-  </div>
+    <v-spacer />
+
+    <!-- <v-btn icon to="/search/" aria-label="Search">
+      <v-icon aria-label="Search">mdi-magnify</v-icon>
+    </v-btn> -->
+    <v-app-bar-nav-icon
+      aria-label="Toggle Menu"
+      style="color: black"
+      large
+      @click="toggleDrawer"
+    />
+  </v-app-bar>
 </template>
 
 <script>
-export default {};
+/* eslint-disable vue/no-use-v-if-with-v-for */
+import { getImageURL } from "@/services/Image";
+import { EventBus } from "@/event-bus";
+export default {
+  data() {
+    return {
+      loading: true,
+      links: null,
+      items: null,
+    };
+  },
+
+  mounted() {
+    // eslint-disable-next-line no-undef
+    // console.log('STATIC_PATH=', STATIC_PATH)
+  },
+  methods: {
+    toggleDrawer() {
+      EventBus.$emit("toggle-drawer");
+    },
+    logoWidth() {
+      // console.log(this.$vuetify.breakpoint);
+      if (this.$vuetify.breakpoint.xs) {
+        return 50;
+      } else {
+        return 90;
+      }
+    },
+    gotoHome() {
+      // EventBus.$emit('closeDrawer')
+      if (this.$route.path === "/") {
+        this.$vuetify.goTo(0);
+      } else {
+        this.$router.push("/");
+      }
+    },
+    getImagePath(url, imgWidth = 450, imgHeight = 200, imageQuality = 30) {
+      let imgPath;
+      imgPath = `${this.$myApp.config.clientURL}${url}`;
+      const thumborImgPath = getImageURL(
+        imgPath,
+        imgWidth,
+        imgHeight,
+        imageQuality
+      );
+      console.log("splash path: ", thumborImgPath);
+      return thumborImgPath;
+    },
+  },
+};
 </script>
 
-<style lang="scss" scoped></style>
+<style>
+.agency {
+  font-weight: 900;
+  font-size: 24px;
+}
+
+.brand-state {
+  font-weight: 400;
+  padding-right: 0px;
+  text-transform: uppercase;
+  font-size: 22px;
+  color: #333;
+
+  /* color: #fff; */
+}
+.brand-name {
+  font-weight: 900;
+  font-size: 22px;
+  color: #442b99;
+  /* color: #fff; */
+}
+</style>

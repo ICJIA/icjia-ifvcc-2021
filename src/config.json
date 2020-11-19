@@ -1,5 +1,6 @@
 {
     "publicPath": "",
+    "clientURL": "https://icjiaifvcc.netlify.app",
     "namespace": "icjia-",
     "defaultAvatar": "https://cdn.vuetifyjs.com/images/john.jpg",
     "api": {
@@ -52,10 +53,6 @@
             },
             {
                 "name": "headings",
-                "weight": 1
-            },
-            {
-                "name": "contentType",
                 "weight": 1
             },
             {

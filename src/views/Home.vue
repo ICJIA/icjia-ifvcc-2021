@@ -18,7 +18,7 @@
           v-if="result.data.home.slider"
         ></HomeSlider>
 
-        <v-container fluid style="margin-top: -20px">
+        <!-- <v-container fluid style="margin-top: -20px">
           <v-row>
             <v-col sm="12" md="6" cols="12" class="child">
               <v-sheet class="px-2 py-2" elevation="3" style="">
@@ -71,7 +71,7 @@
               </v-sheet>
             </v-col>
           </v-row>
-        </v-container>
+        </v-container> -->
 
         <!-- END: home components -->
       </div>
