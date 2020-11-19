@@ -1,5 +1,10 @@
 <template>
-  <v-carousel height="450" cycle hide-delimiter-background show-arrows-on-hover>
+  <v-carousel
+    height="450"
+    hide-delimiter-background
+    show-arrows-on-hover
+    style="margin-top: -1px"
+  >
     <v-carousel-item v-for="(slide, index) in slides.slide" :key="index">
       <v-card color="grey lighten-4" height="100%">
         <v-row class="fill-height" align="center" justify="center" no-gutters>
@@ -52,19 +57,22 @@
           <v-col md="12" cols="12" class="hidden-sm-and-down text-center">
             <v-img
               v-if="slide.image && slide.image.formats"
-              :src="`${base}${slide.image.formats.large.url}`"
-              :lazy-src="`${base}${slide.image.formats.thumbnail.url}`"
-              aspect-ratio="1.7"
+              :src="getImagePath(`${slide.image.formats.large.url}`, 0, 0, 100)"
+              :lazy-src="
+                getImagePath(`${slide.image.formats.large.url}`, 0, 0, 1)
+              "
               max-height="450"
             >
-              <div class="text-center mt-12">
+              <div class="text-center" style="margin-top: 100px">
                 <h1>ILLINOIS FAMILY VIOLENCE COORDINATING COUNCILS</h1>
                 <h2 class="mt-5" style="color: #aaa">
                   Sponsored by the Illinois Criminal Justice Information
                   Authority
                 </h2>
                 <img
-                  src="https://ifvcc.icjia-api.cloud/uploads/820863c_2da267a1b6.png"
+                  :src="
+                    getImagePath(`/uploads/820863c_2da267a1b6.png`, 0, 0, 100)
+                  "
                   alt="IFVCC logo"
                   class="mt-8"
                 />
@@ -86,6 +94,7 @@
 </template>
 
 <script>
+import { getImageURL } from "@/services/Image";
 export default {
   mounted() {},
   methods: {
@@ -99,6 +108,18 @@ export default {
           this.$vuetify.goTo(0);
         });
       }
+    },
+    getImagePath(url, imgWidth = 450, imgHeight = 200, imageQuality = 30) {
+      let imgPath;
+      imgPath = `${this.$myApp.config.api.base}${url}`;
+      const thumborImgPath = getImageURL(
+        imgPath,
+        imgWidth,
+        imgHeight,
+        imageQuality
+      );
+      //console.log("splash path: ", thumborImgPath);
+      return thumborImgPath;
     },
   },
   props: {

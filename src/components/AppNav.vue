@@ -84,7 +84,7 @@ export default {
         imgHeight,
         imageQuality
       );
-      console.log("splash path: ", thumborImgPath);
+      //console.log("splash path: ", thumborImgPath);
       return thumborImgPath;
     },
   },
