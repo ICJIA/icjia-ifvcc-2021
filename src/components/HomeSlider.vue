@@ -3,7 +3,11 @@
     <v-carousel-item v-for="(slide, index) in slides.slide" :key="index">
       <v-card color="grey lighten-4" height="100%">
         <v-row class="fill-height" align="center" justify="center" no-gutters>
-          <v-col md="4" style="height: 100%; background: #442b99" cols="12">
+          <v-col
+            style="height: 100%; background: #442b99"
+            cols="12"
+            class="hidden-md-and-up"
+          >
             <v-row
               class="fill-height"
               align="center"
@@ -45,7 +49,7 @@
               </div>
             </v-row>
           </v-col>
-          <v-col md="8" cols="12" class="hidden-sm-and-down">
+          <v-col md="12" cols="12" class="hidden-sm-and-down text-center">
             <v-img
               v-if="slide.image && slide.image.formats"
               :src="`${base}${slide.image.formats.large.url}`"
@@ -53,6 +57,18 @@
               aspect-ratio="1.7"
               max-height="400"
             >
+              <div class="text-center mt-12">
+                <h1>ILLINOIS FAMILY VIOLENCE COORDINATING COUNCILS</h1>
+                <h2 class="mt-5" style="color: #aaa">
+                  Sponsored by the Illinois Criminal Justice Information
+                  Authority
+                </h2>
+                <img
+                  src="https://ifvcc.icjia-api.cloud/uploads/820863c_2da267a1b6.png"
+                  alt="IFVCC logo"
+                  class="mt-8"
+                />
+              </div>
               <template v-slot:placeholder>
                 <v-row class="fill-height ma-0" align="center" justify="center">
                   <v-progress-circular

@@ -18,7 +18,7 @@
         style="margin-left: -0px"
         >IL</span
       >
-      <span v-else class="brand-state" style="margin-left: -0px"
+      <span v-else class="brand-state" style="margin-left: 10px"
         >ILLINOIS&nbsp;|&nbsp;</span
       >
       <span class="brand-name">FAMILY VIOLENCE COORDINATING COUNCILS</span>
@@ -99,7 +99,7 @@ export default {
 
 .brand-state {
   font-weight: 400;
-  padding-right: 0px;
+
   text-transform: uppercase;
   font-size: 22px;
   color: #333;
