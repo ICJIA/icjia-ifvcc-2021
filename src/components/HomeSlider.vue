@@ -1,5 +1,5 @@
 <template>
-  <v-carousel height="400" cycle hide-delimiter-background show-arrows-on-hover>
+  <v-carousel height="450" cycle hide-delimiter-background show-arrows-on-hover>
     <v-carousel-item v-for="(slide, index) in slides.slide" :key="index">
       <v-card color="grey lighten-4" height="100%">
         <v-row class="fill-height" align="center" justify="center" no-gutters>
@@ -55,7 +55,7 @@
               :src="`${base}${slide.image.formats.large.url}`"
               :lazy-src="`${base}${slide.image.formats.thumbnail.url}`"
               aspect-ratio="1.7"
-              max-height="400"
+              max-height="450"
             >
               <div class="text-center mt-12">
                 <h1>ILLINOIS FAMILY VIOLENCE COORDINATING COUNCILS</h1>

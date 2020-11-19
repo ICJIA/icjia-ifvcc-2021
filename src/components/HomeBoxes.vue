@@ -89,6 +89,7 @@ a {
   font-size: 28px;
   text-transform: uppercase;
   color: #fff;
+  font-weight: 900;
 }
 .box-text {
   font-size: 18px;
