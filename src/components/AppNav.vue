@@ -1,5 +1,5 @@
 <template>
-  <v-app-bar color="white" fixed height="90" class="noprint" app>
+  <v-app-bar color="white" fixed height="70" class="noprint" app>
     <div style="width: 15px" />
     <v-img
       :src="getImagePath(`/img/icjia-logo.png`, 0, 0, 100)"
