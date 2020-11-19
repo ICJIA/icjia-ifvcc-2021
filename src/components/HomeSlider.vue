@@ -64,7 +64,9 @@
               max-height="450"
             >
               <div class="text-center" style="margin-top: 100px">
-                <h1>ILLINOIS FAMILY VIOLENCE COORDINATING COUNCILS</h1>
+                <h1 class="heavy">
+                  ILLINOIS FAMILY VIOLENCE COORDINATING COUNCILS
+                </h1>
                 <h2 class="mt-5" style="color: #aaa">
                   Sponsored by the Illinois Criminal Justice Information
                   Authority
@@ -135,3 +137,9 @@ export default {
   },
 };
 </script>
+
+<style>
+.heavy {
+  font-weight: 900;
+}
+</style>
