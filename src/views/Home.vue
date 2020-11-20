@@ -18,7 +18,12 @@
           v-if="result.data.home.slider"
         ></HomeSlider>
 
-        <HomeBoxes></HomeBoxes>
+        <HomeFeatureBoxes
+          v-if="result.data.home.featureBoxDisplay"
+          :feature-boxes="result.data.home.featureBoxDisplay.featureBox"
+        ></HomeFeatureBoxes>
+
+        <!-- <HomeBoxes></HomeBoxes> -->
 
         <!-- <v-container fluid style="margin-top: -20px">
           <v-row>

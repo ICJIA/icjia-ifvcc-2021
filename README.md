@@ -8,7 +8,7 @@ Initiated under the auspices of the Illinois Supreme Court in 1990, Illinois is 
 
 ## Development Site
 
-https://icjiaifvcc.netlify.app
+https://icjiaifvcc.netlify.app/
 
 ## Build Setup
 
