@@ -8,18 +8,20 @@
           v-for="(box, index) in featureBoxes"
           :key="`box-${index}`"
         >
-          <v-card
-            dark
-            height="100%"
-            class="elevation-0 px-10 py-8 box"
-            :color="getFeatureBoxColor(index)"
-          >
-            <h2 class="text-center box-head">{{ box.title }}</h2>
+          <router-link :to="box.url" v-if="box.url">
+            <v-card
+              dark
+              height="100%"
+              class="elevation-0 px-10 py-8 box"
+              :color="getFeatureBoxColor(index)"
+            >
+              <h2 class="text-center box-head">{{ box.title }}</h2>
 
-            <v-card-text class="px-2 font-weight-light box-text">
-              <span v-html="box.summary"></span>
-            </v-card-text>
-          </v-card>
+              <v-card-text class="px-2 font-weight-light box-text">
+                <span v-html="box.summary"></span>
+              </v-card-text>
+            </v-card>
+          </router-link>
         </v-col>
       </v-row>
     </v-container>
