@@ -3,12 +3,11 @@
     v-model="alert"
     close-text="Close Alert"
     dark
-    class="mt-5 mx-1"
+    class="mt-1 mx-1"
     :type="type"
     :dismissible="dismissable"
-    v-if="!$myApp.config.underConstruction"
   >
-    {{ text }}
+    <span class="home-alert">{{ text }}</span>
   </v-alert>
 </template>
 
@@ -36,4 +35,9 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped></style>
+<style>
+.home-alert {
+  font-weight: 700;
+  font-family: "Raleway", sans-serif !important;
+}
+</style>

@@ -3,7 +3,7 @@
     height="450"
     hide-delimiter-background
     show-arrows-on-hover
-    style="margin-top: -1px"
+    style="margin-top: -12px"
   >
     <v-carousel-item v-for="(slide, index) in slides.slide" :key="index">
       <v-card color="grey lighten-4" height="100%">
