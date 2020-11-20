@@ -7,6 +7,14 @@ const GET_HOME = gql`
       createdAt
       updatedAt
 
+      featureBoxDisplay {
+        featureBox {
+          title
+          url
+          summary
+        }
+      }
+
       slider {
         id
         slide {

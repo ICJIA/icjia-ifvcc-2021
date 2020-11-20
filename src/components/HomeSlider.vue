@@ -61,6 +61,7 @@
               :lazy-src="
                 getImagePath(`${slide.image.formats.large.url}`, 0, 0, 1)
               "
+              alt="IFVCC Home page splash image"
               height="450"
             >
               <div class="text-center" style="margin-top: 100px">
