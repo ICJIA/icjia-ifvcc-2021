@@ -3,7 +3,7 @@
     <div v-if="!newPosts.length">
       <v-card
         color="grey lighten-5"
-        class="mb-3 text-center py-5"
+        class="mb-3 text-center py-5 markdown-body"
         elevation="1"
       >
         <h2>No upcoming posts</h2></v-card
@@ -12,7 +12,7 @@
 
     <div v-for="(post, index) in newPosts" :key="index + post.id" v-else>
       <v-card
-        class="mx-auto my-5 py-5"
+        class="mx-auto my-5 py-5 px-3 markdown-body"
         outlined
         @click="$router.push(`/news/${post.slug}`)"
       >
@@ -26,7 +26,7 @@
           </v-list-item-avatar>
 
           <v-list-item-content>
-            <div class="overline mb-4">{{ post.created_at | format }}</div>
+            <div class="overline mb-4">{{ post.createdAt | format }}</div>
             <div
               style="font-size: 14px; color: #888"
               class="mb-2"
@@ -34,7 +34,7 @@
             >
               {{ post.kicker }}
             </div>
-            <h2 class="mt-0 hover">
+            <h2 class="mt-0 hover" style="border: 0px solid #eee">
               {{ post.title }}
             </h2>
             <v-card-subtitle v-if="!post.show">{{

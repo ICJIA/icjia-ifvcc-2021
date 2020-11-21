@@ -16,8 +16,8 @@
         "register": "/auth/local/register"
     },
     "home": {
-        "eventLimit": 5,
-        "postLimit": 4
+        "eventLimit": 3,
+        "postLimit": 3
     },
     "image": {
         "server": "https://image.icjia.cloud",

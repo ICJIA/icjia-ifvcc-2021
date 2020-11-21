@@ -8,7 +8,7 @@ import { createProvider } from "./vue-apollo";
 import "@/assets/app.css";
 import "@/components/_globals";
 import "alpinejs";
-// import "@/assets/css/github-markdown.css";
+import "@/assets/github-markdown.css";
 import "@/filters";
 //import "material-design-icons-iconfont/dist/material-design-icons.css";
 // import Masonry from "masonry-layout";
