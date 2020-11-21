@@ -13,6 +13,13 @@
       <div v-if="!isLoading(result.loading) && !result.error">
         <!-- START: home components -->
 
+        <Alert
+          :type="result.data.home.alert.type"
+          :text="result.data.home.alert.text"
+          :dismissable="result.data.home.alert.dismissable"
+          v-if="result.data.home.alert"
+        ></Alert>
+
         <HomeSlider
           :slides="result.data.home.slider"
           v-if="result.data.home.slider"

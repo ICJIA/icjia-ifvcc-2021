@@ -4,21 +4,6 @@
       <AppNav></AppNav>
       <!-- <AppSidebar></AppSidebar> -->
       <v-main>
-        <!-- <ApolloQuery :query="GET_ALERT" notifyOnNetworkStatusChange>
-          <template slot-scope="{ result }">
-            <div v-if="result.error" class="text-center error apollo">
-              {{ result.error }}
-            </div>
-            <div v-if="!isLoading(result.loading) && !result.error">
-              <Alert
-                :type="result.data.home.alert.type"
-                :text="result.data.home.alert.text"
-                :dismissable="result.data.home.alert.dismissable"
-                v-if="result.data.home.alert"
-              ></Alert>
-            </div>
-          </template>
-        </ApolloQuery> -->
         <transition name="fade" mode="out-in">
           <router-view></router-view>
         </transition>
@@ -29,7 +14,6 @@
 </template>
 
 <script>
-import { GET_ALERT } from "@/graphql/alert.js";
 import NProgress from "nprogress";
 export default {
   /* eslint-disable no-unused-vars */
@@ -44,7 +28,6 @@ export default {
   components: {},
   data: () => ({
     fab: false,
-    GET_ALERT,
   }),
   methods: {
     isLoading(loading) {

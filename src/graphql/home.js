@@ -7,6 +7,12 @@ const GET_HOME = gql`
       createdAt
       updatedAt
 
+      alert {
+        type
+        isDismissable
+        text
+      }
+
       featureBoxDisplay {
         featureBox {
           title
