@@ -91,9 +91,6 @@
       </div>
       <div v-if="result.error" class="text-center error apollo">
         {{ result.error }}
-        <div class="text-center my-10">
-          <router-link to="/login">LOGIN AGAIN</router-link>
-        </div>
       </div>
     </template>
   </ApolloQuery>
@@ -117,7 +114,7 @@ export default {
     this.now = moment().tz(this.$myApp.config.timezone).format("YYYY-MM-DD");
   },
   mounted() {
-    console.log(this.$myApp.config.timezone);
+    //console.log(this.$myApp.config.timezone);
   },
   data() {
     return {
@@ -136,6 +133,7 @@ export default {
     },
 
     afterFetch(result) {
+      //TODO: Fix for either no eventRange or no events
       if (result.data && result.data.events && result.data.eventRange) {
         let mergedEvents = [...result.data.events, ...result.data.eventRange];
         mergedEvents = _.sortBy(mergedEvents, (o) => o.start);
