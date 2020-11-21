@@ -3,7 +3,7 @@
     <div v-if="!newPosts.length">
       <v-card
         color="grey lighten-5"
-        class="mb-5 text-center py-5"
+        class="mb-3 text-center py-5"
         elevation="1"
       >
         <h2>No upcoming posts</h2></v-card

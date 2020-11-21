@@ -13,6 +13,11 @@ const GET_HOME = gql`
         text
       }
 
+      infoDisplay {
+        title
+        body
+      }
+
       featureBoxDisplay {
         featureBox {
           title
