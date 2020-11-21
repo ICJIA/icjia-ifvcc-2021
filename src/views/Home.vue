@@ -55,7 +55,7 @@
                             Latest News
                           </h2>
                         </v-col>
-                        <v-col class="text-right mt-3">
+                        <v-col class="text-right mt-5 hidden-sm-and-down">
                           <v-btn outlined x-small color="black" to="/news"
                             >news archive&nbsp;<v-icon right x-small
                               >view_headline</v-icon
@@ -99,15 +99,20 @@
                             {{ result.data.home.infoDisplay.title }}
                           </h2>
                         </v-col>
-                        <!-- <v-col class="text-right mt-3">
-                          <v-btn outlined x-small color="black" to="/news"
-                            >news archive&nbsp;<v-icon right x-small
-                              >view_headline</v-icon
-                            ></v-btn
+
+                        <v-col cols="12" class="mt-3">
+                          <v-sheet
+                            class="px-2"
+                            elevation="0"
+                            style="background: #fafafa"
                           >
-                        </v-col> -->
-                        <v-col cols="12" class="mt-3 markdown-body">
-                          {{ result.data.home.infoDisplay.body }}
+                            <span
+                              class="markdown-body"
+                              v-html="
+                                renderToHtml(result.data.home.infoDisplay.body)
+                              "
+                            ></span>
+                          </v-sheet>
                         </v-col>
                       </v-row>
                     </div>
@@ -128,6 +133,8 @@
 </template>
 <script>
 import { GET_HOME } from "@/graphql/home.js";
+// eslint-disable-next-line no-unused-vars
+import { renderToHtml } from "@/services/Markdown";
 // eslint-disable-next-line no-unused-vars
 import _ from "lodash";
 import moment from "moment";
@@ -150,6 +157,7 @@ export default {
   data() {
     return {
       GET_HOME,
+      renderToHtml,
       now: null,
       mergedEvents: () => [],
       eventLimit: this.$myApp.config.home.eventLimit,
