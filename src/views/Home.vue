@@ -33,7 +33,7 @@
         <!-- <HomeBoxes></HomeBoxes> -->
 
         <div style="background: #fafafa">
-          <v-container fluid style="margin-top: -20px">
+          <v-container style="margin-top: -20px">
             <v-row>
               <v-col sm="12" md="6" cols="12" class="child">
                 <v-sheet

@@ -16,6 +16,11 @@ const GET_HOME = gql`
       infoDisplay {
         title
         body
+        callToAction {
+          text
+          url
+          icon
+        }
       }
 
       featureBoxDisplay {
