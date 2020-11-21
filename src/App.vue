@@ -4,7 +4,7 @@
       <AppNav></AppNav>
       <!-- <AppSidebar></AppSidebar> -->
       <v-main>
-        <ApolloQuery :query="GET_ALERT" notifyOnNetworkStatusChange>
+        <!-- <ApolloQuery :query="GET_ALERT" notifyOnNetworkStatusChange>
           <template slot-scope="{ result }">
             <div v-if="result.error" class="text-center error apollo">
               {{ result.error }}
@@ -18,7 +18,7 @@
               ></Alert>
             </div>
           </template>
-        </ApolloQuery>
+        </ApolloQuery> -->
         <transition name="fade" mode="out-in">
           <router-view></router-view>
         </transition>
