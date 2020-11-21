@@ -14,12 +14,12 @@ a {
 } */
 
 #nprogress .bar {
-  background: #b72424 !important;
+  background: #442b99 !important;
 }
 
 #nprogress .spinner-icon {
-  border-top-color: #b72424 !important;
-  border-left-color: #b72424 !important;
+  border-top-color: #442b99 !important;
+  border-left-color: #442b99 !important;
 }
 
 .info-card:hover {

@@ -1,5 +1,5 @@
 {
-    "publicPath": "",
+    "publicPath": "/",
     "clientURL": "https://icjiaifvcc.netlify.app",
     "namespace": "icjia-",
     "defaultAvatar": "https://cdn.vuetifyjs.com/images/john.jpg",

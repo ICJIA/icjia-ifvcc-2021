@@ -14,7 +14,7 @@
       <v-card
         class="mx-auto my-3 py-2 px-3 markdown-body"
         outlined
-        @click="$router.push(`/news/${post.slug}`)"
+        @click="$router.push(`/news/${post.slug}/`)"
       >
         <v-list-item three-line>
           <v-list-item-avatar tile size="100" color="grey" v-if="post.splash">
@@ -45,7 +45,7 @@
 
         <v-card-actions style="margin-top: -15px">
           <v-spacer></v-spacer>
-          <v-btn outlined x-small :to="`/news/${post.slug}`">
+          <v-btn outlined x-small :to="`/news/${post.slug}/`">
             Read More&nbsp;<v-icon x-small>keyboard_arrow_right</v-icon></v-btn
           >
         </v-card-actions>

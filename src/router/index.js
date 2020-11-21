@@ -15,11 +15,26 @@ const routes = [
     component: Home,
   },
   {
-    path: "/about",
+    path: "/about/",
     name: "About",
-
     component: () =>
       import(/* webpackChunkName: "about" */ "../views/About.vue"),
+  },
+  {
+    path: "/news/",
+    name: "News",
+    component: () => import(/* webpackChunkName: "news" */ "../views/News.vue"),
+  },
+  {
+    path: "/news/:slug/",
+    name: "NewsSingle",
+    component: () =>
+      import(/* webpackChunkName: "NewsSingle" */ "../views/NewsSingle.vue"),
+  },
+  {
+    path: "/:slug/",
+    name: "Page",
+    component: () => import(/* webpackChunkName: "Page" */ "../views/Page.vue"),
   },
   {
     path: "*",

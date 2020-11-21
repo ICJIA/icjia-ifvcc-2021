@@ -112,6 +112,24 @@
                                 renderToHtml(result.data.home.infoDisplay.body)
                               "
                             ></span>
+                            <div class="text-center">
+                              <v-btn
+                                v-if="result.data.home.infoDisplay.callToAction"
+                                outlined
+                                x-small
+                                :to="
+                                  result.data.home.infoDisplay.callToAction.url
+                                "
+                                class="mt-9"
+                              >
+                                {{
+                                  result.data.home.infoDisplay.callToAction
+                                    .text
+                                }}&nbsp;<v-icon x-small>{{
+                                  result.data.home.infoDisplay.callToAction.icon
+                                }}</v-icon></v-btn
+                              >
+                            </div>
                           </v-sheet>
                         </v-col>
                       </v-row>
