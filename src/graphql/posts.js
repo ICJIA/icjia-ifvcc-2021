@@ -11,9 +11,7 @@ const GET_ALL_POSTS_QUERY = gql`
       createdAt
       updatedAt
       body
-      metaData {
-        showTOC
-      }
+      showTOC
       splash {
         formats
       }
@@ -32,9 +30,7 @@ const GET_SINGLE_POST_QUERY = gql`
       createdAt
       updatedAt
       body
-      metaData {
-        showTOC
-      }
+      showTOC
       splash {
         formats
       }

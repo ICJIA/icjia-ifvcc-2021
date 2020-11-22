@@ -4,11 +4,11 @@ import router from "./router";
 import store from "./store";
 import vuetify from "./plugins/vuetify";
 import { createProvider } from "./vue-apollo";
-
+import "@/assets/github-markdown.css";
 import "@/assets/app.css";
 import "@/components/_globals";
 import "alpinejs";
-import "@/assets/github-markdown.css";
+
 import "@/filters";
 //import "material-design-icons-iconfont/dist/material-design-icons.css";
 // import Masonry from "masonry-layout";

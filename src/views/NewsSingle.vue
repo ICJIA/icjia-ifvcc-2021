@@ -1,10 +1,15 @@
 <template>
   <div>
     <div v-if="!error">
-      <div v-if="post">
-        {{ post }}
-        <v-btn @click="fetchContent()">Test fetch</v-btn>
-      </div>
+      <v-container v-if="post" class="markdown-body">
+        <v-row>
+          <v-col cols="12" md="8">
+            <h1>{{ post.title }}</h1>
+            <div v-html="renderToHtml(post.body)"></div>
+          </v-col>
+          <v-col cols="12" md="4"><Toc></Toc> </v-col>
+        </v-row>
+      </v-container>
     </div>
     <div v-if="isLoading"><Loader></Loader></div>
   </div>
@@ -31,6 +36,7 @@ export default {
       meta: null,
       post: null,
       isLoading: true,
+      renderToHtml,
     };
   },
   created() {
@@ -95,9 +101,6 @@ export default {
           this.goto404();
         } else {
           this.post = ApolloQueryResult.data.posts[0];
-          // this.post.showTOC =
-          //   ApolloQueryResult.data.posts[0]["metaData"][0]["showTOC"];
-          // delete this.post.metaData;
           this.error = false;
           this.isLoading = false;
           console.log("fetched content");

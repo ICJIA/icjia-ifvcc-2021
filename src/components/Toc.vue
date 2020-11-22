@@ -1,6 +1,6 @@
 <template>
   <div
-    class="toc"
+    class="toc mainToc"
     :class="{
       'pl-2': $vuetify.breakpoint.xs || $vuetify.breakpoint.xs,
       'pl-10':
@@ -11,13 +11,7 @@
     }"
     style=""
   >
-    <div
-      style="margin-left: -3px; font-weight: bold"
-      ref="anchor"
-      class="mb-4 hover anchor"
-      @click="$vuetify.goTo(0)"
-      v-if="tocHeading.length"
-    >
+    <div ref="anchorTitle" class="mb-4 hover" @click="$vuetify.goTo(0)">
       {{ tocHeading | upperCase }}
     </div>
     <div class="divider">
@@ -82,9 +76,9 @@ export default {
     if (section) {
       var sections = {};
       var i = 0;
-      this.$refs["anchor"].classList.add("visible");
+      this.$refs["anchorTitle"].classList.add("visible");
       section.forEach((e) => {
-        sections[e.id] = e.offsetTop - 15;
+        sections[e.id] = e.offsetTop - 20;
       });
 
       window.onscroll = () => {
@@ -96,9 +90,9 @@ export default {
           tocItems.forEach((toc) => {
             toc.classList.remove("visible");
           });
-          this.$refs["anchor"].classList.add("visible");
+          this.$refs["anchorTitle"].classList.add("visible");
         } else {
-          this.$refs["anchor"].classList.remove("visible");
+          this.$refs["anchorTitle"].classList.remove("visible");
         }
         //console.log(scrollPosition);
         for (i in sections) {
@@ -121,6 +115,12 @@ export default {
 </script>
 
 <style>
+.mainToc {
+  position: -webkit-sticky !important; /* Safari */
+  position: sticky !important;
+  top: 115px !important;
+  font-size: 13px;
+}
 .divider {
   border-left: 1px solid #ccc;
 }
@@ -129,10 +129,10 @@ export default {
   color: #0d4474;
   font-weight: bold;
 }
-.anchor {
+.anchorTitle {
   padding: 2px 5px 2px 5px;
 }
-.anchor:hover {
+.anchorTitle:hover {
   color: #0d4474;
   background: #eee;
 }
