@@ -3,11 +3,29 @@
     <div v-if="!error">
       <v-container v-if="post" class="markdown-body">
         <v-row>
-          <v-col cols="12" md="8">
+          <v-col
+            cols="12"
+            :md="dynamicFlex(post.showTOC)"
+            order-md="1"
+            order="2"
+            order-sm="2"
+          >
             <h1>{{ post.title }}</h1>
-            <div v-html="renderToHtml(post.body)"></div>
+            <div
+              v-html="renderToHtml(post.body)"
+              @click="handleClicks"
+              class="dynamic-content"
+            ></div>
           </v-col>
-          <v-col cols="12" md="4"><Toc></Toc> </v-col>
+          <v-col
+            cols="12"
+            md="4"
+            order-md="2"
+            order="1"
+            order-sm="1"
+            v-if="post.showTOC"
+            ><Toc></Toc>
+          </v-col>
         </v-row>
       </v-container>
     </div>
@@ -73,7 +91,7 @@ export default {
       if (this.$vuetify.breakpoint.xs || this.$vuetify.breakpoint.sm) {
         return "12";
       } else {
-        return showToc ? "9" : "12";
+        return showToc ? "8" : "12";
       }
     },
   },

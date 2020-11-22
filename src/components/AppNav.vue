@@ -5,7 +5,7 @@
       :src="getImagePath(`/img/icjia-high.png`, 0, 0, 100)"
       :lazy-src="getImagePath(`/img/icjia-high.png`, 0, 0, 1)"
       alt="Illinois HEALS"
-      max-width="60"
+      max-width="70"
       style="margin-left: -5px; margin-right: 8px"
       class="hover"
       @click="gotoHome"
