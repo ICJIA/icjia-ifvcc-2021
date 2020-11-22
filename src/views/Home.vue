@@ -68,6 +68,7 @@
 
                   <HomePosts
                     :posts="result.data.posts"
+                    :showImages="false"
                     v-if="result.data.posts"
                     style="margin-top: -30px"
                   ></HomePosts>

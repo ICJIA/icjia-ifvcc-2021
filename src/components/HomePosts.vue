@@ -17,7 +17,12 @@
         @click="$router.push(`/news/${post.slug}/`)"
       >
         <v-list-item three-line>
-          <v-list-item-avatar tile size="100" color="grey" v-if="post.splash">
+          <v-list-item-avatar
+            tile
+            size="100"
+            color="grey"
+            v-if="post.splash && showImages"
+          >
             <v-img
               :src="getThumbnail(post)"
               :lazy-src="getThumbnail(post)"
@@ -75,6 +80,10 @@ export default {
     posts: {
       type: Array,
       default: () => [],
+    },
+    showImages: {
+      type: Boolean,
+      default: true,
     },
   },
   methods: {

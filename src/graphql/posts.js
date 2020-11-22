@@ -13,6 +13,8 @@ const GET_ALL_POSTS_QUERY = gql`
       body
       showTOC
       splash {
+        alternativeText
+        caption
         formats
       }
     }
@@ -32,6 +34,8 @@ const GET_SINGLE_POST_QUERY = gql`
       body
       showTOC
       splash {
+        alternativeText
+        caption
         formats
       }
     }

@@ -83,6 +83,8 @@ const GET_HOME = gql`
       createdAt
       updatedAt
       splash {
+        alternativeText
+        caption
         formats
       }
     }
