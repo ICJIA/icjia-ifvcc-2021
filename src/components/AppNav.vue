@@ -2,8 +2,8 @@
   <v-app-bar color="white" fixed height="70" class="noprint" app>
     <div style="width: 15px" />
     <v-img
-      :src="getImagePath(`/img/icjia-logo.png`, 0, 0, 100)"
-      :lazy-src="getImagePath(`/img/icjia-logo.png`, 0, 0, 1)"
+      :src="getImagePath(`/img/icjia-high.png`, 0, 0, 100)"
+      :lazy-src="getImagePath(`/img/icjia-high.png`, 0, 0, 1)"
       alt="Illinois HEALS"
       max-width="60"
       style="margin-left: -5px; margin-right: 8px"
