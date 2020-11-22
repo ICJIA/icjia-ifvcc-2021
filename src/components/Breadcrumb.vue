@@ -3,15 +3,15 @@
     <!-- <div width="100%" style="border-top: 0px solid #0d4fc9"></div> -->
     <div
       style="
-        background: #0d4474;
+        background: #442b99;
         color: #fff;
-        padding: 5px 20px;
-        font-size: 14px;
+        padding: 3px 15px;
+        font-size: 13px;
       "
       class="text-right mb-4"
     >
-      <nuxt-link to="/" class="breadcrumb-link">Home</nuxt-link>
-      | {{ truncate(title, 4) }}
+      <router-link to="/" class="breadcrumb-link">IFVCC Home</router-link> |
+      <span style="font-weight: 300">{{ truncate(title, 5) }}</span>
     </div>
   </div>
 </template>
@@ -67,6 +67,7 @@ export default {
   color: #fff !important;
   font-weight: bold;
   text-decoration: none;
+  background: #442b99;
 }
 
 .breadcrumb-link:hover {

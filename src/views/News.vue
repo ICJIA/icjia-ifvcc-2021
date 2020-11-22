@@ -1,5 +1,8 @@
 <template>
-  <div>News listing here</div>
+  <div>
+    <Breadcrumb :key="$route.path" title="News Archive"></Breadcrumb>
+    <div>News listing here</div>
+  </div>
 </template>
 
 <script>
