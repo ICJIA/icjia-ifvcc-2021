@@ -1,7 +1,7 @@
 <template>
   <div>
     <div v-if="!error">
-      <v-container v-if="post" class="markdown-body">
+      <v-container fluid v-if="post" class="markdown-body">
         <v-row>
           <v-col
             cols="12"
