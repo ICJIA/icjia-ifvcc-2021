@@ -3,6 +3,7 @@
     "clientURL": "https://icjiaifvcc.netlify.app",
     "namespace": "icjia-",
     "defaultAvatar": "https://cdn.vuetifyjs.com/images/john.jpg",
+    "masonryBlockCols": 6,
     "api": {
         "base": "https://ifvcc.icjia-api.cloud",
         "baseGraphQL": "https://ifvcc.icjia-api.cloud/graphql",

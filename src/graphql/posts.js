@@ -2,7 +2,7 @@ import gql from "graphql-tag";
 
 const GET_ALL_POSTS_QUERY = gql`
   query getAllPosts {
-    posts(sort: "created_at:desc") {
+    posts(sort: "createdAt:desc") {
       id
       slug
       kicker
@@ -10,8 +10,6 @@ const GET_ALL_POSTS_QUERY = gql`
       summary
       createdAt
       updatedAt
-      body
-      showTOC
       splash {
         alternativeText
         caption

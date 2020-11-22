@@ -44,7 +44,10 @@
                 </template>
               </v-img>
             </div>
-            <div class="image-caption" v-if="post.splash.caption">
+            <div
+              class="image-caption"
+              v-if="post.splash && post.splash.caption"
+            >
               {{ post.splash.caption }}
             </div>
             <div
