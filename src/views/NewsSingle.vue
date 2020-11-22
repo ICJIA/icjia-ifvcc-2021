@@ -1,6 +1,12 @@
 <template>
   <div>
-    <div v-if="!error">{{ post }}</div>
+    <div v-if="!error">
+      <div v-if="post">
+        {{ post }}
+        <v-btn @click="fetchContent()">Test fetch</v-btn>
+      </div>
+    </div>
+    <div v-if="isLoading"><Loader></Loader></div>
   </div>
 </template>
 
@@ -18,12 +24,13 @@ export default {
   data() {
     return {
       posts: null,
-      error: true,
+      error: null,
       errorMsg: "",
       isMounted: false,
       tocAble: null,
       meta: null,
       post: null,
+      isLoading: true,
     };
   },
   created() {
@@ -37,13 +44,21 @@ export default {
   },
   methods: {
     goto404() {
+      this.isLoading = false;
       this.$router.push("/404").catch((err) => {
         console.log(err);
       });
     },
     fetchContent() {
+      // eslint-disable-next-line no-undef
+      NProgress.start();
+      this.isLoading = true;
+      this.error = null;
+      this.post = null;
       this.$apollo.queries.posts.skip = false;
       this.$apollo.queries.posts.refetch();
+      // eslint-disable-next-line no-undef
+      NProgress.done();
     },
     render(content) {
       return renderToHtml(content);
@@ -72,6 +87,7 @@ export default {
         // console.log(
         //   ApolloQueryResult.data && ApolloQueryResult.data.posts.length > 0
         // );
+
         if (
           ApolloQueryResult.data &&
           ApolloQueryResult.data.posts.length > 0 === false
@@ -83,6 +99,8 @@ export default {
           //   ApolloQueryResult.data.posts[0]["metaData"][0]["showTOC"];
           // delete this.post.metaData;
           this.error = false;
+          this.isLoading = false;
+          console.log("fetched content");
         }
       },
     },

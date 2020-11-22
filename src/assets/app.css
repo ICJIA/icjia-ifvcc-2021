@@ -15,11 +15,14 @@ a {
 
 #nprogress .bar {
   background: #442b99 !important;
+  
 }
 
 #nprogress .spinner-icon {
   border-top-color: #442b99 !important;
   border-left-color: #442b99 !important;
+  margin-left: -55px;
+  margin-top: 12px;
 }
 
 .info-card:hover {
