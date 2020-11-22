@@ -21,6 +21,11 @@ const routes = [
       import(/* webpackChunkName: "about" */ "../views/About.vue"),
   },
   {
+    path: "/404/",
+    name: "FourOhFourError",
+    component: () => import(/* webpackChunkName: "error" */ "../views/404.vue"),
+  },
+  {
     path: "/news/",
     name: "News",
     component: () => import(/* webpackChunkName: "news" */ "../views/News.vue"),
@@ -31,14 +36,14 @@ const routes = [
     component: () =>
       import(/* webpackChunkName: "NewsSingle" */ "../views/NewsSingle.vue"),
   },
+  // {
+  //   path: "/:slug/",
+  //   name: "Page",
+  //   component: () => import(/* webpackChunkName: "Page" */ "../views/Page.vue"),
+  // },
   {
-    path: "/:slug/",
-    name: "Page",
-    component: () => import(/* webpackChunkName: "Page" */ "../views/Page.vue"),
-  },
-  {
-    path: "*",
-    name: "FourOhFour",
+    path: "/:pathMatch(.*)*",
+    name: "CatchAllRedirect",
     component: () => import(/* webpackChunkName: '404' */ "../views/404.vue"),
     meta: {},
   },
