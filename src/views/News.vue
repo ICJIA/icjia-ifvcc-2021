@@ -3,8 +3,13 @@
     <Breadcrumb :key="$route.path" title="News Archive"></Breadcrumb>
     <v-container>
       <v-row>
-        <v-col cols="12">
-          <div class="text-right">
+        <v-col cols="12" md="6">
+          <h1 style="text-transform: uppercase; font-weight: 900">
+            IFVCC News & Updates
+          </h1>
+        </v-col>
+        <v-col cols="12" md="6">
+          <div class="text-right" style="margin-top: 10px">
             <Toggle @toggle="toggle"></Toggle>
           </div>
         </v-col>

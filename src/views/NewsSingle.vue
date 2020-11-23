@@ -6,7 +6,7 @@
         :key="$route.path"
         :title="post.title"
       ></Breadcrumb>
-      <v-container v-if="post" class="markdown-body">
+      <v-container v-if="post" class="markdown-body" style="margin-top: -30px">
         <v-row>
           <v-col
             cols="12"

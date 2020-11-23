@@ -11,7 +11,12 @@
     }"
     style=""
   >
-    <div ref="anchorTitle" class="mb-4 hover" @click="$vuetify.goTo(0)">
+    <div
+      ref="anchorTitle"
+      class="mb-4 hover"
+      @click="$vuetify.goTo(0)"
+      style="font-weight: bold"
+    >
       {{ tocHeading | upperCase }}
     </div>
     <div class="divider">
@@ -118,7 +123,7 @@ export default {
 .mainToc {
   position: -webkit-sticky !important; /* Safari */
   position: sticky !important;
-  top: 115px !important;
+  top: 125px !important;
   font-size: 13px;
 }
 .divider {

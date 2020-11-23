@@ -15,12 +15,6 @@ const routes = [
     component: Home,
   },
   {
-    path: "/about/",
-    name: "About",
-    component: () =>
-      import(/* webpackChunkName: "about" */ "../views/About.vue"),
-  },
-  {
     path: "/404/",
     name: "FourOhFourError",
     component: () => import(/* webpackChunkName: "error" */ "../views/404.vue"),
@@ -36,11 +30,11 @@ const routes = [
     component: () =>
       import(/* webpackChunkName: "NewsSingle" */ "../views/NewsSingle.vue"),
   },
-  // {
-  //   path: "/:slug/",
-  //   name: "Page",
-  //   component: () => import(/* webpackChunkName: "Page" */ "../views/Page.vue"),
-  // },
+  {
+    path: "/:slug/",
+    name: "Page",
+    component: () => import(/* webpackChunkName: "Page" */ "../views/Page.vue"),
+  },
   {
     path: "/:pathMatch(.*)*",
     name: "CatchAllRedirect",
