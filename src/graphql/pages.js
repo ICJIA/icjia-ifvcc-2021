@@ -22,6 +22,7 @@ const GET_ALL_PAGES_QUERY = gql`
         showInSidebar
         menuTitle
         menuRank
+        showBanner
       }
     }
   }
@@ -45,6 +46,7 @@ const GET_SINGLE_PAGE_QUERY = gql`
         showInSidebar
         menuTitle
         menuRank
+        showBanner
       }
       splash {
         alternativeText

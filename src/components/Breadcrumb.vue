@@ -3,7 +3,7 @@
     <!-- <div width="100%" style="border-top: 0px solid #0d4fc9"></div> -->
     <div
       style="
-        background: #442b99;
+        background: #7655e4;
         color: #fff;
         padding: 3px 15px;
         font-size: 13px;
@@ -67,7 +67,7 @@ export default {
   color: #fff !important;
   font-weight: bold;
   text-decoration: none;
-  background: #442b99;
+  background: none;
 }
 
 .breadcrumb-link:hover {

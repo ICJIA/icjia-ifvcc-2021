@@ -1,19 +1,20 @@
 <template>
   <v-app>
-    <div style="min-height: 100vh !important">
+    <div>
       <AppNav></AppNav>
       <!-- <AppSidebar></AppSidebar> -->
       <v-main>
         <transition name="fade" mode="out-in">
-          <router-view></router-view>
+          <router-view style="min-height: 90vh !important"></router-view>
         </transition>
       </v-main>
-      <!-- <AppFooter></AppFooter> -->
+      <AppFooter :key="$route.path" v-if="nav" :meta="nav"></AppFooter>
     </div>
   </v-app>
 </template>
 
 <script>
+import { GET_NAV_META_QUERY } from "@/graphql/nav";
 import NProgress from "nprogress";
 export default {
   /* eslint-disable no-unused-vars */
@@ -28,7 +29,27 @@ export default {
   components: {},
   data: () => ({
     fab: false,
+    nav: null,
   }),
+  apollo: {
+    pages: {
+      prefetch: true,
+      query: GET_NAV_META_QUERY,
+      variables() {
+        return {};
+      },
+      error(error) {
+        this.errorMsg = JSON.stringify(error.message);
+      },
+      result(ApolloQueryResult) {
+        this.nav = ApolloQueryResult.data.pages;
+        this.error = false;
+        this.isLoading = false;
+        console.log("fetched content");
+        console.dir(this.nav);
+      },
+    },
+  },
   methods: {
     isLoading(loading) {
       // eslint-disable-next-line no-undef
