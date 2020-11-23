@@ -4,7 +4,7 @@
       flat
       tile
       class="text-center"
-      style="width: 100%; background: #0d4474"
+      style="width: 100%; background: #6c56bc"
     >
       <v-card-text>
         <div>
@@ -46,7 +46,7 @@
       flat
       tile
       class="text-center"
-      style="width: 100%; background: #082b6b"
+      style="width: 100%; background: #442b99"
     >
       <v-card-text class="mb-2" style="margin-top: 0px">
         <div style="font-size: 12px; color: #fff">

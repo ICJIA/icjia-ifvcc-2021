@@ -2,11 +2,11 @@
   <v-app-bar color="white" fixed height="70" class="noprint" app>
     <div style="width: 15px" />
     <v-img
-      :src="getImagePath(`/img/icjia-high.png`, 0, 0, 100)"
-      :lazy-src="getImagePath(`/img/icjia-high.png`, 0, 0, 1)"
+      :src="getImagePath(`/img/ifvcc-purple.png`, 0, 0, 100)"
+      :lazy-src="getImagePath(`/img/ifvcc-purple.png`, 0, 0, 1)"
       alt="Illinois HEALS"
-      max-width="70"
-      style="margin-left: -5px; margin-right: 8px"
+      max-width="60"
+      style="margin-left: -5px; margin-right: 0px"
       class="hover"
       @click="gotoHome"
     />&nbsp;&nbsp;&nbsp;&nbsp;
@@ -101,14 +101,14 @@ export default {
   font-weight: 400;
 
   text-transform: uppercase;
-  font-size: 22px;
+  font-size: 26px;
   color: #333;
 
   /* color: #fff; */
 }
 .brand-name {
   font-weight: 900;
-  font-size: 22px;
+  font-size: 26px;
   color: #442b99;
   /* color: #fff; */
 }

@@ -16,6 +16,7 @@
             order-sm="2"
           >
             <h1 style="text-transform: uppercase">{{ page.title }}</h1>
+            <Banner class="mb-8" v-if="page.metaData.showBanner"></Banner>
             <div class="text-center">
               <v-img
                 v-if="page.splash"
@@ -50,6 +51,7 @@
             >
               {{ page.splash.caption }}
             </div>
+
             <div
               v-html="renderToHtml(page.body)"
               @click="handleClicks"
