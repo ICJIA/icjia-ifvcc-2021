@@ -30,6 +30,20 @@
     "timezone": "America/Chicago",
     "underConstruction": false,
     "hoursToShowUpdated": 1,
+    "pathMeta": {
+        "tags" : {
+            "prefix": "/tags/"
+        },
+        "events" : {
+            "prefix": "/events/"
+        },
+        "pages" : {
+            "prefix": "/"
+        },
+        "posts" : {
+            "prefix": "/news/"
+        }
+    },
     "search": {
         "isCaseSensitive": false,
         "includeScore": true,

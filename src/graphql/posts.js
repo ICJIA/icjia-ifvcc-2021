@@ -10,6 +10,10 @@ const GET_ALL_POSTS_QUERY = gql`
       summary
       createdAt
       updatedAt
+      tags {
+        title
+        slug
+      }
       splash {
         alternativeText
         caption
@@ -31,6 +35,10 @@ const GET_SINGLE_POST_QUERY = gql`
       updatedAt
       body
       showTOC
+      tags {
+        title
+        slug
+      }
       splash {
         alternativeText
         caption
