@@ -193,7 +193,7 @@ export default {
 }
 
 .v-list-item__title {
-  font-weight: 400 !important;
+  font-weight: 900 !important;
   font-size: 18px !important;
   line-height: 20px !important;
 }

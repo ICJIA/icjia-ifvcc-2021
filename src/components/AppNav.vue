@@ -44,7 +44,7 @@
 
     <v-app-bar-nav-icon
       aria-label="Toggle Menu"
-      style="color: black"
+      style="color: black; margin-left: 10px"
       large
       @click="toggleDrawer"
     />
