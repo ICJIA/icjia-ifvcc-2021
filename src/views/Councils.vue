@@ -64,7 +64,7 @@
                 item-text="name"
                 item-value="slug"
                 label="Select a county"
-                style="font-weight: 900 !important; font-size: 20px"
+                style="font-weight: 900 !important; font-size: 18px"
                 outlined
                 class="align-center"
                 v-on:change="getCounty"
@@ -193,6 +193,7 @@ export default {
 
 .v-list-item__title {
   font-weight: 400 !important;
-  font-size: 20px !important;
+  font-size: 18px !important;
+  line-height: 20px !important;
 }
 </style>
