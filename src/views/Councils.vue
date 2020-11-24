@@ -55,21 +55,27 @@
         </v-row>
         <v-row class="align-center">
           <v-col class="align-center">
-            <v-select
-              v-if="counties"
-              dense
-              :items="counties"
-              v-model="selectedCounty"
-              item-text="name"
-              item-value="slug"
-              label="Select a county"
-              style="font-weight: 900 !important"
-              outlined
-              class="align-center"
-              v-on:change="getCounty"
-            ></v-select>
+            <div>
+              <v-select
+                v-if="counties"
+                dense
+                :items="counties"
+                v-model="selectedCounty"
+                item-text="name"
+                item-value="slug"
+                label="Select a county"
+                style="font-weight: 900 !important; font-size: 20px"
+                outlined
+                class="align-center"
+                v-on:change="getCounty"
+              ></v-select>
+            </div>
             <div class="text-center" v-if="selectedCounty">
-              {{ selectedCounty }} info here
+              <v-card class="px-3 py-3">
+                <v-card-text>
+                  {{ selectedCounty }} county info here.
+                </v-card-text>
+              </v-card>
             </div>
           </v-col>
         </v-row>
@@ -183,5 +189,10 @@ export default {
 <style>
 .vs__selected-options {
   flex-wrap: nowrap;
+}
+
+.v-list-item__title {
+  font-weight: 400 !important;
+  font-size: 20px !important;
 }
 </style>
