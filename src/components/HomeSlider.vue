@@ -3,12 +3,13 @@
     height="450"
     hide-delimiter-background
     show-arrows-on-hover
+    hide-delimiters
     style="margin-top: -12px"
   >
     <v-carousel-item v-for="(slide, index) in slides.slide" :key="index">
       <v-card color="grey lighten-4" height="100%">
         <v-row class="fill-height" align="center" justify="center" no-gutters>
-          <v-col
+          <!-- <v-col
             style="height: 100%; background: #442b99"
             cols="12"
             class="hidden-md-and-up"
@@ -53,8 +54,8 @@
                 </div>
               </div>
             </v-row>
-          </v-col>
-          <v-col md="12" cols="12" class="hidden-sm-and-down text-center">
+          </v-col> -->
+          <v-col md="12" cols="12">
             <v-img
               v-if="slide.image && slide.image.formats"
               :src="getImagePath(`${slide.image.formats.large.url}`, 0, 0, 100)"
@@ -64,7 +65,7 @@
               alt="IFVCC Home page splash image"
               height="450"
             >
-              <div class="text-center" style="margin-top: 100px">
+              <div class="text-center px-5" style="margin-top: 80px">
                 <h1 class="heavy">
                   ILLINOIS FAMILY VIOLENCE COORDINATING COUNCILS
                 </h1>
@@ -77,7 +78,7 @@
                     getImagePath(`/uploads/820863c_2da267a1b6.png`, 0, 0, 100)
                   "
                   alt="IFVCC logo"
-                  class="mt-8"
+                  class="mt-8 hidden-sm-and-down"
                 />
               </div>
               <template v-slot:placeholder>

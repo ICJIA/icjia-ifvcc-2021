@@ -53,9 +53,29 @@
             ></div>
           </v-col>
         </v-row>
+        <v-row class="align-center">
+          <v-col class="align-center">
+            <v-select
+              v-if="counties"
+              dense
+              :items="counties"
+              v-model="selectedCounty"
+              item-text="name"
+              item-value="slug"
+              label="Select a county"
+              style="font-weight: 900 !important"
+              outlined
+              class="align-center"
+              v-on:change="getCounty"
+            ></v-select>
+            <div class="text-center" v-if="selectedCounty">
+              {{ selectedCounty }} info here
+            </div>
+          </v-col>
+        </v-row>
       </v-container>
     </div>
-    <div v-if="isLoading"><Loader></Loader></div>
+    <!-- <div v-if="isLoading"><Loader></Loader></div> -->
   </div>
 </template>
 
@@ -63,14 +83,13 @@
 import { handleClicks } from "@/mixins/handleClicks";
 import { renderToHtml } from "@/services/Markdown";
 import { GET_SINGLE_PAGE_QUERY } from "@/graphql/pages";
+import { GET_ALL_COUNTIES_QUERY } from "@/graphql/councils";
 import { getImageURL } from "@/services/Image";
+
 export default {
   name: "Page",
   mixins: [handleClicks],
-  components: {},
-  watch: {
-    $route: "fetchContent",
-  },
+
   data() {
     return {
       pages: null,
@@ -82,6 +101,8 @@ export default {
       page: null,
       isLoading: true,
       renderToHtml,
+      counties: null,
+      selectedCounty: null,
     };
   },
   created() {},
@@ -93,17 +114,11 @@ export default {
         console.log(err);
       });
     },
-    fetchContent() {
-      // eslint-disable-next-line no-undef
-      NProgress.start();
-      this.isLoading = true;
-      this.error = null;
-      this.page = null;
-      this.$apollo.queries.pages.skip = false;
-      this.$apollo.queries.pages.refetch();
-      // eslint-disable-next-line no-undef
-      NProgress.done();
+    // eslint-disable-next-line no-unused-vars
+    getCounty() {
+      console.log(this.selectedCounty);
     },
+
     render(content) {
       return renderToHtml(content);
     },
@@ -142,23 +157,31 @@ export default {
         this.errorMsg = JSON.stringify(error.message);
       },
       result(ApolloQueryResult) {
-        // console.log(
-        //   ApolloQueryResult.data && ApolloQueryResult.data.pages.length > 0
-        // );
+        this.page = ApolloQueryResult.data.pages[0];
 
-        if (
-          ApolloQueryResult.data &&
-          ApolloQueryResult.data.pages.length > 0 === false
-        ) {
-          this.goto404();
-        } else {
-          this.page = ApolloQueryResult.data.pages[0];
-          this.error = false;
-          this.isLoading = false;
-          console.log("fetched content");
-        }
+        console.log("fetched page content");
+      },
+    },
+    counties: {
+      prefetch: true,
+      query: GET_ALL_COUNTIES_QUERY,
+      variables() {
+        return {};
+      },
+      error(error) {
+        this.errorMsg = JSON.stringify(error.message);
+      },
+      result(ApolloQueryResult) {
+        this.counties = ApolloQueryResult.data.counties;
+        console.log("fetched counties");
       },
     },
   },
 };
 </script>
+
+<style>
+.vs__selected-options {
+  flex-wrap: nowrap;
+}
+</style>
