@@ -1,23 +1,24 @@
 <template>
   <div>
     <span> </span>
-    <p>
+
+    <div class="pr-10 py-0">
       <v-img
-        :src="getImagePath(`/img/ifvcc-purple.png`, 0, 0, 100)"
-        :lazy-src="getImagePath(`/img/ifvcc-purple.png`, 0, 0, 1)"
+        src="https://icjiaifvcc.netlify.app/img/logo3-purple-black.png"
+        :lazy-src="getImagePath(`/img/logo3-purple-black.png`, 0, 0, 20)"
         alt="Illinois HEALS"
-        width="65"
-        style="float: left; padding-right: 20px; padding-bottom: 15px"
+        width="75"
+        style="float: left; padding-right: 25px; padding-bottom: 15px"
         class="hover"
       />
-      Family Violence Coordinating Councils, at both the state and local/circuit
-      levels, provide a forum to improve the institutional, professional and
-      community response to family violence including child abuse, domestic
-      abuse, and elder abuse. Councils provide professional education and
-      prevention; coordinate interventions and services for victims and
-      perpetrators; and contribute to both the improvement of the legal system
-      and the administration of justice.
-    </p>
+    </div>
+    Family Violence Coordinating Councils, at both the state and local/circuit
+    levels, provide a forum to improve the institutional, professional and
+    community response to family violence including child abuse, domestic abuse,
+    and elder abuse. Councils provide professional education and prevention;
+    coordinate interventions and services for victims and perpetrators; and
+    contribute to both the improvement of the legal system and the
+    administration of justice.
   </div>
 </template>
 

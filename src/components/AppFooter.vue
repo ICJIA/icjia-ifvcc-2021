@@ -7,7 +7,7 @@
       style="width: 100%; background: #6c56bc"
     >
       <v-card-text>
-        <div>
+        <div v-if="!isLoading">
           <v-btn
             to="/"
             text
@@ -39,6 +39,15 @@
             aria-label="search"
             >Search</v-btn
           >
+        </div>
+        <div v-else>
+          <Loader
+            size="20"
+            height="10"
+            :spinnerOnly="true"
+            marginTop="0"
+            marginBottom="0"
+          ></Loader>
         </div>
       </v-card-text>
     </v-card>
@@ -90,7 +99,7 @@
           >&nbsp;|&nbsp;
           <strong>
             <a
-              href="https://github.com/ICJIA/icjia-heals-2021"
+              href="https://github.com/ICJIA/icjia-ifvcc-2021"
               target="_blank"
               class="footer-link"
               rel="noreferrer"
@@ -107,15 +116,16 @@
 export default {
   data: () => ({
     icons: ["fab fa-facebook", "fab fa-twitter"],
-    loading: true,
     nav: [],
-
-    isLoading: true,
   }),
   props: {
     meta: {
       type: Array,
       default: () => [],
+    },
+    isLoading: {
+      type: Boolean,
+      default: true,
     },
   },
 };

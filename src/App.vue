@@ -1,15 +1,21 @@
 <template>
   <v-app>
-    <div>
-      <AppNav></AppNav>
-      <!-- <AppSidebar></AppSidebar> -->
-      <v-main>
-        <transition name="fade" mode="out-in">
-          <router-view style="min-height: 90vh !important"></router-view>
-        </transition>
-      </v-main>
-      <AppFooter :key="$route.path" v-if="nav" :meta="nav"></AppFooter>
-    </div>
+    <AppNav
+      :meta="appNav"
+      :key="`appNav-${$route.path}`"
+      :isLoading="isLoading"
+    ></AppNav>
+    <!-- <AppSidebar></AppSidebar> -->
+    <v-main>
+      <transition name="fade" mode="out-in">
+        <router-view style="min-height: 90vh !important"></router-view>
+      </transition>
+    </v-main>
+    <AppFooter
+      :key="`appFooter-${$route.path}`"
+      :isLoading="isLoading"
+      :meta="appFooter"
+    ></AppFooter>
   </v-app>
 </template>
 
@@ -30,6 +36,9 @@ export default {
   data: () => ({
     fab: false,
     nav: null,
+    appNav: null,
+    appFooter: null,
+    appSidebar: null,
   }),
   apollo: {
     pages: {
@@ -43,10 +52,21 @@ export default {
       },
       result(ApolloQueryResult) {
         this.nav = ApolloQueryResult.data.pages;
+
+        this.appFooter = this.nav.filter((item) => {
+          if (item.metaData.showInFooter) return item;
+        });
+
+        this.appNav = this.nav.filter((item) => {
+          if (item.metaData.showInNav) return item;
+        });
+
+        this.appSidebar = this.nav.filter((item) => {
+          if (item.metaData.showInSidebar) return item;
+        });
+        console.log("fetched content");
         this.error = false;
         this.isLoading = false;
-        console.log("fetched content");
-        console.dir(this.nav);
       },
     },
   },

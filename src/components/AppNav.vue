@@ -26,9 +26,6 @@
 
     <v-spacer />
 
-    <!-- <v-btn icon to="/search/" aria-label="Search">
-      <v-icon aria-label="Search">mdi-magnify</v-icon>
-    </v-btn> -->
     <v-app-bar-nav-icon
       aria-label="Toggle Menu"
       style="color: black"
@@ -47,8 +44,17 @@ export default {
     return {
       loading: true,
       links: null,
-      items: null,
     };
+  },
+  props: {
+    meta: {
+      type: Array,
+      default: () => [],
+    },
+    isLoading: {
+      type: Boolean,
+      default: true,
+    },
   },
 
   mounted() {
