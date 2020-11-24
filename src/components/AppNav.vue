@@ -12,16 +12,13 @@
     />&nbsp;&nbsp;&nbsp;&nbsp;
 
     <v-toolbar-title class="heavy hover" @click="gotoHome">
-      <span
-        v-if="$vuetify.breakpoint.xs || $vuetify.breakpoint.sm"
-        class="brand-state"
-        style="margin-left: -0px"
-        >IL</span
-      >
-      <span v-else class="brand-state" style="margin-left: 10px"
+      <span class="brand-state" style="margin-left: 10px"
         >ILLINOIS&nbsp;|&nbsp;</span
       >
-      <span class="brand-name">FAMILY VIOLENCE COORDINATING COUNCILS</span>
+      <span class="brand-name hidden-sm-and-down"
+        >FAMILY VIOLENCE COORDINATING COUNCILS</span
+      >
+      <span class="brand-name hidden-md-and-up">FVCC</span>
     </v-toolbar-title>
 
     <v-spacer />
@@ -35,6 +32,8 @@
         text
         style="font-weight: 900"
         :aria-label="item.title"
+        class="hidden-sm-and-down"
+        small
       >
         <span v-if="item.metaData.menuTitle">
           {{ item.metaData.menuTitle }}
