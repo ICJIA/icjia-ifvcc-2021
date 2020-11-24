@@ -33,6 +33,7 @@ const GET_SINGLE_POST_QUERY = gql`
       kicker
       createdAt
       updatedAt
+      published_at
       body
       showTOC
       tags {

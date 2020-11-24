@@ -6,11 +6,13 @@
       :isLoading="isLoading"
     ></AppNav>
     <!-- <AppSidebar></AppSidebar> -->
+
     <v-main>
       <transition name="fade" mode="out-in">
         <router-view style="min-height: 90vh !important"></router-view>
       </transition>
     </v-main>
+
     <AppFooter
       :key="`appFooter-${$route.path}`"
       :isLoading="isLoading"
@@ -21,6 +23,7 @@
 
 <script>
 import { GET_NAV_META_QUERY } from "@/graphql/nav";
+import _ from "lodash";
 import NProgress from "nprogress";
 export default {
   /* eslint-disable no-unused-vars */
@@ -29,6 +32,13 @@ export default {
     // eslint-disable-next-line no-unused-vars
     $route(to, from) {
       //console.log(to, from);
+    },
+    isLoading(newValue, oldValue) {
+      if (newValue) {
+        NProgress.start();
+      } else {
+        NProgress.done();
+      }
     },
   },
   mounted() {},
@@ -39,6 +49,7 @@ export default {
     appNav: null,
     appFooter: null,
     appSidebar: null,
+    isLoading: true,
   }),
   apollo: {
     pages: {
@@ -49,9 +60,11 @@ export default {
       },
       error(error) {
         this.errorMsg = JSON.stringify(error.message);
+        this.isLoading = false;
       },
       result(ApolloQueryResult) {
         this.nav = ApolloQueryResult.data.pages;
+        this.nav = _.sortBy(this.nav, ["metaData.menuRank"], ["asc"]);
 
         this.appFooter = this.nav.filter((item) => {
           if (item.metaData.showInFooter) return item;
@@ -71,11 +84,6 @@ export default {
     },
   },
   methods: {
-    isLoading(loading) {
-      // eslint-disable-next-line no-undef
-      loading ? NProgress.start() : NProgress.done();
-      return loading ? true : false;
-    },
     onScroll(e) {
       if (typeof window === "undefined") return;
       const top = window.pageYOffset || e.target.scrollTop || 0;

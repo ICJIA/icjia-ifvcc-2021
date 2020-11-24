@@ -25,6 +25,23 @@
     </v-toolbar-title>
 
     <v-spacer />
+    <!-- {{ meta }} -->
+
+    <div v-if="!isLoading">
+      <v-btn
+        v-for="(item, index) in meta"
+        :key="`nav-${index}`"
+        :to="`/${item.slug}/`"
+        text
+        style="font-weight: 900"
+        :aria-label="item.title"
+      >
+        <span v-if="item.metaData.menuTitle">
+          {{ item.metaData.menuTitle }}
+        </span>
+        <span v-else>{{ item.title }}</span>
+      </v-btn>
+    </div>
 
     <v-app-bar-nav-icon
       aria-label="Toggle Menu"
@@ -107,14 +124,14 @@ export default {
   font-weight: 400;
 
   text-transform: uppercase;
-  font-size: 26px;
+  font-size: 22px;
   color: #333;
 
   /* color: #fff; */
 }
 .brand-name {
   font-weight: 900;
-  font-size: 26px;
+  font-size: 22px;
   color: #442b99;
   /* color: #fff; */
 }

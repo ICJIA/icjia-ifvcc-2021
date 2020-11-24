@@ -9,6 +9,7 @@ const GET_ALL_PAGES_QUERY = gql`
       summary
       createdAt
       updatedAt
+      published_at
       splash {
         alternativeText
         caption
@@ -37,6 +38,7 @@ const GET_SINGLE_PAGE_QUERY = gql`
       kicker
       createdAt
       updatedAt
+      published_at
       body
       metaData {
         showTOC

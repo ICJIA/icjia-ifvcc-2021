@@ -1,0 +1,2411 @@
+{
+    "objects": {
+        "cb_2015_illinois_county_20m": {
+            "type": "GeometryCollection",
+            "geometries": [
+                {
+                    "arcs": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "17",
+                        "COUNTYFP": "123",
+                        "COUNTYNS": "00424260",
+                        "AFFGEOID": "0500000US17123",
+                        "GEOID": "17123",
+                        "NAME": "Marshall",
+                        "LSAD": "06",
+                        "ALAND": 1001787871,
+                        "AWATER": 30368315
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            6,
+                            7,
+                            8,
+                            9,
+                            10
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "17",
+                        "COUNTYFP": "035",
+                        "COUNTYNS": "00424219",
+                        "AFFGEOID": "0500000US17035",
+                        "GEOID": "17035",
+                        "NAME": "Cumberland",
+                        "LSAD": "06",
+                        "ALAND": 896203114,
+                        "AWATER": 2531272
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            11,
+                            12,
+                            13,
+                            14,
+                            15
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "17",
+                        "COUNTYFP": "041",
+                        "COUNTYNS": "00424222",
+                        "AFFGEOID": "0500000US17041",
+                        "GEOID": "17041",
+                        "NAME": "Douglas",
+                        "LSAD": "06",
+                        "ALAND": 1079156612,
+                        "AWATER": 1448702
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            16,
+                            17,
+                            18,
+                            19,
+                            20,
+                            21
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "17",
+                        "COUNTYFP": "105",
+                        "COUNTYNS": "00424254",
+                        "AFFGEOID": "0500000US17105",
+                        "GEOID": "17105",
+                        "NAME": "Livingston",
+                        "LSAD": "06",
+                        "ALAND": 2704687496,
+                        "AWATER": 4252884
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            22,
+                            23,
+                            24,
+                            25
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "17",
+                        "COUNTYFP": "005",
+                        "COUNTYNS": "00424204",
+                        "AFFGEOID": "0500000US17005",
+                        "GEOID": "17005",
+                        "NAME": "Bond",
+                        "LSAD": "06",
+                        "ALAND": 984918652,
+                        "AWATER": 6426353
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            26,
+                            27,
+                            -6,
+                            28,
+                            29
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "17",
+                        "COUNTYFP": "175",
+                        "COUNTYNS": "00424288",
+                        "AFFGEOID": "0500000US17175",
+                        "GEOID": "17175",
+                        "NAME": "Stark",
+                        "LSAD": "06",
+                        "ALAND": 746121489,
+                        "AWATER": 708705
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            30,
+                            31,
+                            32,
+                            33,
+                            34,
+                            35
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "17",
+                        "COUNTYFP": "117",
+                        "COUNTYNS": "00424257",
+                        "AFFGEOID": "0500000US17117",
+                        "GEOID": "17117",
+                        "NAME": "Macoupin",
+                        "LSAD": "06",
+                        "ALAND": 2234952632,
+                        "AWATER": 12252649
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            36,
+                            37,
+                            38,
+                            39,
+                            40,
+                            41,
+                            42
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "17",
+                        "COUNTYFP": "159",
+                        "COUNTYNS": "00424281",
+                        "AFFGEOID": "0500000US17159",
+                        "GEOID": "17159",
+                        "NAME": "Richland",
+                        "LSAD": "06",
+                        "ALAND": 932423425,
+                        "AWATER": 4884901
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            43,
+                            44,
+                            45,
+                            46,
+                            47,
+                            48
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "17",
+                        "COUNTYFP": "193",
+                        "COUNTYNS": "00424297",
+                        "AFFGEOID": "0500000US17193",
+                        "GEOID": "17193",
+                        "NAME": "White",
+                        "LSAD": "06",
+                        "ALAND": 1281439561,
+                        "AWATER": 18374883
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            49,
+                            -25,
+                            50,
+                            51,
+                            52,
+                            53
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "17",
+                        "COUNTYFP": "027",
+                        "COUNTYNS": "00424215",
+                        "AFFGEOID": "0500000US17027",
+                        "GEOID": "17027",
+                        "NAME": "Clinton",
+                        "LSAD": "06",
+                        "ALAND": 1227874119,
+                        "AWATER": 75592335
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            54,
+                            55,
+                            56,
+                            57,
+                            58,
+                            59
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "17",
+                        "COUNTYFP": "055",
+                        "COUNTYNS": "00424229",
+                        "AFFGEOID": "0500000US17055",
+                        "GEOID": "17055",
+                        "NAME": "Franklin",
+                        "LSAD": "06",
+                        "ALAND": 1059021102,
+                        "AWATER": 58413469
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            60,
+                            61,
+                            62,
+                            -17,
+                            63
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "17",
+                        "COUNTYFP": "063",
+                        "COUNTYNS": "00424233",
+                        "AFFGEOID": "0500000US17063",
+                        "GEOID": "17063",
+                        "NAME": "Grundy",
+                        "LSAD": "06",
+                        "ALAND": 1082749559,
+                        "AWATER": 32106092
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            64,
+                            65,
+                            66,
+                            67,
+                            68,
+                            69,
+                            70
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "17",
+                        "COUNTYFP": "181",
+                        "COUNTYNS": "01785113",
+                        "AFFGEOID": "0500000US17181",
+                        "GEOID": "17181",
+                        "NAME": "Union",
+                        "LSAD": "06",
+                        "ALAND": 1070855937,
+                        "AWATER": 22502264
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            71,
+                            72,
+                            73,
+                            74,
+                            75
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "17",
+                        "COUNTYFP": "015",
+                        "COUNTYNS": "00424209",
+                        "AFFGEOID": "0500000US17015",
+                        "GEOID": "17015",
+                        "NAME": "Carroll",
+                        "LSAD": "06",
+                        "ALAND": 1152707885,
+                        "AWATER": 55841451
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            76,
+                            77,
+                            78,
+                            79,
+                            80
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "17",
+                        "COUNTYFP": "187",
+                        "COUNTYNS": "01785134",
+                        "AFFGEOID": "0500000US17187",
+                        "GEOID": "17187",
+                        "NAME": "Warren",
+                        "LSAD": "06",
+                        "ALAND": 1404823489,
+                        "AWATER": 1674135
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            81,
+                            82,
+                            83,
+                            84,
+                            85,
+                            -74
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "17",
+                        "COUNTYFP": "141",
+                        "COUNTYNS": "01784894",
+                        "AFFGEOID": "0500000US17141",
+                        "GEOID": "17141",
+                        "NAME": "Ogle",
+                        "LSAD": "06",
+                        "ALAND": 1964706942,
+                        "AWATER": 11425029
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            86,
+                            87,
+                            88,
+                            89
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "17",
+                        "COUNTYFP": "075",
+                        "COUNTYNS": "00424239",
+                        "AFFGEOID": "0500000US17075",
+                        "GEOID": "17075",
+                        "NAME": "Iroquois",
+                        "LSAD": "06",
+                        "ALAND": 2893771415,
+                        "AWATER": 4235076
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            90,
+                            -2,
+                            91
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "17",
+                        "COUNTYFP": "155",
+                        "COUNTYNS": "00424279",
+                        "AFFGEOID": "0500000US17155",
+                        "GEOID": "17155",
+                        "NAME": "Putnam",
+                        "LSAD": "06",
+                        "ALAND": 414813859,
+                        "AWATER": 31243032
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            92,
+                            93,
+                            94,
+                            95,
+                            96
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "17",
+                        "COUNTYFP": "009",
+                        "COUNTYNS": "00424206",
+                        "AFFGEOID": "0500000US17009",
+                        "GEOID": "17009",
+                        "NAME": "Brown",
+                        "LSAD": "06",
+                        "ALAND": 791518279,
+                        "AWATER": 4139308
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            -19,
+                            97,
+                            -90,
+                            98,
+                            99,
+                            100
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "17",
+                        "COUNTYFP": "053",
+                        "COUNTYNS": "00424228",
+                        "AFFGEOID": "0500000US17053",
+                        "GEOID": "17053",
+                        "NAME": "Ford",
+                        "LSAD": "06",
+                        "ALAND": 1257719717,
+                        "AWATER": 1640286
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            101,
+                            -80,
+                            102,
+                            103,
+                            104
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "17",
+                        "COUNTYFP": "109",
+                        "COUNTYNS": "01784729",
+                        "AFFGEOID": "0500000US17109",
+                        "GEOID": "17109",
+                        "NAME": "McDonough",
+                        "LSAD": "06",
+                        "ALAND": 1526558088,
+                        "AWATER": 2012555
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            -69,
+                            105,
+                            106,
+                            107,
+                            108
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "17",
+                        "COUNTYFP": "153",
+                        "COUNTYNS": "01784966",
+                        "AFFGEOID": "0500000US17153",
+                        "GEOID": "17153",
+                        "NAME": "Pulaski",
+                        "LSAD": "06",
+                        "ALAND": 515887464,
+                        "AWATER": 10473563
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            109,
+                            110,
+                            -61,
+                            111,
+                            112
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "17",
+                        "COUNTYFP": "093",
+                        "COUNTYNS": "00424248",
+                        "AFFGEOID": "0500000US17093",
+                        "GEOID": "17093",
+                        "NAME": "Kendall",
+                        "LSAD": "06",
+                        "ALAND": 829537625,
+                        "AWATER": 5118525
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            113,
+                            -112,
+                            -64,
+                            -22,
+                            114,
+                            -3,
+                            -91,
+                            115,
+                            116
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "17",
+                        "COUNTYFP": "099",
+                        "COUNTYNS": "00422247",
+                        "AFFGEOID": "0500000US17099",
+                        "GEOID": "17099",
+                        "NAME": "LaSalle",
+                        "LSAD": "06",
+                        "ALAND": 2939990010,
+                        "AWATER": 33693280
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            117,
+                            118,
+                            119
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "17",
+                        "COUNTYFP": "171",
+                        "COUNTYNS": "00424286",
+                        "AFFGEOID": "0500000US17171",
+                        "GEOID": "17171",
+                        "NAME": "Scott",
+                        "LSAD": "06",
+                        "ALAND": 649861236,
+                        "AWATER": 4812706
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            120,
+                            -104,
+                            121,
+                            122,
+                            123,
+                            -93,
+                            124
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "17",
+                        "COUNTYFP": "169",
+                        "COUNTYNS": "01785037",
+                        "AFFGEOID": "0500000US17169",
+                        "GEOID": "17169",
+                        "NAME": "Schuyler",
+                        "LSAD": "06",
+                        "ALAND": 1132531697,
+                        "AWATER": 10511619
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            -59,
+                            125,
+                            126,
+                            -67,
+                            127
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "17",
+                        "COUNTYFP": "199",
+                        "COUNTYNS": "01785215",
+                        "AFFGEOID": "0500000US17199",
+                        "GEOID": "17199",
+                        "NAME": "Williamson",
+                        "LSAD": "06",
+                        "ALAND": 1088235237,
+                        "AWATER": 62630460
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            128,
+                            129,
+                            130,
+                            -27,
+                            131,
+                            132
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "17",
+                        "COUNTYFP": "073",
+                        "COUNTYNS": "00424238",
+                        "AFFGEOID": "0500000US17073",
+                        "GEOID": "17073",
+                        "NAME": "Henry",
+                        "LSAD": "06",
+                        "ALAND": 2131552058,
+                        "AWATER": 6862245
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            133,
+                            134,
+                            135,
+                            136,
+                            -56,
+                            137
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "17",
+                        "COUNTYFP": "081",
+                        "COUNTYNS": "00424242",
+                        "AFFGEOID": "0500000US17081",
+                        "GEOID": "17081",
+                        "NAME": "Jefferson",
+                        "LSAD": "06",
+                        "ALAND": 1479284991,
+                        "AWATER": 32709408
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            138,
+                            139,
+                            -54,
+                            140,
+                            141,
+                            142,
+                            143
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "17",
+                        "COUNTYFP": "163",
+                        "COUNTYNS": "01784987",
+                        "AFFGEOID": "0500000US17163",
+                        "GEOID": "17163",
+                        "NAME": "St. Clair",
+                        "LSAD": "06",
+                        "ALAND": 1703650703,
+                        "AWATER": 42081592
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            144,
+                            145,
+                            146,
+                            147
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "17",
+                        "COUNTYFP": "039",
+                        "COUNTYNS": "00426598",
+                        "AFFGEOID": "0500000US17039",
+                        "GEOID": "17039",
+                        "NAME": "De Witt",
+                        "LSAD": "06",
+                        "ALAND": 1029643577,
+                        "AWATER": 19519851
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            148,
+                            -138,
+                            -55,
+                            149,
+                            150
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "17",
+                        "COUNTYFP": "145",
+                        "COUNTYNS": "01784940",
+                        "AFFGEOID": "0500000US17145",
+                        "GEOID": "17145",
+                        "NAME": "Perry",
+                        "LSAD": "06",
+                        "ALAND": 1144186123,
+                        "AWATER": 13416186
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            151,
+                            152,
+                            -72,
+                            153
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "17",
+                        "COUNTYFP": "085",
+                        "COUNTYNS": "00424244",
+                        "AFFGEOID": "0500000US17085",
+                        "GEOID": "17085",
+                        "NAME": "Jo Daviess",
+                        "LSAD": "06",
+                        "ALAND": 1556339199,
+                        "AWATER": 45776828
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            -95,
+                            154,
+                            155,
+                            -31,
+                            156,
+                            -118,
+                            157
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "17",
+                        "COUNTYFP": "137",
+                        "COUNTYNS": "00424270",
+                        "AFFGEOID": "0500000US17137",
+                        "GEOID": "17137",
+                        "NAME": "Morgan",
+                        "LSAD": "06",
+                        "ALAND": 1473194865,
+                        "AWATER": 9064992
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            158,
+                            -132,
+                            -30,
+                            159,
+                            160,
+                            -78
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "17",
+                        "COUNTYFP": "095",
+                        "COUNTYNS": "00424249",
+                        "AFFGEOID": "0500000US17095",
+                        "GEOID": "17095",
+                        "NAME": "Knox",
+                        "LSAD": "06",
+                        "ALAND": 1855506549,
+                        "AWATER": 8834348
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            -85,
+                            161,
+                            -117,
+                            162,
+                            163
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "17",
+                        "COUNTYFP": "103",
+                        "COUNTYNS": "00424253",
+                        "AFFGEOID": "0500000US17103",
+                        "GEOID": "17103",
+                        "NAME": "Lee",
+                        "LSAD": "06",
+                        "ALAND": 1877371243,
+                        "AWATER": 10599322
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            -34,
+                            164,
+                            -26,
+                            -50,
+                            -140,
+                            165,
+                            166
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "17",
+                        "COUNTYFP": "119",
+                        "COUNTYNS": "00424258",
+                        "AFFGEOID": "0500000US17119",
+                        "GEOID": "17119",
+                        "NAME": "Madison",
+                        "LSAD": "06",
+                        "ALAND": 1853742057,
+                        "AWATER": 64302909
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            -58,
+                            167,
+                            168,
+                            169,
+                            170,
+                            -126
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "17",
+                        "COUNTYFP": "165",
+                        "COUNTYNS": "00424283",
+                        "AFFGEOID": "0500000US17165",
+                        "GEOID": "17165",
+                        "NAME": "Saline",
+                        "LSAD": "06",
+                        "ALAND": 983746631,
+                        "AWATER": 18008533
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            171,
+                            172,
+                            173,
+                            174,
+                            -62,
+                            -111
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "17",
+                        "COUNTYFP": "197",
+                        "COUNTYNS": "01785190",
+                        "AFFGEOID": "0500000US17197",
+                        "GEOID": "17197",
+                        "NAME": "Will",
+                        "LSAD": "06",
+                        "ALAND": 2167652507,
+                        "AWATER": 31840804
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            -35,
+                            -167,
+                            175,
+                            176,
+                            177
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "17",
+                        "COUNTYFP": "083",
+                        "COUNTYNS": "00424243",
+                        "AFFGEOID": "0500000US17083",
+                        "GEOID": "17083",
+                        "NAME": "Jersey",
+                        "LSAD": "06",
+                        "ALAND": 956433111,
+                        "AWATER": 20324168
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            178,
+                            -16,
+                            179,
+                            180,
+                            181
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "17",
+                        "COUNTYFP": "139",
+                        "COUNTYNS": "01784885",
+                        "AFFGEOID": "0500000US17139",
+                        "GEOID": "17139",
+                        "NAME": "Moultrie",
+                        "LSAD": "06",
+                        "ALAND": 870088914,
+                        "AWATER": 22102476
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            -15,
+                            182,
+                            183,
+                            -8,
+                            184,
+                            -180
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "17",
+                        "COUNTYFP": "029",
+                        "COUNTYNS": "00424216",
+                        "AFFGEOID": "0500000US17029",
+                        "GEOID": "17029",
+                        "NAME": "Coles",
+                        "LSAD": "06",
+                        "ALAND": 1316459190,
+                        "AWATER": 4631834
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            185,
+                            186,
+                            187,
+                            188
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "17",
+                        "COUNTYFP": "129",
+                        "COUNTYNS": "00424266",
+                        "AFFGEOID": "0500000US17129",
+                        "GEOID": "17129",
+                        "NAME": "Menard",
+                        "LSAD": "06",
+                        "ALAND": 814389207,
+                        "AWATER": 2641080
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            189,
+                            -142,
+                            190,
+                            -151,
+                            191,
+                            192
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "17",
+                        "COUNTYFP": "157",
+                        "COUNTYNS": "01784967",
+                        "AFFGEOID": "0500000US17157",
+                        "GEOID": "17157",
+                        "NAME": "Randolph",
+                        "LSAD": "06",
+                        "ALAND": 1490546072,
+                        "AWATER": 56207428
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            193,
+                            194,
+                            195,
+                            196,
+                            197,
+                            198
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "17",
+                        "COUNTYFP": "179",
+                        "COUNTYNS": "01785094",
+                        "AFFGEOID": "0500000US17179",
+                        "GEOID": "17179",
+                        "NAME": "Tazewell",
+                        "LSAD": "06",
+                        "ALAND": 1681105118,
+                        "AWATER": 22941954
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            -99,
+                            -89,
+                            199,
+                            200,
+                            201
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "17",
+                        "COUNTYFP": "183",
+                        "COUNTYNS": "01785114",
+                        "AFFGEOID": "0500000US17183",
+                        "GEOID": "17183",
+                        "NAME": "Vermilion",
+                        "LSAD": "06",
+                        "ALAND": 2326763526,
+                        "AWATER": 7534491
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            202,
+                            203,
+                            204,
+                            -113,
+                            -114,
+                            -162,
+                            -84
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "17",
+                        "COUNTYFP": "037",
+                        "COUNTYNS": "00422190",
+                        "AFFGEOID": "0500000US17037",
+                        "GEOID": "17037",
+                        "NAME": "DeKalb",
+                        "LSAD": "06",
+                        "ALAND": 1635193208,
+                        "AWATER": 8568342
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            -48,
+                            205,
+                            206,
+                            -169
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "17",
+                        "COUNTYFP": "059",
+                        "COUNTYNS": "00424231",
+                        "AFFGEOID": "0500000US17059",
+                        "GEOID": "17059",
+                        "NAME": "Gallatin",
+                        "LSAD": "06",
+                        "ALAND": 836749960,
+                        "AWATER": 13238356
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            207,
+                            -119,
+                            -157,
+                            -36,
+                            -178,
+                            208
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "17",
+                        "COUNTYFP": "061",
+                        "COUNTYNS": "00424232",
+                        "AFFGEOID": "0500000US17061",
+                        "GEOID": "17061",
+                        "NAME": "Greene",
+                        "LSAD": "06",
+                        "ALAND": 1406413313,
+                        "AWATER": 8425393
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            -4,
+                            -115,
+                            -21,
+                            209,
+                            -195,
+                            210
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "17",
+                        "COUNTYFP": "203",
+                        "COUNTYNS": "01785231",
+                        "AFFGEOID": "0500000US17203",
+                        "GEOID": "17203",
+                        "NAME": "Woodford",
+                        "LSAD": "06",
+                        "ALAND": 1367025008,
+                        "AWATER": 38410923
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            211,
+                            -10,
+                            212,
+                            213,
+                            -37,
+                            214
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "17",
+                        "COUNTYFP": "079",
+                        "COUNTYNS": "00424241",
+                        "AFFGEOID": "0500000US17079",
+                        "GEOID": "17079",
+                        "NAME": "Jasper",
+                        "LSAD": "06",
+                        "ALAND": 1280788077,
+                        "AWATER": 9334509
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            -124,
+                            215,
+                            -189,
+                            216,
+                            -155,
+                            -94
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "17",
+                        "COUNTYFP": "017",
+                        "COUNTYNS": "00424210",
+                        "AFFGEOID": "0500000US17017",
+                        "GEOID": "17017",
+                        "NAME": "Cass",
+                        "LSAD": "06",
+                        "ALAND": 973345804,
+                        "AWATER": 20581547
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            217,
+                            218,
+                            219,
+                            220,
+                            -23,
+                            -165,
+                            -33
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "17",
+                        "COUNTYFP": "135",
+                        "COUNTYNS": "01784866",
+                        "AFFGEOID": "0500000US17135",
+                        "GEOID": "17135",
+                        "NAME": "Montgomery",
+                        "LSAD": "06",
+                        "ALAND": 1822539613,
+                        "AWATER": 15512963
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            221,
+                            222,
+                            -215,
+                            -43,
+                            223,
+                            224
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "17",
+                        "COUNTYFP": "025",
+                        "COUNTYNS": "00424214",
+                        "AFFGEOID": "0500000US17025",
+                        "GEOID": "17025",
+                        "NAME": "Clay",
+                        "LSAD": "06",
+                        "ALAND": 1212958829,
+                        "AWATER": 3278251
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            225,
+                            226,
+                            -203,
+                            227
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "17",
+                        "COUNTYFP": "007",
+                        "COUNTYNS": "00424205",
+                        "AFFGEOID": "0500000US17007",
+                        "GEOID": "17007",
+                        "NAME": "Boone",
+                        "LSAD": "06",
+                        "ALAND": 727101583,
+                        "AWATER": 3339043
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            228,
+                            229,
+                            -81,
+                            -102,
+                            230,
+                            231
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "17",
+                        "COUNTYFP": "071",
+                        "COUNTYNS": "00424237",
+                        "AFFGEOID": "0500000US17071",
+                        "GEOID": "17071",
+                        "NAME": "Henderson",
+                        "LSAD": "06",
+                        "ALAND": 981273714,
+                        "AWATER": 42340542
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            232,
+                            -11,
+                            -212,
+                            -223,
+                            233
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "17",
+                        "COUNTYFP": "049",
+                        "COUNTYNS": "00424226",
+                        "AFFGEOID": "0500000US17049",
+                        "GEOID": "17049",
+                        "NAME": "Effingham",
+                        "LSAD": "06",
+                        "ALAND": 1240027660,
+                        "AWATER": 3183217
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            -137,
+                            234,
+                            -49,
+                            -168,
+                            -57
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "17",
+                        "COUNTYFP": "065",
+                        "COUNTYNS": "00424234",
+                        "AFFGEOID": "0500000US17065",
+                        "GEOID": "17065",
+                        "NAME": "Hamilton",
+                        "LSAD": "06",
+                        "ALAND": 1125778616,
+                        "AWATER": 3174312
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            235,
+                            -96,
+                            -158,
+                            -120,
+                            -208,
+                            236,
+                            237
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "17",
+                        "COUNTYFP": "149",
+                        "COUNTYNS": "01784941",
+                        "AFFGEOID": "0500000US17149",
+                        "GEOID": "17149",
+                        "NAME": "Pike",
+                        "LSAD": "06",
+                        "ALAND": 2153317670,
+                        "AWATER": 45283711
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            -41,
+                            238,
+                            -45,
+                            239
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "17",
+                        "COUNTYFP": "047",
+                        "COUNTYNS": "00424225",
+                        "AFFGEOID": "0500000US17047",
+                        "GEOID": "17047",
+                        "NAME": "Edwards",
+                        "LSAD": "06",
+                        "ALAND": 576061731,
+                        "AWATER": 781203
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            -160,
+                            -29,
+                            -5,
+                            -211,
+                            -194,
+                            240
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "17",
+                        "COUNTYFP": "143",
+                        "COUNTYNS": "01784920",
+                        "AFFGEOID": "0500000US17143",
+                        "GEOID": "17143",
+                        "NAME": "Peoria",
+                        "LSAD": "06",
+                        "ALAND": 1603693530,
+                        "AWATER": 29505061
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            241,
+                            242,
+                            243,
+                            -38,
+                            -214
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "17",
+                        "COUNTYFP": "033",
+                        "COUNTYNS": "00424218",
+                        "AFFGEOID": "0500000US17033",
+                        "GEOID": "17033",
+                        "NAME": "Crawford",
+                        "LSAD": "06",
+                        "ALAND": 1148997685,
+                        "AWATER": 5667188
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            244,
+                            245,
+                            246,
+                            -107
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "17",
+                        "COUNTYFP": "127",
+                        "COUNTYNS": "01784730",
+                        "AFFGEOID": "0500000US17127",
+                        "GEOID": "17127",
+                        "NAME": "Massac",
+                        "LSAD": "06",
+                        "ALAND": 614390802,
+                        "AWATER": 11904133
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            -70,
+                            -109,
+                            247
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "17",
+                        "COUNTYFP": "003",
+                        "COUNTYNS": "00424203",
+                        "AFFGEOID": "0500000US17003",
+                        "GEOID": "17003",
+                        "NAME": "Alexander",
+                        "LSAD": "06",
+                        "ALAND": 609996942,
+                        "AWATER": 44237191
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            -188,
+                            248,
+                            249,
+                            250,
+                            -218,
+                            -32,
+                            -156,
+                            -217
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "17",
+                        "COUNTYFP": "167",
+                        "COUNTYNS": "01785010",
+                        "AFFGEOID": "0500000US17167",
+                        "GEOID": "17167",
+                        "NAME": "Sangamon",
+                        "LSAD": "06",
+                        "ALAND": 2248891494,
+                        "AWATER": 22577723
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            251,
+                            252,
+                            -219,
+                            -251
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "17",
+                        "COUNTYFP": "021",
+                        "COUNTYNS": "00424212",
+                        "AFFGEOID": "0500000US17021",
+                        "GEOID": "17021",
+                        "NAME": "Christian",
+                        "LSAD": "06",
+                        "ALAND": 1837278859,
+                        "AWATER": 16221514
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            253,
+                            254,
+                            -133,
+                            -159,
+                            -77,
+                            -230,
+                            255
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "17",
+                        "COUNTYFP": "131",
+                        "COUNTYNS": "01784750",
+                        "AFFGEOID": "0500000US17131",
+                        "GEOID": "17131",
+                        "NAME": "Mercer",
+                        "LSAD": "06",
+                        "ALAND": 1453500382,
+                        "AWATER": 19409929
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            -192,
+                            -150,
+                            -60,
+                            -128,
+                            -66,
+                            256
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "17",
+                        "COUNTYFP": "077",
+                        "COUNTYNS": "00424240",
+                        "AFFGEOID": "0500000US17077",
+                        "GEOID": "17077",
+                        "NAME": "Jackson",
+                        "LSAD": "06",
+                        "ALAND": 1512739085,
+                        "AWATER": 47416201
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            -171,
+                            257,
+                            258,
+                            -246,
+                            259
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "17",
+                        "COUNTYFP": "151",
+                        "COUNTYNS": "00424277",
+                        "AFFGEOID": "0500000US17151",
+                        "GEOID": "17151",
+                        "NAME": "Pope",
+                        "LSAD": "06",
+                        "ALAND": 955109670,
+                        "AWATER": 14328523
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            -201,
+                            260,
+                            261,
+                            -183,
+                            -14
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "17",
+                        "COUNTYFP": "045",
+                        "COUNTYNS": "00424224",
+                        "AFFGEOID": "0500000US17045",
+                        "GEOID": "17045",
+                        "NAME": "Edgar",
+                        "LSAD": "06",
+                        "ALAND": 1614531795,
+                        "AWATER": 1610634
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            -237,
+                            -209,
+                            -177,
+                            262
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "17",
+                        "COUNTYFP": "013",
+                        "COUNTYNS": "00424208",
+                        "AFFGEOID": "0500000US17013",
+                        "GEOID": "17013",
+                        "NAME": "Calhoun",
+                        "LSAD": "06",
+                        "ALAND": 657402916,
+                        "AWATER": 77057164
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            -103,
+                            -79,
+                            -161,
+                            -241,
+                            -199,
+                            263,
+                            -122
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "17",
+                        "COUNTYFP": "057",
+                        "COUNTYNS": "00424230",
+                        "AFFGEOID": "0500000US17057",
+                        "GEOID": "17057",
+                        "NAME": "Fulton",
+                        "LSAD": "06",
+                        "ALAND": 2241880791,
+                        "AWATER": 43973316
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            -52,
+                            264,
+                            -225,
+                            265,
+                            -135,
+                            266
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "17",
+                        "COUNTYFP": "121",
+                        "COUNTYNS": "00424259",
+                        "AFFGEOID": "0500000US17121",
+                        "GEOID": "17121",
+                        "NAME": "Marion",
+                        "LSAD": "06",
+                        "ALAND": 1482442356,
+                        "AWATER": 9487928
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            -266,
+                            -224,
+                            -42,
+                            -240,
+                            -44,
+                            -235,
+                            -136
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "17",
+                        "COUNTYFP": "191",
+                        "COUNTYNS": "00424296",
+                        "AFFGEOID": "0500000US17191",
+                        "GEOID": "17191",
+                        "NAME": "Wayne",
+                        "LSAD": "06",
+                        "ALAND": 1848769742,
+                        "AWATER": 4331009
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            267,
+                            268,
+                            269,
+                            -173,
+                            270,
+                            271
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "17",
+                        "COUNTYFP": "031",
+                        "COUNTYNS": "01784766",
+                        "AFFGEOID": "0500000US17031",
+                        "GEOID": "17031",
+                        "NAME": "Cook",
+                        "LSAD": "06",
+                        "ALAND": 2448400204,
+                        "AWATER": 1785626819
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            272,
+                            -125,
+                            -97,
+                            -236,
+                            273
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "17",
+                        "COUNTYFP": "001",
+                        "COUNTYNS": "00424202",
+                        "AFFGEOID": "0500000US17001",
+                        "GEOID": "17001",
+                        "NAME": "Adams",
+                        "LSAD": "06",
+                        "ALAND": 2214972286,
+                        "AWATER": 41784365
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            -271,
+                            -172,
+                            274
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "17",
+                        "COUNTYFP": "043",
+                        "COUNTYNS": "00422191",
+                        "AFFGEOID": "0500000US17043",
+                        "GEOID": "17043",
+                        "NAME": "DuPage",
+                        "LSAD": "06",
+                        "ALAND": 848258564,
+                        "AWATER": 22857568
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            275,
+                            276,
+                            -129,
+                            -255,
+                            277
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "17",
+                        "COUNTYFP": "161",
+                        "COUNTYNS": "00424282",
+                        "AFFGEOID": "0500000US17161",
+                        "GEOID": "17161",
+                        "NAME": "Rock Island",
+                        "LSAD": "06",
+                        "ALAND": 1107115474,
+                        "AWATER": 61715046
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            -244,
+                            278,
+                            279,
+                            -39
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "17",
+                        "COUNTYFP": "101",
+                        "COUNTYNS": "00424252",
+                        "AFFGEOID": "0500000US17101",
+                        "GEOID": "17101",
+                        "NAME": "Lawrence",
+                        "LSAD": "06",
+                        "ALAND": 963936881,
+                        "AWATER": 5077778
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            280,
+                            -147,
+                            281,
+                            -182,
+                            282,
+                            -252,
+                            -250
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "17",
+                        "COUNTYFP": "115",
+                        "COUNTYNS": "00424256",
+                        "AFFGEOID": "0500000US17115",
+                        "GEOID": "17115",
+                        "NAME": "Macon",
+                        "LSAD": "06",
+                        "ALAND": 1503973502,
+                        "AWATER": 13409564
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            -197,
+                            283,
+                            -148,
+                            -281,
+                            -249,
+                            -187,
+                            284
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "17",
+                        "COUNTYFP": "107",
+                        "COUNTYNS": "00424255",
+                        "AFFGEOID": "0500000US17107",
+                        "GEOID": "17107",
+                        "NAME": "Logan",
+                        "LSAD": "06",
+                        "ALAND": 1600758860,
+                        "AWATER": 2252736
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            -239,
+                            -40,
+                            -280,
+                            285,
+                            -46
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "17",
+                        "COUNTYFP": "185",
+                        "COUNTYNS": "00424293",
+                        "AFFGEOID": "0500000US17185",
+                        "GEOID": "17185",
+                        "NAME": "Wabash",
+                        "LSAD": "06",
+                        "ALAND": 578224627,
+                        "AWATER": 11012015
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            286,
+                            -231,
+                            -105,
+                            -121,
+                            -273,
+                            287
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "17",
+                        "COUNTYFP": "067",
+                        "COUNTYNS": "00424235",
+                        "AFFGEOID": "0500000US17067",
+                        "GEOID": "17067",
+                        "NAME": "Hancock",
+                        "LSAD": "06",
+                        "ALAND": 2055740567,
+                        "AWATER": 53535827
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            -210,
+                            -20,
+                            -101,
+                            288,
+                            289,
+                            -145,
+                            -284,
+                            -196
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "17",
+                        "COUNTYFP": "113",
+                        "COUNTYNS": "01784833",
+                        "AFFGEOID": "0500000US17113",
+                        "GEOID": "17113",
+                        "NAME": "McLean",
+                        "LSAD": "06",
+                        "ALAND": 3064861155,
+                        "AWATER": 7562638
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            -262,
+                            290,
+                            -242,
+                            -213,
+                            -9,
+                            -184
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "17",
+                        "COUNTYFP": "023",
+                        "COUNTYNS": "00424213",
+                        "AFFGEOID": "0500000US17023",
+                        "GEOID": "17023",
+                        "NAME": "Clark",
+                        "LSAD": "06",
+                        "ALAND": 1298666607,
+                        "AWATER": 8806917
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            291,
+                            292,
+                            -268,
+                            293,
+                            -204,
+                            -227
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "17",
+                        "COUNTYFP": "111",
+                        "COUNTYNS": "01784815",
+                        "AFFGEOID": "0500000US17111",
+                        "GEOID": "17111",
+                        "NAME": "McHenry",
+                        "LSAD": "06",
+                        "ALAND": 1562336303,
+                        "AWATER": 19832927
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            294,
+                            -143,
+                            -190,
+                            295
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "17",
+                        "COUNTYFP": "133",
+                        "COUNTYNS": "01784865",
+                        "AFFGEOID": "0500000US17133",
+                        "GEOID": "17133",
+                        "NAME": "Monroe",
+                        "LSAD": "06",
+                        "ALAND": 997188935,
+                        "AWATER": 33718659
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            -253,
+                            -283,
+                            -181,
+                            -185,
+                            -7,
+                            -233,
+                            296,
+                            -220
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "17",
+                        "COUNTYFP": "173",
+                        "COUNTYNS": "01785051",
+                        "AFFGEOID": "0500000US17173",
+                        "GEOID": "17173",
+                        "NAME": "Shelby",
+                        "LSAD": "06",
+                        "ALAND": 1964598132,
+                        "AWATER": 24693146
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            297,
+                            -228,
+                            -83,
+                            298
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "17",
+                        "COUNTYFP": "201",
+                        "COUNTYNS": "01785216",
+                        "AFFGEOID": "0500000US17201",
+                        "GEOID": "17201",
+                        "NAME": "Winnebago",
+                        "LSAD": "06",
+                        "ALAND": 1329745720,
+                        "AWATER": 15107861
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            -170,
+                            -207,
+                            299,
+                            -258
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "17",
+                        "COUNTYFP": "069",
+                        "COUNTYNS": "00424236",
+                        "AFFGEOID": "0500000US17069",
+                        "GEOID": "17069",
+                        "NAME": "Hardin",
+                        "LSAD": "06",
+                        "ALAND": 459795959,
+                        "AWATER": 10489596
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            -289,
+                            -100,
+                            -202,
+                            -13,
+                            300
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "17",
+                        "COUNTYFP": "019",
+                        "COUNTYNS": "00424211",
+                        "AFFGEOID": "0500000US17019",
+                        "GEOID": "17019",
+                        "NAME": "Champaign",
+                        "LSAD": "06",
+                        "ALAND": 2580293767,
+                        "AWATER": 5531832
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            -53,
+                            -267,
+                            -134,
+                            -149,
+                            -191,
+                            -141
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "17",
+                        "COUNTYFP": "189",
+                        "COUNTYNS": "01785150",
+                        "AFFGEOID": "0500000US17189",
+                        "GEOID": "17189",
+                        "NAME": "Washington",
+                        "LSAD": "06",
+                        "ALAND": 1457058111,
+                        "AWATER": 3454759
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            301,
+                            -75,
+                            -86,
+                            -164,
+                            302,
+                            -130,
+                            -277
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "17",
+                        "COUNTYFP": "195",
+                        "COUNTYNS": "01785167",
+                        "AFFGEOID": "0500000US17195",
+                        "GEOID": "17195",
+                        "NAME": "Whiteside",
+                        "LSAD": "06",
+                        "ALAND": 1772198883,
+                        "AWATER": 31796423
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            -68,
+                            -127,
+                            -260,
+                            -245,
+                            -106
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "17",
+                        "COUNTYFP": "087",
+                        "COUNTYNS": "00424245",
+                        "AFFGEOID": "0500000US17087",
+                        "GEOID": "17087",
+                        "NAME": "Johnson",
+                        "LSAD": "06",
+                        "ALAND": 890741065,
+                        "AWATER": 12811451
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            -63,
+                            -175,
+                            303,
+                            -87,
+                            -98,
+                            -18
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "17",
+                        "COUNTYFP": "091",
+                        "COUNTYNS": "00424247",
+                        "AFFGEOID": "0500000US17091",
+                        "GEOID": "17091",
+                        "NAME": "Kankakee",
+                        "LSAD": "06",
+                        "ALAND": 1752310524,
+                        "AWATER": 12413735
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            -303,
+                            -163,
+                            -116,
+                            -92,
+                            -1,
+                            -28,
+                            -131
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "17",
+                        "COUNTYFP": "011",
+                        "COUNTYNS": "00424207",
+                        "AFFGEOID": "0500000US17011",
+                        "GEOID": "17011",
+                        "NAME": "Bureau",
+                        "LSAD": "06",
+                        "ALAND": 2250785992,
+                        "AWATER": 11578416
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            -221,
+                            -297,
+                            -234,
+                            -222,
+                            -265,
+                            -51,
+                            -24
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "17",
+                        "COUNTYFP": "051",
+                        "COUNTYNS": "00424227",
+                        "AFFGEOID": "0500000US17051",
+                        "GEOID": "17051",
+                        "NAME": "Fayette",
+                        "LSAD": "06",
+                        "ALAND": 1855687602,
+                        "AWATER": 22942188
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            304,
+                            -269,
+                            -293
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "17",
+                        "COUNTYFP": "097",
+                        "COUNTYNS": "01784796",
+                        "AFFGEOID": "0500000US17097",
+                        "GEOID": "17097",
+                        "NAME": "Lake",
+                        "LSAD": "06",
+                        "ALAND": 1149077255,
+                        "AWATER": 2395036797
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            -123,
+                            -264,
+                            -198,
+                            -285,
+                            -186,
+                            -216
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "17",
+                        "COUNTYFP": "125",
+                        "COUNTYNS": "00424261",
+                        "AFFGEOID": "0500000US17125",
+                        "GEOID": "17125",
+                        "NAME": "Mason",
+                        "LSAD": "06",
+                        "ALAND": 1396619096,
+                        "AWATER": 62745252
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            -294,
+                            -272,
+                            -275,
+                            -110,
+                            -205
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "17",
+                        "COUNTYFP": "089",
+                        "COUNTYNS": "00424246",
+                        "AFFGEOID": "0500000US17089",
+                        "GEOID": "17089",
+                        "NAME": "Kane",
+                        "LSAD": "06",
+                        "ALAND": 1347216444,
+                        "AWATER": 10775726
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            305,
+                            -299,
+                            -82,
+                            -73,
+                            -153,
+                            306
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "17",
+                        "COUNTYFP": "177",
+                        "COUNTYNS": "01785076",
+                        "AFFGEOID": "0500000US17177",
+                        "GEOID": "17177",
+                        "NAME": "Stephenson",
+                        "LSAD": "06",
+                        "ALAND": 1462175613,
+                        "AWATER": 1385929
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            -146,
+                            -290,
+                            -301,
+                            -12,
+                            -179,
+                            -282
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "17",
+                        "COUNTYFP": "147",
+                        "COUNTYNS": "00424275",
+                        "AFFGEOID": "0500000US17147",
+                        "GEOID": "17147",
+                        "NAME": "Piatt",
+                        "LSAD": "06",
+                        "ALAND": 1137445095,
+                        "AWATER": 756346
+                    }
+                }
+            ]
+        }
+    }
+}

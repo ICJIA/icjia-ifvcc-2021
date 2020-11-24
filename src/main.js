@@ -16,6 +16,8 @@ import "@/filters";
 // eslint-disable-next-line no-unused-vars
 import Nprogress from "nprogress";
 import "nprogress/nprogress.css";
+// eslint-disable-next-line no-undef
+NProgress.configure({ showSpinner: false });
 
 import "@fortawesome/fontawesome-free/css/all.css";
 

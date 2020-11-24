@@ -82,6 +82,7 @@ const GET_HOME = gql`
       body
       createdAt
       updatedAt
+      published_at
       splash {
         alternativeText
         caption
