@@ -54,22 +54,22 @@
           </v-col>
         </v-row>
         <v-row class="align-center">
-          <v-col class="align-center">
-            <div>
-              <v-select
-                v-if="counties"
-                dense
-                :items="counties"
-                v-model="selectedCounty"
-                item-text="name"
-                item-value="slug"
-                label="Select a county"
-                style="font-weight: 900 !important; font-size: 18px"
-                outlined
-                class="align-center"
-                v-on:change="getCounty"
-              ></v-select>
-            </div>
+          <v-col md="2"></v-col>
+          <v-col cols="12" md="8">
+            <v-select
+              v-if="counties"
+              dense
+              :items="counties"
+              v-model="selectedCounty"
+              item-text="name"
+              item-value="slug"
+              label="Select a county"
+              style="font-weight: 900 !important; font-size: 18px"
+              outlined
+              class="align-center"
+              v-on:change="getCounty"
+            ></v-select>
+
             <div class="text-center" v-if="selectedCounty">
               <v-card class="px-3 py-3">
                 <v-card-text>
@@ -78,6 +78,7 @@
               </v-card>
             </div>
           </v-col>
+          <v-col md="2"></v-col>
         </v-row>
       </v-container>
     </div>
