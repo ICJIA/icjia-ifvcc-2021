@@ -26,6 +26,18 @@ const routes = [
       import(/* webpackChunkName: "councils" */ "../views/Councils.vue"),
   },
   {
+    path: "/councils/:slug/",
+    name: "SingleCouncil",
+    component: () =>
+      import(/* webpackChunkName: "councils" */ "../views/CouncilsSingle.vue"),
+  },
+  {
+    path: "/circuits/",
+    name: "AllCircuits",
+    component: () =>
+      import(/* webpackChunkName: "circuits" */ "../views/Circuits.vue"),
+  },
+  {
     path: "/search/",
     name: "Search",
     component: () =>

@@ -35,7 +35,7 @@
         class="hidden-sm-and-down"
         small
       >
-        <span v-if="item.metaData.menuTitle">
+        <span v-if="item.metaData && item.metaData.menuTitle">
           {{ item.metaData.menuTitle }}
         </span>
         <span v-else>{{ item.title }}</span>
@@ -44,7 +44,7 @@
         @click="toggleDrawer"
         text
         style="font-weight: 900"
-        :aria-label="Menu"
+        aria-label="Menu"
         small
         >Menu <v-icon right>menu</v-icon>
       </v-btn>
