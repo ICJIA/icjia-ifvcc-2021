@@ -31,17 +31,20 @@
     "underConstruction": false,
     "hoursToShowUpdated": 1,
     "pathMeta": {
-        "tags" : {
-            "prefix": "/tags/"
+        "tags": {
+            "prefix": "/tags"
         },
-        "events" : {
-            "prefix": "/events/"
+        "events": {
+            "prefix": "/events"
         },
-        "pages" : {
-            "prefix": "/"
+        "pages": {
+            "prefix": ""
         },
-        "posts" : {
-            "prefix": "/news/"
+        "posts": {
+            "prefix": "/news"
+        },
+        "crest": {
+            "prefix": "/crest"
         }
     },
     "search": {
@@ -64,6 +67,10 @@
             },
             {
                 "name": "title",
+                "weight": 1
+            },
+            {
+                "name": "name",
                 "weight": 1
             },
             {
