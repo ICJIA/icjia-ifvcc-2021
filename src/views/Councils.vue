@@ -54,7 +54,7 @@
           </v-col>
         </v-row>
         <v-row class="align-center">
-          <v-col md="2"></v-col>
+          <v-col md="2" cols="12"></v-col>
           <v-col cols="12" md="8">
             <v-select
               v-if="counties"
@@ -65,20 +65,54 @@
               item-value="slug"
               label="Select a county"
               style="font-weight: 900 !important; font-size: 18px"
-              outlined
+              solo
               class="align-center"
               v-on:change="getCounty"
             ></v-select>
 
-            <div class="text-center" v-if="selectedCounty">
-              <v-card class="px-3 py-3">
-                <v-card-text>
-                  {{ selectedCounty }} county info here.
-                </v-card-text>
+            <div v-if="selectedCounty && county">
+              <v-card class="px-3 py-3 mb-8" elevation="1" color="#f9f9f9">
+                <div v-if="$apollo.loading"><Loader></Loader></div>
+                <div
+                  v-for="(item, index) in county.data.counties"
+                  :key="`item-${index}`"
+                >
+                  <div
+                    class="text-right ifvcc-primary"
+                    style="font-size: 12px; font-weight: 900"
+                  >
+                    {{ item.name }} County
+                  </div>
+                  <div v-if="item.councils.length">
+                    <div
+                      v-for="(council, index) in item.councils"
+                      :key="`council-${index}`"
+                    >
+                      <div style="font-size: 30px; font-weight: 900 !important">
+                        {{ council.title }}
+                      </div>
+                      <!-- <h3 style="color: #555">{{ item.name }} County</h3> -->
+                      <v-card-text style="margin-top: -10px">
+                        <div
+                          v-html="renderToHtml(council.body)"
+                          @click="handleClicks"
+                          class="dynamic-content"
+                        ></div>
+                      </v-card-text>
+                      <div v-if="council.posts.length">
+                        <h2>Latest circuit news</h2>
+                        {{ council.posts }}
+                      </div>
+                    </div>
+                  </div>
+                  <div v-else class="council-info text-center mb-2">
+                    No council information listed
+                  </div>
+                </div>
               </v-card>
             </div>
           </v-col>
-          <v-col md="2"></v-col>
+          <v-col md="2" cols="12"></v-col>
         </v-row>
       </v-container>
     </div>
@@ -90,7 +124,10 @@
 import { handleClicks } from "@/mixins/handleClicks";
 import { renderToHtml } from "@/services/Markdown";
 import { GET_SINGLE_PAGE_QUERY } from "@/graphql/pages";
-import { GET_ALL_COUNTIES_QUERY } from "@/graphql/councils";
+import {
+  GET_ALL_COUNTIES_QUERY,
+  GET_SINGLE_COUNTY_QUERY,
+} from "@/graphql/councils";
 import { getImageURL } from "@/services/Image";
 
 export default {
@@ -110,6 +147,7 @@ export default {
       renderToHtml,
       counties: null,
       selectedCounty: null,
+      county: null,
     };
   },
   created() {},
@@ -122,8 +160,12 @@ export default {
       });
     },
     // eslint-disable-next-line no-unused-vars
-    getCounty() {
-      console.log(this.selectedCounty);
+    async getCounty() {
+      this.county = await this.$apollo.query({
+        query: GET_SINGLE_COUNTY_QUERY,
+        variables: { slug: this.selectedCounty },
+      });
+      //console.log(test.data.counties);
     },
 
     render(content) {
@@ -196,5 +238,15 @@ export default {
   font-weight: 900 !important;
   font-size: 18px !important;
   line-height: 20px !important;
+}
+
+.council-info {
+  font-weight: 900;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.ifvcc-primary {
+  color: #6c56bc;
 }
 </style>
