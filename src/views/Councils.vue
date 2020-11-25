@@ -97,6 +97,11 @@
                         <h2>Latest circuit news</h2>
                         {{ council.posts }}
                       </div>
+                      <div class="mt-8 text-right">
+                        <v-btn x-small :to="`/councils/${item.slug}/`">
+                          Link <v-icon right x-small>link</v-icon>
+                        </v-btn>
+                      </div>
                     </div>
                   </div>
                   <div v-else class="council-info text-center mb-2">

@@ -83,7 +83,7 @@ router.beforeEach((to, from, next) => {
 
   if (requiresAuth && !store.state.auth.isAuthenticated) {
     return next({
-      path: "/login",
+      path: "/login/",
       query: { redirect: to.fullPath },
     });
   }
