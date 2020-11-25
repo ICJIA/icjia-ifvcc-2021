@@ -42,7 +42,7 @@
       }}</v-card-text>
       <v-card-text>
         <div class="text-right">
-          <v-btn x-small to="/">
+          <v-btn x-small :to="`/news/${item.slug}`">
             {{ readMoreText }}
             <v-icon right>mdi-menu-right</v-icon>
           </v-btn>

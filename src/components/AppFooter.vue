@@ -31,14 +31,14 @@
             <span v-else>{{ item.title }}</span>
           </v-btn>
 
-          <v-btn
+          <!-- <v-btn
             to="/search/"
             text
             class="footer-link"
             style="font-weight: 900"
             aria-label="search"
             >Search</v-btn
-          >
+          > -->
         </div>
         <div v-else>
           <Loader

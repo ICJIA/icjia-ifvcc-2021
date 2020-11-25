@@ -77,12 +77,6 @@
                   v-for="(item, index) in county.data.counties"
                   :key="`item-${index}`"
                 >
-                  <div
-                    class="text-right ifvcc-primary"
-                    style="font-size: 12px; font-weight: 900"
-                  >
-                    {{ item.name }} County
-                  </div>
                   <div v-if="item.councils.length">
                     <div
                       v-for="(council, index) in item.councils"

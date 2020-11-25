@@ -21,7 +21,7 @@
         </router-link>
       </v-col>
       <v-col cols="12" md="4">
-        <router-link to="/about-the-ifvcc">
+        <router-link to="/about/">
           <v-card
             dark
             :color="colors.box2"
