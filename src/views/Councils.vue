@@ -71,7 +71,12 @@
             ></v-select>
 
             <div v-if="selectedCounty && county">
-              <v-card class="px-3 py-3 mb-8" elevation="1" color="#f9f9f9">
+              <CircuitCard
+                :items="county.data.counties"
+                :showLink="true"
+                :showNews="true"
+              ></CircuitCard>
+              <!-- <v-card class="px-3 py-3 mb-8" elevation="1" color="#f9f9f9">
                 <div v-if="$apollo.loading"><Loader></Loader></div>
                 <div
                   v-for="(item, index) in county.data.counties"
@@ -85,7 +90,7 @@
                       <div style="font-size: 30px; font-weight: 900 !important">
                         {{ council.title }}
                       </div>
-                      <!-- <h3 style="color: #555">{{ item.name }} County</h3> -->
+                     
                       <v-card-text style="margin-top: -10px">
                         <div
                           v-html="renderToHtml(council.body)"
@@ -108,7 +113,7 @@
                     No council information listed
                   </div>
                 </div>
-              </v-card>
+              </v-card> -->
             </div>
           </v-col>
           <v-col md="2" cols="12"></v-col>
