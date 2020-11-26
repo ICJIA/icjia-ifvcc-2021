@@ -13056,29 +13056,6 @@
         "possibleTypes": null
       },
       {
-        "kind": "ENUM",
-        "name": "ENUM_COMPONENTMETADATAMETADATA_CONTENTTYPE",
-        "description": null,
-        "fields": null,
-        "inputFields": null,
-        "interfaces": null,
-        "enumValues": [
-          {
-            "name": "crestPage",
-            "description": null,
-            "isDeprecated": false,
-            "deprecationReason": null
-          },
-          {
-            "name": "standardPage",
-            "description": null,
-            "isDeprecated": false,
-            "deprecationReason": null
-          }
-        ],
-        "possibleTypes": null
-      },
-      {
         "kind": "OBJECT",
         "name": "ComponentMetadataMetadata",
         "description": null,
@@ -13212,13 +13189,17 @@
             "deprecationReason": null
           },
           {
-            "name": "contentType",
+            "name": "pathPrefix",
             "description": null,
             "args": [],
             "type": {
-              "kind": "ENUM",
-              "name": "ENUM_COMPONENTMETADATAMETADATA_CONTENTTYPE",
-              "ofType": null
+              "kind": "NON_NULL",
+              "name": null,
+              "ofType": {
+                "kind": "SCALAR",
+                "name": "String",
+                "ofType": null
+              }
             },
             "isDeprecated": false,
             "deprecationReason": null
@@ -13316,11 +13297,11 @@
             "defaultValue": null
           },
           {
-            "name": "contentType",
+            "name": "pathPrefix",
             "description": null,
             "type": {
-              "kind": "ENUM",
-              "name": "ENUM_COMPONENTMETADATAMETADATA_CONTENTTYPE",
+              "kind": "SCALAR",
+              "name": "String",
               "ofType": null
             },
             "defaultValue": null
@@ -13427,11 +13408,11 @@
             "defaultValue": null
           },
           {
-            "name": "contentType",
+            "name": "pathPrefix",
             "description": null,
             "type": {
-              "kind": "ENUM",
-              "name": "ENUM_COMPONENTMETADATAMETADATA_CONTENTTYPE",
+              "kind": "SCALAR",
+              "name": "String",
               "ofType": null
             },
             "defaultValue": null
