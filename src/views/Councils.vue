@@ -211,8 +211,4 @@ export default {
   font-size: 20px;
   padding: 10px;
 }
-
-.ifvcc-primary {
-  color: #6c56bc;
-}
 </style>
