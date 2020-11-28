@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-card class="px-3 py-3 mb-8" elevation="1" color="#f9f9f9">
+    <v-card class="px-3 py-3 mb-8 markdown-body" elevation="1" color="#f9f9f9">
       <div v-for="(item, index) in items" :key="`item-${index}`">
         <div v-if="item.councils.length">
           <div

@@ -71,49 +71,11 @@
             ></v-select>
 
             <div v-if="selectedCounty && county">
-              <CircuitCard
+              <CircuitCardByCounty
                 :items="county.data.counties"
                 :showLink="true"
                 :showNews="true"
-              ></CircuitCard>
-              <!-- <v-card class="px-3 py-3 mb-8" elevation="1" color="#f9f9f9">
-                <div v-if="$apollo.loading"><Loader></Loader></div>
-                <div
-                  v-for="(item, index) in county.data.counties"
-                  :key="`item-${index}`"
-                >
-                  <div v-if="item.councils.length">
-                    <div
-                      v-for="(council, index) in item.councils"
-                      :key="`council-${index}`"
-                    >
-                      <div style="font-size: 30px; font-weight: 900 !important">
-                        {{ council.title }}
-                      </div>
-                     
-                      <v-card-text style="margin-top: -10px">
-                        <div
-                          v-html="renderToHtml(council.body)"
-                          @click="handleClicks"
-                          class="dynamic-content"
-                        ></div>
-                      </v-card-text>
-                      <div v-if="council.posts.length">
-                        <h2>Latest circuit news</h2>
-                        {{ council.posts }}
-                      </div>
-                      <div class="mt-8 text-right">
-                        <v-btn x-small :to="`/councils/${item.slug}/`">
-                          Link <v-icon right x-small>link</v-icon>
-                        </v-btn>
-                      </div>
-                    </div>
-                  </div>
-                  <div v-else class="council-info text-center mb-2">
-                    No council information listed
-                  </div>
-                </div>
-              </v-card> -->
+              ></CircuitCardByCounty>
             </div>
           </v-col>
           <v-col md="2" cols="12"></v-col>
