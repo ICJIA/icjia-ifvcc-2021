@@ -53,6 +53,15 @@
             ></div>
           </v-col>
         </v-row>
+        <v-row>
+          <v-col cols="12">
+            <div class="text-right">
+              <ToggleCouncil
+                style="margin-bottom: 80px; margin-top: -30px"
+              ></ToggleCouncil>
+            </div>
+          </v-col>
+        </v-row>
         <v-row class="align-center">
           <v-col md="2" cols="12"></v-col>
           <v-col cols="12" md="8">
