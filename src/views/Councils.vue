@@ -71,11 +71,11 @@
             ></v-select>
 
             <div v-if="selectedCounty && county">
-              <CircuitCardByCounty
+              <CircuitCard
                 :items="county.data.counties"
-                :showLink="true"
+                :showLinkToCounty="true"
                 :showNews="true"
-              ></CircuitCardByCounty>
+              ></CircuitCard>
             </div>
           </v-col>
           <v-col md="2" cols="12"></v-col>

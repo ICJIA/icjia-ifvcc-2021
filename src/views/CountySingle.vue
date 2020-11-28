@@ -6,20 +6,23 @@
         :key="$route.path"
         :title="page.title"
       ></Breadcrumb>
-      <v-container>
+      <v-container class="mt-8">
         <v-row>
-          <v-col cols="12">
+          <v-col md="1"></v-col>
+          <v-col cols="12" md="10">
             <div v-if="$apollo.loading">
               <Loader></Loader>
             </div>
             <div v-else>
-              <CircuitCardByCounty
+              <CircuitCard
                 :showLink="false"
                 :items="items"
+                :showNews="true"
                 v-if="items && items.length"
-              ></CircuitCardByCounty>
+              ></CircuitCard>
             </div>
           </v-col>
+          <v-col md="1"></v-col>
         </v-row>
       </v-container>
     </div>

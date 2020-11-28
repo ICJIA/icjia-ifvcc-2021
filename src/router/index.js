@@ -26,17 +26,34 @@ const routes = [
       import(/* webpackChunkName: "councils" */ "../views/Councils.vue"),
   },
   {
-    path: "/councils/:slug/",
-    name: "SingleCouncil",
-    component: () =>
-      import(/* webpackChunkName: "councils" */ "../views/CouncilsSingle.vue"),
+    path: "/county/",
+    name: "Counties",
+    redirect: "/councils",
   },
   {
-    path: "/circuits/",
-    name: "AllCircuits",
+    path: "/county/:slug/",
+    name: "CountySingle",
     component: () =>
-      import(/* webpackChunkName: "circuits" */ "../views/Circuits.vue"),
+      import(/* webpackChunkName: "councils" */ "../views/CountySingle.vue"),
   },
+  {
+    path: "/circuit/",
+    name: "Circuits",
+    component: () =>
+      import(/* webpackChunkName: "councils" */ "../views/Councils.vue"),
+  },
+  {
+    path: "/circuit/:slug/",
+    name: "CircuitSingle",
+    component: () =>
+      import(/* webpackChunkName: "councils" */ "../views/CircuitSingle.vue"),
+  },
+  // {
+  //   path: "/circuits/",
+  //   name: "AllCircuits",
+  //   component: () =>
+  //     import(/* webpackChunkName: "circuits" */ "../views/Circuits.vue"),
+  // },
   {
     path: "/search/",
     name: "Search",
