@@ -18,7 +18,6 @@ const GET_SINGLE_COUNTY_QUERY = gql`
       councils {
         title
         slug
-        summary
         published_at
         updatedAt
         body
@@ -34,4 +33,38 @@ const GET_SINGLE_COUNTY_QUERY = gql`
   }
 `;
 
-export { GET_ALL_COUNTIES_QUERY, GET_SINGLE_COUNTY_QUERY };
+const GET_ALL_CIRCUITS_QUERY = gql`
+  query getAllCircuits {
+    councils {
+      title
+      body
+      published_at
+      createdAt
+      updatedAt
+      slug
+      posts {
+        title
+        slug
+        summary
+        published_at
+        updatedAt
+      }
+    }
+  }
+`;
+
+const GET_ALL_CIRCUITS_FOR_SELECT_QUERY = gql`
+  query getAllCircuitsForSelect {
+    councils {
+      title
+      slug
+    }
+  }
+`;
+
+export {
+  GET_ALL_COUNTIES_QUERY,
+  GET_SINGLE_COUNTY_QUERY,
+  GET_ALL_CIRCUITS_QUERY,
+  GET_ALL_CIRCUITS_FOR_SELECT_QUERY,
+};

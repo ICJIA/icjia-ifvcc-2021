@@ -1,11 +1,11 @@
 <template>
   <div>
     <span style="font-size: 12px; font-weight: bold; margin-right: 8px"
-      >Select by:</span
+      >Select:</span
     >
-    <v-btn-toggle v-model="icon" borderless>
+    <v-btn-toggle v-model="display" borderless>
       <v-btn value="circuit" x-small>
-        <span>Circuit</span>
+        <span>Judicial Circuit</span>
 
         <v-icon right x-small>mdi-format-list-bulleted</v-icon>
       </v-btn>
@@ -23,12 +23,16 @@
 export default {
   data() {
     return {
-      icon: "county",
+      display: "county",
     };
   },
   watch: {
-    icon(newValue) {
-      this.$emit("council-toggle", newValue);
+    display(newValue, oldValue) {
+      if (!newValue) {
+        this.$emit("council-toggle", oldValue);
+      } else {
+        this.$emit("council-toggle", newValue);
+      }
     },
   },
 };

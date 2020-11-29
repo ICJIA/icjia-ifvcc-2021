@@ -55,8 +55,10 @@
         </v-row>
         <v-row>
           <v-col cols="12">
+            Select by: {{ selectBy }}
             <div class="text-right">
               <ToggleCouncil
+                @council-toggle="toggle"
                 style="margin-bottom: 80px; margin-top: -30px"
               ></ToggleCouncil>
             </div>
@@ -123,11 +125,16 @@ export default {
       counties: null,
       selectedCounty: null,
       county: null,
+      selectBy: "county",
     };
   },
   created() {},
   mounted() {},
   methods: {
+    toggle(e) {
+      this.selectBy = e;
+      console.log("view: ", this.selectBy);
+    },
     goto404() {
       this.isLoading = false;
       this.$router.push("/404").catch((err) => {

@@ -24,8 +24,12 @@ export default {
     };
   },
   watch: {
-    icon(newValue) {
-      this.$emit("toggle", newValue);
+    icon(newValue, oldValue) {
+      if (!newValue) {
+        this.$emit("toggle", oldValue);
+      } else {
+        this.$emit("toggle", newValue);
+      }
     },
   },
 };
