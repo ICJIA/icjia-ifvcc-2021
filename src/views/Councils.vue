@@ -107,7 +107,7 @@
               <div v-if="selectedCircuit && circuit">
                 <CouncilCardByCircuit
                   :items="circuit.data.councils"
-                  :showLinkToCounty="false"
+                  :showLinkToCircuit="true"
                   :showNews="true"
                 ></CouncilCardByCircuit>
               </div>

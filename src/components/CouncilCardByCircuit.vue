@@ -1,62 +1,32 @@
 <template>
   <div>
     <v-card class="mb-8 markdown-body" elevation="0" color="#f9f9f9" style="">
-      <div v-for="(item, index) in items" :key="`item-${index}`">
-        {{ item }}
-        <!-- <div v-if="item.councils.length">
-          <div
-            v-for="(council, index) in item.councils"
-            :key="`council-${index}`"
-          >
-            <div class="text-right" style="margin-top: 1px">
-              <div
-                style="
-                  display: inline;
-                  font-weight: 900;
-                  color: #fff;
-                  background: #6c56bc;
-                  padding: 5px 8px;
-                "
-              >
-                {{ item.name }} County
-              </div>
-            </div>
-            <div class="px-10 py-8">
-              <div style="font-size: 30px; font-weight: 900 !important">
-                {{ council.title }}
-              </div>
-              <div style="font-size: 12px; color: #999" class="text-left">
-                Last updated: {{ council.updatedAt }}
-              </div>
-
-              <v-card-text style="margin-top: -10px">
-                <div
-                  v-html="render(council.body)"
-                  @click="handleClicks"
-                  class="dynamic-content"
-                ></div>
-              </v-card-text>
-              <div v-if="council.posts.length && showNews">
-                <h2>Latest circuit news</h2>
-                {{ council.posts }}
-              </div>
-
-              <div class="mt-8 text-right" v-if="showLinkToCounty">
-                <v-btn x-small :to="`/county/${item.slug}/`">
-                  Link <v-icon right x-small>link</v-icon>
-                </v-btn>
-              </div>
-              <div class="mt-8 text-right" v-if="showLinkToCircuit">
-                <v-btn x-small :to="`/county/${item.slug}/`">
-                  Link <v-icon right x-small>link</v-icon>
-                </v-btn>
-              </div>
-            </div>
-          </div>
+      <div class="text-right" style="margin-top: 1px"></div>
+      <div class="px-10 py-8">
+        <div style="font-size: 30px; font-weight: 900 !important">
+          {{ items[0].name }}
         </div>
-        <div v-else class="council-info text-center mb-2">
-          No council information listed
-        </div> -->
+        <div style="font-size: 12px; color: #999" class="text-left">
+          Last updated: {{ items[0].updatedAt }}
+        </div>
+
+        <v-card-text style="margin-top: -10px">
+          <div
+            v-html="render(items[0].body)"
+            @click="handleClicks"
+            class="dynamic-content"
+          ></div>
+        </v-card-text>
+        <div v-if="showNews && items[0].posts.length">
+          <h2>Latest circuit news</h2>
+          {{ items[0].posts }}
+        </div>
+
+        <div class="mt-8 text-right" v-if="showLinkToCircuit">
+          <v-btn x-small :to="`/circuit/${items[0].slug}/`">
+            Link <v-icon right x-small>link</v-icon>
+          </v-btn>
+        </div>
       </div>
     </v-card>
   </div>
@@ -100,20 +70,14 @@ export default {
     },
     items: {
       type: Array,
-      default: () => {},
+      default: () => [],
     },
-    showLinkToCounty: {
-      type: Boolean,
-      default: false,
-    },
+
     showLinkToCircuit: {
       type: Boolean,
       default: false,
     },
-    showCountyName: {
-      type: Boolean,
-      default: false,
-    },
+
     showNews: {
       type: Boolean,
       default: false,

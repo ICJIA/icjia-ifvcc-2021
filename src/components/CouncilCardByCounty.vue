@@ -99,7 +99,7 @@ export default {
     },
     items: {
       type: Array,
-      default: () => {},
+      default: () => [],
     },
     showLinkToCounty: {
       type: Boolean,
