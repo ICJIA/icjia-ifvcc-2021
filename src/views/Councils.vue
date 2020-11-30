@@ -55,10 +55,9 @@
         </v-row>
         <v-row>
           <v-col cols="12">
-            Select by: {{ selectBy }}
             <div class="text-right">
               <ToggleCouncil
-                @council-toggle="toggle"
+                @toggle-council="toggle"
                 style="margin-bottom: 80px; margin-top: -30px"
               ></ToggleCouncil>
             </div>
@@ -67,26 +66,51 @@
         <v-row class="align-center">
           <v-col md="2" cols="12"></v-col>
           <v-col cols="12" md="8">
-            <v-select
-              v-if="counties"
-              dense
-              :items="counties"
-              v-model="selectedCounty"
-              item-text="name"
-              item-value="slug"
-              label="Select a county"
-              style="font-weight: 900 !important; font-size: 18px"
-              solo
-              class="align-center"
-              v-on:change="getCounty"
-            ></v-select>
+            <div v-if="selectBy === 'county'">
+              <v-select
+                v-if="counties"
+                dense
+                :items="counties"
+                v-model="selectedCounty"
+                item-text="name"
+                item-value="slug"
+                label="Select a county"
+                style="font-weight: 900 !important; font-size: 18px"
+                solo
+                class="align-center"
+                v-on:change="fetchCouncilByCounty"
+              ></v-select>
 
-            <div v-if="selectedCounty && county">
-              <CircuitCard
-                :items="county.data.counties"
-                :showLinkToCounty="true"
-                :showNews="true"
-              ></CircuitCard>
+              <div v-if="selectedCounty && county">
+                <CouncilCardByCounty
+                  :items="county.data.counties"
+                  :showLinkToCounty="true"
+                  :showNews="true"
+                ></CouncilCardByCounty>
+              </div>
+            </div>
+            <div v-if="selectBy === 'circuit'">
+              <v-select
+                v-if="circuits"
+                dense
+                :items="circuits"
+                v-model="selectedCircuit"
+                item-text="name"
+                item-value="slug"
+                label="Select a judicial circuit"
+                style="font-weight: 900 !important; font-size: 18px"
+                solo
+                class="align-center"
+                v-on:change="fetchCouncilByCircuit"
+              ></v-select>
+
+              <div v-if="selectedCircuit && circuit">
+                <CouncilCardByCircuit
+                  :items="circuit.data.councils"
+                  :showLinkToCounty="false"
+                  :showNews="true"
+                ></CouncilCardByCircuit>
+              </div>
             </div>
           </v-col>
           <v-col md="2" cols="12"></v-col>
@@ -104,6 +128,9 @@ import { GET_SINGLE_PAGE_QUERY } from "@/graphql/pages";
 import {
   GET_ALL_COUNTIES_QUERY,
   GET_SINGLE_COUNTY_QUERY,
+  GET_ALL_CIRCUITS_FOR_SELECT_QUERY,
+  // eslint-disable-next-line no-unused-vars
+  GET_SINGLE_CIRCUIT_QUERY,
 } from "@/graphql/councils";
 import { getImageURL } from "@/services/Image";
 
@@ -123,13 +150,26 @@ export default {
       isLoading: true,
       renderToHtml,
       counties: null,
+      items: null,
       selectedCounty: null,
+      selectedCircuit: null,
+      circuit: null,
       county: null,
       selectBy: "county",
     };
   },
   created() {},
   mounted() {},
+  watch: {
+    // eslint-disable-next-line no-unused-vars
+    // selectBy(newValue, oldValue) {
+    //   if (newValue === "circuit") {
+    //     this.items = [];
+    //   } else {
+    //     this.items = this.counties;
+    //   }
+    // },
+  },
   methods: {
     toggle(e) {
       this.selectBy = e;
@@ -142,12 +182,19 @@ export default {
       });
     },
     // eslint-disable-next-line no-unused-vars
-    async getCounty() {
+    async fetchCouncilByCounty() {
       this.county = await this.$apollo.query({
         query: GET_SINGLE_COUNTY_QUERY,
         variables: { slug: this.selectedCounty },
       });
       //console.log(test.data.counties);
+    },
+
+    async fetchCouncilByCircuit() {
+      this.circuit = await this.$apollo.query({
+        query: GET_SINGLE_CIRCUIT_QUERY,
+        variables: { slug: this.selectedCircuit },
+      });
     },
 
     render(content) {
@@ -189,7 +236,6 @@ export default {
       },
       result(ApolloQueryResult) {
         this.page = ApolloQueryResult.data.pages[0];
-
         console.log("fetched page content");
       },
     },
@@ -204,7 +250,22 @@ export default {
       },
       result(ApolloQueryResult) {
         this.counties = ApolloQueryResult.data.counties;
+
         console.log("fetched counties");
+      },
+    },
+    councils: {
+      prefetch: true,
+      query: GET_ALL_CIRCUITS_FOR_SELECT_QUERY,
+      variables() {
+        return {};
+      },
+      error(error) {
+        this.errorMsg = JSON.stringify(error.message);
+      },
+      result(ApolloQueryResult) {
+        this.circuits = ApolloQueryResult.data.councils;
+        console.log("fetched circuits");
       },
     },
   },
@@ -219,7 +280,7 @@ export default {
 .v-list-item__title {
   font-weight: 900 !important;
   font-size: 18px !important;
-  line-height: 20px !important;
+  line-height: 24px !important;
 }
 
 .council-info {

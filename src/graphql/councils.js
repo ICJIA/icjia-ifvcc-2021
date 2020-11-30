@@ -10,6 +10,17 @@ const GET_ALL_COUNTIES_QUERY = gql`
   }
 `;
 
+const GET_ALL_CIRCUITS_FOR_SELECT_QUERY = gql`
+  query getAllCircuitsForSelect {
+    councils(sort: "sortOrder:asc") {
+      id
+      name: title
+      slug
+      sortOrder
+    }
+  }
+`;
+
 const GET_SINGLE_COUNTY_QUERY = gql`
   query getSingleCounty($slug: String!) {
     counties(where: { slug: $slug }) {
@@ -28,6 +39,25 @@ const GET_SINGLE_COUNTY_QUERY = gql`
           published_at
           updatedAt
         }
+      }
+    }
+  }
+`;
+
+const GET_SINGLE_CIRCUIT_QUERY = gql`
+  query getSingleCircuit($slug: String!) {
+    councils(where: { slug: $slug }) {
+      name: title
+      body
+      published_at
+      createdAt
+      updatedAt
+      slug
+      posts {
+        title
+        slug
+        summary
+        published_at
       }
     }
   }
@@ -53,18 +83,10 @@ const GET_ALL_CIRCUITS_QUERY = gql`
   }
 `;
 
-const GET_ALL_CIRCUITS_FOR_SELECT_QUERY = gql`
-  query getAllCircuitsForSelect {
-    councils {
-      title
-      slug
-    }
-  }
-`;
-
 export {
   GET_ALL_COUNTIES_QUERY,
   GET_SINGLE_COUNTY_QUERY,
   GET_ALL_CIRCUITS_QUERY,
   GET_ALL_CIRCUITS_FOR_SELECT_QUERY,
+  GET_SINGLE_CIRCUIT_QUERY,
 };

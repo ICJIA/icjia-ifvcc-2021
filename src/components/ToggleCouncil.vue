@@ -4,13 +4,13 @@
       >Select:</span
     >
     <v-btn-toggle v-model="display" borderless>
-      <v-btn value="circuit" x-small>
+      <v-btn value="circuit" small>
         <span>Judicial Circuit</span>
 
         <v-icon right x-small>mdi-format-list-bulleted</v-icon>
       </v-btn>
 
-      <v-btn value="county" x-small>
+      <v-btn value="county" small>
         <span>County</span>
 
         <v-icon right x-small> mdi-view-module </v-icon>
@@ -29,9 +29,9 @@ export default {
   watch: {
     display(newValue, oldValue) {
       if (!newValue) {
-        this.$emit("council-toggle", oldValue);
+        this.$emit("toggle-council", oldValue);
       } else {
-        this.$emit("council-toggle", newValue);
+        this.$emit("toggle-council", newValue);
       }
     },
   },

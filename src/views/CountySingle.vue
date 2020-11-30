@@ -14,12 +14,12 @@
               <Loader></Loader>
             </div>
             <div v-else>
-              <CircuitCard
+              <CouncilCardByCounty
                 :showLink="false"
                 :items="items"
                 :showNews="true"
                 v-if="items && items.length"
-              ></CircuitCard>
+              ></CouncilCardByCounty>
             </div>
           </v-col>
           <v-col md="1"></v-col>
