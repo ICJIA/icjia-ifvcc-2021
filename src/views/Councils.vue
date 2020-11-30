@@ -63,7 +63,10 @@
             </div>
           </v-col>
         </v-row>
-        <v-row class="align-center">
+        <v-row
+          class="align-center"
+          style="padding-bottom: 100px; margin-top: -25px"
+        >
           <v-col md="2" cols="12"></v-col>
           <v-col cols="12" md="8">
             <div v-if="selectBy === 'county'">
