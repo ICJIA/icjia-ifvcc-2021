@@ -82,7 +82,7 @@ const query = gql`
       body
     }
 
-    county: counties {
+    counties {
       id
       title: name
       slug
@@ -124,8 +124,7 @@ async function main() {
 
       searchObj.summary = item.summary || "";
       // searchObj.url = `${myConfig.api.baseClient}${searchObj.route}`;
-      delete searchObj.markdown;
-      delete searchObj.html;
+
       return searchObj;
     });
     return items;

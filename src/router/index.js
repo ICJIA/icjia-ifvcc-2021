@@ -26,12 +26,12 @@ const routes = [
       import(/* webpackChunkName: "councils" */ "../views/Councils.vue"),
   },
   {
-    path: "/county/",
+    path: "/counties/",
     name: "Counties",
     redirect: "/councils",
   },
   {
-    path: "/county/:slug/",
+    path: "/counties/:slug/",
     name: "CountySingle",
     component: () =>
       import(/* webpackChunkName: "councils" */ "../views/CountySingle.vue"),
