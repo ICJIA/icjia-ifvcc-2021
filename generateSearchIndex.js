@@ -100,8 +100,7 @@ async function main() {
       let searchObj = {};
       searchObj.title = item.title || item.name;
       searchObj.contentType = section;
-      // searchObj.type = item.type;
-      // searchObj.searchMeta = item.searchMeta || "";
+      searchObj.type = "html";
       searchObj.section = section;
       searchObj.slug = item.slug;
       let markdown = item.body || "";
@@ -115,15 +114,15 @@ async function main() {
         headings.push(text);
       });
       searchObj.headings = headings;
-      searchObj.toc = toc(markdown).json;
+
       if (section === "pages") {
         searchObj.route = `/${searchObj.slug}/`;
       } else {
         searchObj.route = `/${section}/${searchObj.slug}/`;
       }
-
       searchObj.summary = item.summary || "";
-      // searchObj.url = `${myConfig.api.baseClient}${searchObj.route}`;
+      searchObj.url = `${myConfig.api.baseClient}${searchObj.route}`;
+      searchObj.toc = toc(markdown).json;
 
       return searchObj;
     });

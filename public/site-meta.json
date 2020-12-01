@@ -2,30 +2,35 @@
     {
         "title": "Posuere Metus Vitae Ipsum Aliquam Non Mauris Morbi Non Lectus Aliquam Sit",
         "contentType": "news",
+        "type": "html",
         "section": "news",
         "slug": "posuere-metus-vitae-ipsum-aliquam-non-mauris-morbi-non-lectus-aliquam-sit",
         "html": "<p>Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor. Duis mattis egestas metus. Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.</p>\n",
         "markdown": "Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor. Duis mattis egestas metus. Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.",
         "headings": [],
-        "toc": [],
         "route": "/news/posuere-metus-vitae-ipsum-aliquam-non-mauris-morbi-non-lectus-aliquam-sit/",
-        "summary": "Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi."
+        "summary": "Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi.",
+        "url": "https://ifvcc.icjia.cloud/news/posuere-metus-vitae-ipsum-aliquam-non-mauris-morbi-non-lectus-aliquam-sit/",
+        "toc": []
     },
     {
         "title": "Curae Donec Pharetra Magna Vestibulum Aliquet Ultrices Erat Tortor Sollicitudin",
         "contentType": "news",
+        "type": "html",
         "section": "news",
         "slug": "curae-donec-pharetra-magna-vestibulum-aliquet-ultrices-erat-tortor-sollicitudin",
         "html": "<p>Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus hiji.</p>\n",
         "markdown": "Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus hiji.",
         "headings": [],
-        "toc": [],
         "route": "/news/curae-donec-pharetra-magna-vestibulum-aliquet-ultrices-erat-tortor-sollicitudin/",
-        "summary": "Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci"
+        "summary": "Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci",
+        "url": "https://ifvcc.icjia.cloud/news/curae-donec-pharetra-magna-vestibulum-aliquet-ultrices-erat-tortor-sollicitudin/",
+        "toc": []
     },
     {
         "title": "Maecenas Rhoncus Aliquam Lacus Morbi Quis Tortor Id",
         "contentType": "news",
+        "type": "html",
         "section": "news",
         "slug": "maecenas-rhoncus-aliquam-lacus-morbi-quis-tortor-id",
         "html": "<p>Lorem markdownum oblita, mea neque victa forma religione dum ire auras; harenis. Habet Mercurio mari rapax restabam quidem illa, exsultat inmeritam ab antiqua a ferro parte curvi timentem nequiquam. Mittat ubi mihi quos sunt septem inde, orba Solis corneus. Laesit adiecerit longe; ter sumit; clades dote hasta. Quae ratem: sacros quod digna lignea loquor poenas lingua nulla ceperat placet?</p>\n<p>Fac Cinyrae, it summam gaudia, ad diversa Diana Mycenae sanguis; non more Cecropio. Mundumque Latonam iussit, artificum inquit animos inguine peto, dixit neque. Teli per sinit documenta vidi aliae talia Scythicae! Metas verba perfudit et sunt Aeginae esto ingentem finem longis et tamen, ut.</p>\n<h2 id=\"in-nais-ara\">In Nais ara</h2>\n<p>Coniciunt erat; et licet peperisse putares iamque, quies haec quem altissima. Etiam adit noxia sedes protinus mater tua a recepit, et parente viget diem. Caputque et cessura volucris tantos.</p>\n<p>De celsum! Aiax vos quatiatur et petit viribus temptantes desubito et ornum, in sequi Marte, et mugitus tenuit retrahebat. Othryn corporis, nec rapit erat medius tela adficit quos saevus Aeacus capiti Phineus de plebe lugebitis. Amore occumbere secum verbis utque rursus onere Crete tandem aequorei.</p>\n<h2 id=\"acmona-inconsumpta-fallit-certasse-locus-luctusque-sororis\">Acmona inconsumpta fallit certasse locus luctusque sororis</h2>\n<p>Tanto vitae deo matrona volucres sed pestis, adde hiemisque iuvenem vivere. Thalamis bimembres, retexit causa! In quaeris, rupit ille agitasse diris, hac Celmi prosum. Factas versae iram, Cyllenius et roseum vulgus in vis, producit, illa. Fore modo premit densetur, luna virga nutrit, et priori.</p>\n<p>Domos dic haustus rubens leves rapta Ino silvis advena verberis, faciemque sanguineam quae committi iura. Et sequi, ire est nunc vultus ipsisque ludat ita etiam ignem furta. Delet abibo omnia ruitis, Aeacus, et perque, plus morsu tribuitque lumen nominis Peliaeque levavit.</p>\n<p>Ferrumque equis monstro elementa tam deerit tuum exibit dum harundine firmatque. Corpora foramina iugulum tu iussi, sua quis sub. Similis lucum harenas; iam quadripedes sacrata nescia filia vulnere fluctibus; et sentiet natura, illa laurus.</p>\n",
@@ -34,6 +39,9 @@
             "In Nais ara",
             "Acmona inconsumpta fallit certasse locus luctusque sororis"
         ],
+        "route": "/news/maecenas-rhoncus-aliquam-lacus-morbi-quis-tortor-id/",
+        "summary": "Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla",
+        "url": "https://ifvcc.icjia.cloud/news/maecenas-rhoncus-aliquam-lacus-morbi-quis-tortor-id/",
         "toc": [
             {
                 "content": "In Nais ara",
@@ -53,13 +61,12 @@
                 "parent": "",
                 "id": "toc-acmona-inconsumpta-fallit-certasse-locus-luctusque-sororis"
             }
-        ],
-        "route": "/news/maecenas-rhoncus-aliquam-lacus-morbi-quis-tortor-id/",
-        "summary": "Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla"
+        ]
     },
     {
         "title": "Enim Lorem Ipsum Dolor Sit",
         "contentType": "news",
+        "type": "html",
         "section": "news",
         "slug": "enim-lorem-ipsum-dolor-sit",
         "html": "<p>Lorem markdownum oblita, mea neque victa forma religione dum ire auras; harenis. Habet Mercurio mari rapax restabam quidem illa, exsultat inmeritam ab antiqua a ferro parte curvi timentem nequiquam. Mittat ubi mihi quos sunt septem inde, orba Solis corneus. Laesit adiecerit longe; ter sumit; clades dote hasta. Quae ratem: sacros quod digna lignea loquor poenas lingua nulla ceperat placet?</p>\n<p><a href=\"/about\">Test internal page link</a></p>\n<p><a href=\"/news/maecenas-rhoncus-aliquam-lacus-morbi-quis-tortor-id/\">Test internal news link</a></p>\n<p>Fac Cinyrae, it summam gaudia, ad diversa Diana Mycenae sanguis; non more Cecropio. Mundumque Latonam iussit, artificum inquit animos inguine peto, dixit neque. Teli per sinit documenta vidi aliae talia Scythicae! Metas verba perfudit et sunt Aeginae esto ingentem finem longis et tamen, ut.</p>\n<h2 id=\"in-nais-ara\">In Nais ara</h2>\n<p>Coniciunt erat; et licet peperisse putares iamque, quies haec quem altissima. Etiam adit noxia sedes protinus mater tua a recepit, et parente viget diem. Caputque et cessura volucris tantos.</p>\n<p>De celsum! Aiax vos quatiatur et petit viribus temptantes desubito et ornum, in sequi Marte, et mugitus tenuit retrahebat. Othryn corporis, nec rapit erat medius tela adficit quos saevus Aeacus capiti Phineus de plebe lugebitis. Amore occumbere secum verbis utque rursus onere Crete tandem aequorei.</p>\n<h2 id=\"acmona-inconsumpta-fallit-certasse-locus-luctusque-sororis\">Acmona inconsumpta fallit certasse locus luctusque sororis</h2>\n<p>Tanto vitae deo matrona volucres sed pestis, adde hiemisque iuvenem vivere. Thalamis bimembres, retexit causa! In quaeris, rupit ille agitasse diris, hac Celmi prosum. Factas versae iram, Cyllenius et roseum vulgus in vis, producit, illa. Fore modo premit densetur, luna virga nutrit, et priori.</p>\n<p>Domos dic haustus rubens leves rapta Ino silvis advena verberis, faciemque sanguineam quae committi iura. Et sequi, ire est nunc vultus ipsisque ludat ita etiam ignem furta. Delet abibo omnia ruitis, Aeacus, et perque, plus morsu tribuitque lumen nominis Peliaeque levavit.</p>\n<p>Ferrumque equis monstro elementa tam deerit tuum exibit dum harundine firmatque. Corpora foramina iugulum tu iussi, sua quis sub. Similis lucum harenas; iam quadripedes sacrata nescia filia vulnere fluctibus; et sentiet natura, illa laurus.</p>\n",
@@ -68,6 +75,9 @@
             "In Nais ara",
             "Acmona inconsumpta fallit certasse locus luctusque sororis"
         ],
+        "route": "/news/enim-lorem-ipsum-dolor-sit/",
+        "summary": "Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id",
+        "url": "https://ifvcc.icjia.cloud/news/enim-lorem-ipsum-dolor-sit/",
         "toc": [
             {
                 "content": "In Nais ara",
@@ -87,25 +97,26 @@
                 "parent": "",
                 "id": "toc-acmona-inconsumpta-fallit-certasse-locus-luctusque-sororis"
             }
-        ],
-        "route": "/news/enim-lorem-ipsum-dolor-sit/",
-        "summary": "Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id"
+        ]
     },
     {
         "title": "About the IFVCC",
         "contentType": "pages",
+        "type": "html",
         "section": "pages",
         "slug": "about",
         "html": "<p>Initiated under the auspices of the Illinois Supreme Court in 1990, Illinois is one of the few states that has a systematically organized, statewide infrastructure that operates at both the state and local levels. Since the 1970’s, a comprehensive, coordinated approach to preventing family violence has been promoted as the most efficient and effective way to penetrate systems and mobilize them for the greatest change.</p>\n<p>Annually, up to 15,000 professionals from across Illinois participate in trainings and council projects. These include family violence training and education of criminal justice and community professionals; development of criminal justice procedures, protocols, and services related to family violence; and the facilitation of coordinated community response to family violence in local areas. These Local Councils provide opportunities for communication between criminal justice professionals and community service providers as well as encourage the sharing of information and resources, thereby providing for development of a network of safety and assistance for family violence victims.</p>\n<p>Chief and circuit judges convene and chair the 23 local councils in all 102 counties in Illinois which are composed of policy-level decision makers who represent agencies and services to help intervene and prevent family violence.</p>\n<div class=\"text-center mt-8\">\n<p><a href=\"/councils/\">Find a local council »</a></p>\n</div>\n",
         "markdown": "Initiated under the auspices of the Illinois Supreme Court in 1990, Illinois is one of the few states that has a systematically organized, statewide infrastructure that operates at both the state and local levels. Since the 1970’s, a comprehensive, coordinated approach to preventing family violence has been promoted as the most efficient and effective way to penetrate systems and mobilize them for the greatest change. \n\nAnnually, up to 15,000 professionals from across Illinois participate in trainings and council projects. These include family violence training and education of criminal justice and community professionals; development of criminal justice procedures, protocols, and services related to family violence; and the facilitation of coordinated community response to family violence in local areas. These Local Councils provide opportunities for communication between criminal justice professionals and community service providers as well as encourage the sharing of information and resources, thereby providing for development of a network of safety and assistance for family violence victims.\n\nChief and circuit judges convene and chair the 23 local councils in all 102 counties in Illinois which are composed of policy-level decision makers who represent agencies and services to help intervene and prevent family violence.\n\n<div class=\"text-center mt-8\">\n\n[Find a local council »](/councils/)\n\n</div>\n\n",
         "headings": [],
-        "toc": [],
         "route": "/about/",
-        "summary": "Family Violence Coordinating Councils, at both the state and local/circuit levels, provide a forum to improve the institutional, professional and community response to family violence including child abuse, domestic abuse, and elder abuse. Councils provide professional education and prevention; coordinate interventions and services for victims and perpetrators; and contribute to both the improvement of the legal system and the administration of justice."
+        "summary": "Family Violence Coordinating Councils, at both the state and local/circuit levels, provide a forum to improve the institutional, professional and community response to family violence including child abuse, domestic abuse, and elder abuse. Councils provide professional education and prevention; coordinate interventions and services for victims and perpetrators; and contribute to both the improvement of the legal system and the administration of justice.",
+        "url": "https://ifvcc.icjia.cloud/about/",
+        "toc": []
     },
     {
         "title": "Archive",
         "contentType": "pages",
+        "type": "html",
         "section": "pages",
         "slug": "archive",
         "html": "<h2 id=\"mediation-and-family-violence\">Mediation and Family Violence</h2>\n<p>In 2006, the Illinois Supreme Court adopted rules governing mediation in family law cases. Illinois Supreme Court Rule 905(b) mandates each judicial circuit to establish a mediation program for all dissolution of marriage and paternity cases involving issues of child custody or visitation. Rule 923(a)(3) mandates that if the parties to a case involving child custody or visitation issues have not reached an agreement regarding those issues at the time of the initial custody case management conference, the parties must attend mediation to resolve those issues prior to litigation. While most judges and attorneys agree that mediation is generally a good thing for most custody and visitation cases, there may be certain cases, such as cases that involve domestic violence, that may require special considerations during mediation or perhaps a waiver of mediation altogether.</p>\n<ul>\n<li>\n<p>Mediation and Family Violence: A Guide for Local Planning</p>\n</li>\n<li>\n<p>IFVCC Mediator GAL Training (PowerPoint Presentation)</p>\n</li>\n<li>\n<p>Power Control Wheel Lawyer Client by P.C. Wheeler</p>\n</li>\n</ul>\n<h2 id=\"domestic-violence-court-systems-project\">Domestic Violence Court Systems Project</h2>\n<p>The Domestic Violence Court Systems Project was designed to examine Illinois’ domestic violence courts. Site visits were conducted to gather information on how the courts were developed and how they operate and to identify effective procedures and practices for use across state domestic violence courts. Courts examined were in Champaign, DuPage, Kane, Kankakee, Lake, LaSalle, Madison, Peoria, Sangamon, St. Clair, and Will counties, and in Cook County’s six municipal districts. A network of domestic violence court system personnel also was developed to facilitate information sharing.</p>\n<ul>\n<li>\n<p>Domestic Violence Court Systems Self Assessment</p>\n</li>\n<li>\n<p>Domestic Violence Court Systems Summary Report</p>\n</li>\n<li>\n<p>Cook County Summary Report</p>\n</li>\n</ul>\n<h2 id=\"visitation-exchange-project\">Visitation Exchange Project</h2>\n<p>The safe exchange of children affects many domains of the court, including domestic relations, parentage, child support, domestic violence, probate, mental health, and child protection. The Visitation Exchange Project was based on a fundamental understanding and respect for the needs and rights of children and parents to interact with each other in an appropriate and sensitive environment. Individual visitation exchange reports were compiled on visitation exchange sites in DuPage, Madison, McLean, Peoria, Rock Island, St. Clair, Will counties. A summary report also was completed comparing site services and policies, commonly accepted principles for safety, and court requirements for services. The report offered illustrations of emerging trends and the centers’ unique characteristics.</p>\n",
@@ -115,6 +126,9 @@
             "Domestic Violence Court Systems Project",
             "Visitation Exchange Project"
         ],
+        "route": "/archive/",
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/archive/",
         "toc": [
             {
                 "content": "Mediation and Family Violence",
@@ -143,13 +157,12 @@
                 "parent": "",
                 "id": "toc-visitation-exchange-project"
             }
-        ],
-        "route": "/archive/",
-        "summary": ""
+        ]
     },
     {
         "title": "Military Resources",
         "contentType": "pages",
+        "type": "html",
         "section": "pages",
         "slug": "military-resources",
         "html": "<h2 id=\"ptsd\">PTSD</h2>\n<ul>\n<li><a href=\"https://www.ptsd.va.gov/professional/continuing_ed/caps5_clinician_training.asp\">Clinician-Administered PTSD Scale</a></li>\n<li><a href=\"http://www.bwjp.org/resource-center/resource-results/military-related-post-traumatic-stress-disorder-and-intimate-relationship-behaviors-a-developing-dyadic-relationship-model.html\">Military Related PTSD &amp; IPV Behaviors: Developing Dyadic Model</a></li>\n<li><a href=\"https://www.ptsd.va.gov/professional/continuing_ed/practical_assessment.asp\">Practical PTSD Assessment</a></li>\n<li><a href=\"http://www.bwjp.org/our-work/projects/military-and-veterans-advocacy-program/ptsd-and-ipv-model.html\">PTSD and IVP Model</a></li>\n<li><a href=\"https://www.ptsd.va.gov/professional/newsletters/research-quarterly/v22n1.pdf\">PTSD and the Law: An Update</a></li>\n<li><a href=\"https://www.ptsd.va.gov/public/treatment/therapy-med/treatment-ptsd.asp\">PTSD and Treatment</a></li>\n<li><a href=\"https://www.ptsd.va.gov/apps/Decisionaid/\">PTSD Treatment Decision Aid</a></li>\n<li><a href=\"https://www.ptsd.va.gov/public/family/ptsd-and-relationships.asp\">Relationships and PTSD</a></li>\n<li><a href=\"https://www.ptsd.va.gov/public/PTSD-overview/basics/symptoms_of_ptsd.asp\">Symptoms of PTSD</a></li>\n</ul>\n<h2 id=\"intimate-partner-violence\">Intimate Partner Violence</h2>\n<ul>\n<li><a href=\"http://www.bwjp.org/resource-center/resource-results/documentation-of-screening-for-perpetration-of-ipv-in-male-veterans-with-ptsd.html\">Documentation of Screening for Perpetration of IPV in Male Veterans with PTSD</a></li>\n<li><a href=\"http://www.bwjp.org/assets/documents/pdfs/ipv-help-for-military-related-victims.pdf\">IPV: Help for Military-Related Victims</a></li>\n<li><a href=\"http://www.bwjp.org/resource-center/resource-results/intimate-partner-violence-military-personnel-veterans-and-their-families.html\">IPV: Military Personnel, Veterans, &amp; their Families</a></li>\n<li><a href=\"http://www.bwjp.org/resource-center/resource-results/intimate-partner-violence-risk-danger-military-personnel-and-veterans.html\">IPV: Risk, Danger, Military Personnel &amp; Veterans</a></li>\n<li><a href=\"http://ncadv.org/files/Male%20Victims%20of%20Intimate%20Partner%20Violence.pdf\">Male Victims of IPV</a></li>\n<li><a href=\"http://www.bwjp.org/resource-center/resource-results/military-divorce-intimate-partner-violence.html\">Military Divorce and IPV</a></li>\n<li><a href=\"http://www.bwjp.org/our-work/topics/military-ipv.html\">Military &amp; Veteran IPV</a></li>\n<li><a href=\"https://www.hsrd.research.va.gov/publications/esp/partner_violence-REPORT.pdf\">Prevalence Among U.S. Military Veterans and Active Duty Service Members and a Review of Intervention Approaches</a></li>\n<li><a href=\"http://www.dhs.state.il.us/page.aspx?item=33888\">State Partner Abuse Intervention Providers</a></li>\n</ul>\n<h2 id=\"family\">Family</h2>\n<ul>\n<li><a href=\"http://www.redcross.org/about-us/our-work/military-families\">American Red Cross</a></li>\n<li><a href=\"http://americanwidowproject.org/\">American Widow Project</a></li>\n<li><a href=\"http://www.bwjp.org/resource-center/resource-results/custody-issues-and-military-families.html\">Custody Issues and Military Families</a></li>\n<li><a href=\"http://www.il.ngb.army.mil/Programs/Family/FAC.aspx\">Family Assistance Center</a></li>\n<li><a href=\"http://www.bwjp.org/resource-center/resource-results/family-support-matters-and-the-military.html\">Family Support Matters &amp; The Military</a></li>\n<li><a href=\"http://www.ilcff.org/\">Illinois Connections for Families of the Fallen</a></li>\n<li><a href=\"http://www.illinoiswarrior.com/\">Illinois Warrior Assistance Program</a></li>\n<li><a href=\"http://www.bwjp.org/resource-center/resource-results/interstate-custody-and-military-families.html\">Interstate Custody &amp; Military Families</a></li>\n<li><a href=\"https://www.jointservicessupport.org/FP/Default.aspx\">National Guard Family Program</a></li>\n<li><a href=\"http://www.militaryfamily.org/?referrer=http://www.willfindhope.org/veterans.html\">National Military Family Association</a></li>\n</ul>\n<h2 id=\"veterans\">Veterans</h2>\n<ul>\n<li><a href=\"https://www.legion.org/\">American Legion</a></li>\n<li><a href=\"http://www.amvets.org/\">AMVETS</a></li>\n<li><a href=\"http://bva.org/\">Blinded Veterans Association</a></li>\n<li><a href=\"https://www.dav.org/\">Disabled American Veterans</a></li>\n<li><a href=\"https://va.gov/homeless/\">Homeless Veteran Assistance (VA)</a></li>\n<li><a href=\"http://www.ilwarriortowarrior.org/\">Illinois Warrior to Warrior</a></li>\n<li><a href=\"https://iava.org/\">Iraq and Afghanistan Veterans of America</a></li>\n<li><a href=\"http://www.jwv.org/\">Jewish War Veterans of America</a></li>\n<li><a href=\"http://www.pva.org/\">Paralyzed Veterans of America</a></li>\n<li><a href=\"https://www.mirecc.va.gov/docs/visn6/PTSD_Recovery_Group_Therapist_Manual.pdf\">PTSD Recovery Program Therapist Manual</a></li>\n<li><a href=\"http://studentveterans.org/\">Student Veterans of America</a></li>\n<li><a href=\"https://www.ptsd.va.gov/public/treatment/therapy-med/treatment-ptsd.asp\">Trauma Recovery Exercises</a></li>\n<li><a href=\"https://www.vetcenter.va.gov/\">Veteran Adjustment Counseling Services</a></li>\n<li><a href=\"https://mobile.va.gov/sites/default/files/Quick%20Start%20Guide%20-%20Veteran%20Appointment%20Request.pdf\">Veteran Appointment Request</a></li>\n<li><a href=\"http://www.bwjp.org/resource-center/resource-results/women-veterans-and-trauma.html\">Women Veterans and Trauma</a></li>\n</ul>\n<h2 id=\"culture\">Culture</h2>\n<ul>\n<li><a href=\"http://www.bwjp.org/resource-center/resource-results/center-for-deployment-psychology.html\">Center for Deployment Psychology</a></li>\n<li><a href=\"http://www.citizensoldiersupport.org/lib/resources/ORNC%20Military%20Culture%20101%20Workshop%2014%20Sep%2012.pdf\">Military Culture 101</a></li>\n<li><a href=\"http://militaryonesource.mil/\">Military One Source</a></li>\n<li><a href=\"http://www.bwjp.org/resource-center/resource-results/military-and-veteran-cultural-competence-for-civilian-attorneys-and-legal-advocates.html\">Military &amp; Veteran Culture Competence for Civilian Attorneys &amp; Legal Advocates</a></li>\n<li><a href=\"https://www.apa.org/about/gr/issues/military/military-culture.pdf\">Overview of Military Culture</a></li>\n</ul>\n<h2 id=\"stalking\">Stalking</h2>\n<ul>\n<li><a href=\"https://ncadv.org/files/Domestic%20Violence%20and%20Stalking%20NCADV.pdf\">Facts About Domestic Violence and Stalking</a></li>\n<li><a href=\"https://www.nij.gov/topics/crime/intimate-partner-violence/stalking/Pages/stalkers-nonstalkers.aspx\">Intimate Partner Stalking</a></li>\n<li><a href=\"http://www.bwjp.org/resource-center/resource-results/responding-to-stalking-a-guide-for-community-corrections-officers.html\">Responding to Stalking: A Guide for Community Corrections Officers</a></li>\n<li><a href=\"http://www.bwjp.org/resource-center/resource-results/stalking-and-sexual-assault.html\">Stalking and Sexual Assault</a></li>\n<li><a href=\"https://victimsofcrime.org/docs/src/supporting-stalking-victims-in-the-military.pdf?sfvrsn=2\">Supporting Stalking Victims in Military</a></li>\n<li><a href=\"https://victimsofcrime.org/our-programs/stalking-resource-center/stalking-laws/uniform-code-of-military-justice\">Uniform Code of Military Justice</a></li>\n<li><a href=\"http://www.bwjp.org/resource-center/resource-results/the-use-of-technology-to-stalk-an-online-course.html\">The Use of Technology to Stalk</a></li>\n</ul>\n<h2 id=\"courtslegal\">Courts/Legal</h2>\n<ul>\n<li><a href=\"http://www.e-publishing.af.mil/otherpublishingsites.asp\">Airforce Sites</a></li>\n<li><a href=\"http://www.military.com/benefits/military-legal-matters/courts-martial-explained.html\">Court Martial Explained</a></li>\n<li><a href=\"http://www.nclamp.gov/media/488829/Domestic-Violence-Military-Response-and-Regulations-1.pdf\">Domestic Violence: Military Responses and Regulations</a></li>\n<li><a href=\"http://legalassistance.law.af.mil/content/locator.php\">Legal Service Locator</a></li>\n<li><a href=\"http://www.marines.mil/News/Publications/ELECTRONIC-LIBRARY/\">Marine Corp Electronic Publications</a></li>\n<li><a href=\"https://www.militaryprobono.org/\">Military Pro Bono Project</a></li>\n<li><a href=\"http://www.bwjp.org/resource-center/resource-results/military-response-to-enforcing-military-civilian-protection-orders.html\">Military Response to Enforcing Military and Civilian Protection Orders</a></li>\n<li><a href=\"https://www.ncjrs.gov/pdffiles1/nij/grants/229659.pdf\">National Portrait of Domestic Violence Courts</a></li>\n<li><a href=\"https://www.navycs.com/navypublicationinstruction.html\">Navy Publications and Instructions</a></li>\n<li><a href=\"http://legalassistance.law.af.mil/\">US Armed Forces Legal Assistance</a></li>\n</ul>\n<h2 id=\"domestic-violencesexual-assault\">Domestic Violence/Sexual Assault</h2>\n<ul>\n<li><a href=\"http://www.militaryonesource.mil/health-and-wellness/family-violence?content_id=282308\">Domestic Abuse: Military Reporting Options</a></li>\n<li><a href=\"http://www.bwjp.org/resource-center/resource-results/domestic-violence-and-sexual-assault-resource-guides.html\">Domestic Violence/Sexual Assault Resource Guide</a></li>\n<li><a href=\"https://www.futureswithoutviolence.org/userfiles/Military%20Factsheet%20update%2003%2003%2013.pdf\">Facts on Military and Violence Against Women</a></li>\n<li><a href=\"http://www.bwjp.org/resource-center/resource-results/intersection-between-interpersonal-violence-exposure-and-military-service.html\">Intersection Between Interpersonal Violence Exposure &amp; Military Services</a></li>\n<li><a href=\"http://www.bwjp.org/resource-center/resource-results/the-intersection-of-domestic-violence-and-the-military-working-across-disciplines.html\">Intersection of Domestic Violence &amp; Military: Working Across Disciplines</a></li>\n<li><a href=\"http://www.bwjp.org/resource-center/resource-results/the-invisible-war-sexual-assault-in-the-military.html\">Invisible War</a></li>\n<li><a href=\"http://www.bwjp.org/assets/understanding-military-response-domestic-violence.pdf\">Military Response to Domestic Violence</a></li>\n<li><a href=\"http://www.bwjp.org/our-work/topics/military-sexual-assult.html\">Military Sexual Assault</a></li>\n<li><a href=\"http://www.bwjp.org/resource-center/resource-results/military-sexual-assault-male-survivors.html\">Military Sexual Assault and Male Survivors</a></li>\n<li><a href=\"https://www.mentalhealth.va.gov/docs/mst_general_factsheet.pdf\">Military Sexual Trauma</a></li>\n<li><a href=\"http://ncdsv.org/index.html\">National Center on Domestic and Sexual Violence</a></li>\n<li><a href=\"http://www.bwjp.org/resource-center/resource-results/sexual-violence-in-the-military-a-guide-for-civilian-advocates.html\">Sexual Violence in Military: Guide for Civilian Advocates</a></li>\n</ul>\n",
@@ -164,6 +177,9 @@
             "Courts/Legal",
             "Domestic Violence/Sexual Assault"
         ],
+        "route": "/military-resources/",
+        "summary": "IFVCC military resources ",
+        "url": "https://ifvcc.icjia.cloud/military-resources/",
         "toc": [
             {
                 "content": "PTSD",
@@ -237,13 +253,12 @@
                 "parent": "",
                 "id": "toc-domestic-violencesexual-assault"
             }
-        ],
-        "route": "/military-resources/",
-        "summary": "IFVCC military resources "
+        ]
     },
     {
         "title": "Partners",
         "contentType": "pages",
+        "type": "html",
         "section": "pages",
         "slug": "partners",
         "html": "<h2 id=\"steering-committee\">Steering Committee</h2>\n<ul>\n<li><strong>Co-Chair: Hon. Kathy Bradshaw-Elliott, 21st Judicial Circuit</strong></li>\n<li><strong>Co-Chair: Mary Ratliff, IFVCC Program Director</strong></li>\n<li>Hon. Robert Anderson, 18th Judicial Circuit</li>\n<li>Brenda Benton, Local Council Coordinator, 4th Judicial Circuit</li>\n<li>Sean Black, Illinois Coalition Against Sexual Assault</li>\n<li>Julie Boland, The Center for the Prevention of Abuse</li>\n<li>Michelle Carmichael, Illinois State Board of Education</li>\n<li>Hon. Robert Carter, 3rd District Appellate Court</li>\n<li>Wendy Cohen, Office of the Illinois Attorney General</li>\n<li>Hon. Rosemary Collins, 17th Judicial Circuit</li>\n<li>Patrick Delfino, Illinois State’s Attorney Appellate Prosecutor</li>\n<li>Bernardine Dohrn, Northwestern University Children and Family Justice Center</li>\n<li>Sally Foster, Local Council Coordinator, 19th Judicial Circuit</li>\n<li>Kevin Hull, Westside Institute for Science and Education</li>\n<li>John Kjellquist, Illinois State Police</li>\n<li>Laura Kunard, Regional Institute for Community Policing</li>\n<li>John Legg, Illinois JusticeCorps</li>\n<li>Denise McCaffery, Prevent Child Abuse Illinois</li>\n<li>Dennis McNamara, Office of the Circuit Clerk of Cook County</li>\n<li>Lois Moorman, Illinois Department on Aging</li>\n<li>Cathy Oliveri, Office of the Circuit Clerk of Putnam County</li>\n<li>Shirley Paceley, Blue Tower Training Center</li>\n<li>Nisha Patel, Illinois Department of Children and Family Services</li>\n<li>Ami Lilley Plexico, Illinois Department of Children and Family Services</li>\n<li>Judge Stephen G. Sawyer (Ret.)</li>\n<li>Vickie Smith, Illinois Coalition Against Domestic Violence</li>\n<li>Teresa Tudor, Illinois Dept. of Human Services</li>\n<li>Kim Wells, Corporate Alliance to End Partner Violence</li>\n</ul>\n<h2 id=\"illinois-imagines\">Illinois Imagines</h2>\n<p><a href=\"http://www.icasa.org/index.aspx?PageID=1044\">Illinois Imagines</a> is a statewide project to improve services to women with disabilities who have been victims of sexual violence. The project is directed by the Illinois Department of Human Services, Illinois rape crisis centers, disability service agencies and self-advocates. Collaborative teams have been established in 30 communities across the state.</p>\n<h2 id=\"envision-illinois\">Envision Illinois</h2>\n<p>The mission of Envision Illinois is to transform services in Illinois into survivor-centered, seamless, responsive and sustainable system that fully meets the needs of Deaf people and people with disabilities who are survivors of domestic violence. The project is directed by the Illinois Department of Human Services, Illinois domestic violence agencies, disability service agencies and self-advocates.</p>\n",
@@ -253,6 +268,9 @@
             "Illinois Imagines",
             "Envision Illinois"
         ],
+        "route": "/partners/",
+        "summary": "IFVCC partners ",
+        "url": "https://ifvcc.icjia.cloud/partners/",
         "toc": [
             {
                 "content": "Steering Committee",
@@ -281,13 +299,12 @@
                 "parent": "",
                 "id": "toc-envision-illinois"
             }
-        ],
-        "route": "/partners/",
-        "summary": "IFVCC partners "
+        ]
     },
     {
         "title": "Projects",
         "contentType": "pages",
+        "type": "html",
         "section": "pages",
         "slug": "projects",
         "html": "<h2 id=\"grant-to-encourage-arrest-and-enforcement-of-orders-of-protection\">Grant to Encourage Arrest and Enforcement of Orders of Protection</h2>\n<p>In 2011, IFVCC was awarded the US Department of Justice Office on Violence Against Women Grant to Encourage Arrest and Enforcement of Orders of Protection. Those funds allowed IFVCC to revise the 2008 Domestic Violence Protocol for Law Enforcement, Prosecution and the Judiciary; create a training curriculum based on those protocols. Regional trainings were held throughout the state for cross-discipline teams from each circuit to train law enforcement and prosecutors at the local level. IFVCC also developed Elder Abuse and Abuse of Persons with Disabilities Protocols for law enforcement and prosecutors as well as a training curriculum. Regional Trainings of Trainers were held for circuit teams and local trainings were held throughout the state.</p>\n<p>Over 4,300 criminal justice professionals were trained statewide. Arrest Grant trainings continue to be held throughout the state.</p>\n<h2 id=\"model-protocols\">Model Protocols</h2>\n<ul>\n<li>\n<p><strong>Model Domestic Violence Protocol</strong></p>\n<ul>\n<li><a href=\"http://www.icjia.state.il.us/assets/ifvcc/Model%20Protocols/Model%20Domestic%20Violence%20Protocol%20-%20Contents.docx\">Download Table of Contents</a></li>\n<li><a href=\"http://www.icjia.state.il.us/assets/ifvcc/Model%20Protocols/Model%20Domestic%20Violence%20Protocol.zip\">Download Protocol (Zip file)</a></li>\n</ul>\n</li>\n<li>\n<p><strong>Law Enforcement Protocol for Responding to Victims with Disabilities and Older Adults Who Experience Sexual Assault, Domestic Violence, Abuse, Neglect or Exploitation</strong></p>\n<ul>\n<li><a href=\"http://www.icjia.state.il.us/assets/ifvcc/Model%20Protocols/PROTOCOL_FOR_LAW_.ENFORCEMENT_BOOKLET_FINAL.pdf\">Download Protocol</a></li>\n</ul>\n</li>\n<li>\n<p><strong>Law Enforcement Accessibility Review</strong></p>\n<ul>\n<li><a href=\"http://www.icjia.state.il.us/assets/ifvcc/Model%20Protocols/LE_Review_2015.pdf\">Download LE Accessibility Review</a></li>\n<li><a href=\"http://www.icjia.state.il.us/assets/ifvcc/Model%20Protocols/General_Order-9-16.pdf\">Download General Order</a></li>\n</ul>\n</li>\n</ul>\n<p><strong>Please contact local council coordinator for PowerPoint versions, if interested.</strong></p>\n<p>In 2014, IFVCC was awarded a renewal of the Arrest Grant, which allows for additional training, implementation and follow-up with local jurisdictions on the protocols. Utilizing the model protocols, the IFVCC Arrest Grant Advisory Statewide Committee are developing toolkits for first responders (911/Dispatchers and Emergency Medical professionals), court personnel (Circuit Clerks office personnel and Court Security/Bailiffs) and Probation. Guidelines will be distributed statewide through the Local FVCCs. By developing and providing resources and toolkits for other associated disciplines, the coordinated community response effort will be strengthened along with the ongoing implementation of the protocols.</p>\n<h2 id=\"mini-toolkits\">Mini Toolkits</h2>\n<ul>\n<li><strong>Court Personnel Promising Practices – Court Services Respond to Family Mini-Toolkit:</strong> A train-the-trainer webinar introducing the Court Personnel Promising Practices Mini-Toolkit – During this webinar, we will go through the Court Personnel Training Section and Court Personnel Promising Practices Quick Reference Section.\n<ul>\n<li><a href=\"http://www.icjia.state.il.us/assets/ifvcc/toolkits/Arrest_PP_Court_Personnel_Training_PowerPoint_Presentation_FOR_March_2_2016_WEBINAR.pdf\">Download Court Personnel Promising Practices Webinar PowerPoint Presentation (PDF File)<br>\n</a></li>\n<li><a href=\"http://www.icjia.state.il.us/assets/ifvcc/toolkits/Court%20Personnel%20Promising%20Practices%20Mini%20Toolkit.zip\">Download Court Personnel Promising Practices Mini Toolkit (Zip File)</a></li>\n<li><a href=\"https://youtu.be/VhmMw2em_bM\">View the Webinar Recording</a></li>\n</ul>\n</li>\n<li><strong>Emergency Medical Services Promising Practices Mini-Toolkit</strong>: A train-the-trainer webinar introducing the Emergency Medical Services Promising Practices Mini-Toolkit – During this webinar, we will go through the Emergency Medical Services Training Section and Emergency Medical Services Promising Practices Quick Reference Section.\n<ul>\n<li><a href=\"http://www.icjia.state.il.us/assets/ifvcc/toolkits/Arrest_PP_Promising_Practices_EMS_Training.pdf\">Download the Emergency Medical Services Promising Practices Webinar PowerPoint Presentation (PDF File)</a></li>\n<li><a href=\"http://www.icjia.state.il.us/assets/ifvcc/toolkits/EMS%20Promising%20Practices%20Mini%20Toolkit.zip\">Download the Emergency Medical Services Promising Practices Mini-Toolkit (Zip File)</a></li>\n<li><a href=\"https://youtu.be/a8YVBxA3M8c\">View the Webinar Recording</a></li>\n</ul>\n</li>\n<li><strong>Probation Promising Practices Mini-Toolkit</strong>: A train-the-trainer webinar introducing the Probation Promising Practices Mini-Toolkit – During this webinar, we will go through the Probation Training Section and Probation Promising Practices Quick Reference Section.\n<ul>\n<li><a href=\"http://www.icjia.state.il.us/assets/ifvcc/toolkits/Improving_Probation_Practices_ppt.pdf\">Download the Probation Promising Practices Webinar PowerPoint Presentations (PDF File)</a></li>\n<li><a href=\"http://www.icjia.state.il.us/assets/ifvcc/toolkits/Probation%20Promising%20Practices%20Mini%20Toolkit.zip\">Download the Probation Promising Practices Mini-Toolkit (Zip File)</a></li>\n<li><a href=\"https://youtu.be/-yyNLTHgcpc\">View the Webinar Recording</a></li>\n</ul>\n</li>\n<li><strong>911 Telecommunicators Promising Practices Mini-Toolki:</strong> A train-the-trainer webinar introducing the 911 Telecommunicators Promising Practices Mini-Toolkit – During this webinar, we will go through the 911 Telecommunicators Training Section and Probation Promising Practices Quick Reference Section.\n<ul>\n<li><a href=\"http://www.icjia.state.il.us/assets/ifvcc/toolkits/911_Telecommunicators_PowerPoint_Webinar_Presentation_062916.pptx\">Download the 911 Telecommunicators Promising Practices Webinar PowerPoint Presentations (PDF File)</a></li>\n<li><a href=\"http://www.icjia.state.il.us/assets/ifvcc/toolkits/911-Promising-Practices.zip\">Download the 911 Telecommunicators Promising Practices Mini-Toolkit (Zip File)</a></li>\n<li><a href=\"https://youtu.be/n1TngWDhHss\">View the Webinar Recording</a></li>\n</ul>\n</li>\n</ul>\n<p>If you have any questions please contact Mary Ratliff at: <a href=\"mailto:Mary.Ratliff@Illinois.gov\">Mary.Ratliff@Illinois.gov</a></p>\n<h2 id=\"arrest-grant-advisory-committee\">Arrest Grant Advisory Committee</h2>\n<p>This committee serves to advise on and steer grant activities in accordance to the approved goals and objectives.</p>\n<p>Members of the Advisory Committee have the following goals/objectives:</p>\n<ul>\n<li>Develop and implement technical assistance plan for Arrest Grant activity in the local family violence coordinating councils.</li>\n<li>Develop feedback mechanism for trainings on Model Domestic Violence Protocol for Law Enforcement, Prosecution, and the Judiciary, and the Protocol for Law Enforcement: Responding to Victims of Elder Abuse, Neglect and Exploitation implementation, including successes and barriers.</li>\n<li>Develop promising practices (based on Model Protocols) for 1st responders, emergency medical services, probation and court personnel.</li>\n<li>Develop online training curriculum for each protocol – for orientation of new professionals and delivering updated information.</li>\n<li>Support the development of the Illinois Law Enforcement Leadership Institute on Violence Against Women in order to support the law enforcement community’s leadership development on the issue of violence against women.</li>\n<li>Promote and improve the coordinated community response to domestic violence cases involving military.</li>\n<li>Assure participation and coordination of local organizations in training, implementation and evaluation of the protocols.</li>\n</ul>\n<h2 id=\"elder-sensitivity-training\">Elder Sensitivity Training</h2>\n<p>According to the Illinois Department on Aging, about 4 to 5 percent of senior citizens experience some kind of mistreatment, but only about 1 in 13 cases of elder abuse are ever reported. Of the seniors abused, almost 35 percent were living with their abusers. Of the abusers, 40 percent were children of the victim.</p>\n<p>While specialized courts and services are continuing to be established throughout the state of Illinois for victims of domestic violence, the question remains – what is being done for older adults trying to navigate the court, criminal justice and social service systems?</p>\n<p>In addition, what resources and training exist for the community (clergy, health care providers, bankers, in-home care workers, nursing home personnel, and social service providers) to better respond to elder abuse?</p>\n<p>In order to make those in our communities more aware of the special needs of the elderly, the Illinois Family Violence Coordinating Council’s Responding to Elder Abuse Committee has designed a training format along with a kit to be used by FVCC members to train others to be more sensitive to their elderly clients and associates.</p>\n<p>There are few businesses or agencies that do not have any interaction with the older population. And there are employees that do not understand aging issues and, therefore, are not effective in dealing with elderly clients. These employees become frustrated with older adults’ slow movements, misinterpretation of directions and inability to hear everything that is said.</p>\n<p>Training with the IFVCC Awareness of the Special Needs of the Elderly Kit for business staff has increased the employees’ sensitivity to the needs of older adults, and changes in the business environment and strategies for communication have occurred, resulting in enhanced customer service. The staff members of these organizations are now equipped with sensitivity, knowledge and skills for dealing with the elderly and have a better understanding of how their elderly clients should be treated. The training also helps participants to identify at-risk older adults and maximize utilization of existing community resources.</p>\n<h2 id=\"schools-respond-to-family-violence\">Schools Respond to Family Violence</h2>\n<p>The Illinois Family Violence Coordinating Council created a Schools Respond to Family Violence Project designed to increase school personnel’s awareness of family violence issues, to help teachers, staff and school leadership better respond to students affected by family violence, and to prompt implementation of integrated service protocols on family violence. This Project includes a Guidebook specifically written for school personnel, easy-to-adapt training designs, and ongoing technical assistance and support from the Illinois Family Violence Coordinating Councils staff.</p>\n<p>Both the Guidebook and project were developed through an advisory committee and pilot sites throughout Illinois who have implemented Schools Respond to Family Violence programs.</p>\n<p>Highlights of the programs included:</p>\n<ul>\n<li>Schools reported a higher level of confidence and ability among teachers and staff on how to serve students impacted by family violence, including issues of mandated reporting, signs of abuse in teen dating relationships, and talking with students who are witnesses of domestic violence.</li>\n<li>High level of cooperation at all sites from local sexual assault agencies, domestic violence agencies, law enforcement, DCFS, and youth-serving agencies resulted in increased trust and communication among these community members.</li>\n<li>Significantly increased activities which educate teachers and staff, as well as students and community members on issues relating to family violence and on how to access resources.</li>\n<li>A belief that there was an increase in referrals to the local domestic violence and sexual assault centers since the program has been implemented.</li>\n</ul>\n<p>IFVCC staff and Local Council Coordinators continue to approach new schools each year to engage in the Schools Respond to Family Violence Project.</p>\n",
@@ -300,6 +317,9 @@
             "Elder Sensitivity Training",
             "Schools Respond to Family Violence"
         ],
+        "route": "/projects/",
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/projects/",
         "toc": [
             {
                 "content": "Grant to Encourage Arrest and Enforcement of Orders of Protection",
@@ -355,13 +375,12 @@
                 "parent": "",
                 "id": "toc-schools-respond-to-family-violence"
             }
-        ],
-        "route": "/projects/",
-        "summary": ""
+        ]
     },
     {
         "title": "Resources",
         "contentType": "pages",
+        "type": "html",
         "section": "pages",
         "slug": "resources",
         "html": "<h2 id=\"domestic-violence\">Domestic Violence</h2>\n<ul>\n<li>Battered Women’s Justice Project<br>\n<a href=\"http://www.bwjp.org/\">www.Bwjp.org</a></li>\n<li>Corporate Alliance to End Partner Abuse<br>\n<a href=\"http://www.caepv.org/\">www.caepv.org</a></li>\n<li>End Violence Against Women International<br>\n<a href=\"http://Evawintl.org\">Evawintl.org</a></li>\n<li>Illinois Coalition Against Domestic Violence<br>\n<a href=\"http://www.ilcadv.org/\">www.ilcadv.org</a></li>\n<li>National Center on Domestic and Sexual Violence<br>\n<a href=\"http://www.ncdsv.org/\">www.ncdsv.org</a></li>\n<li>National Coalition Against Domestic Violence<br>\n<a href=\"http://www.ncadv.org/\">www.ncadv.org</a></li>\n<li>National Domestic Violence Hotline<br>\n1-800-799-7233</li>\n<li>Stalking Resource Center<br>\n<a href=\"http://www.victimsofcrime.org/our-programs/stalking-resource-center\">http://www.victimsofcrime.org/our-programs/stalkin…</a></li>\n</ul>\n<h2 id=\"elder-abuse\">Elder Abuse</h2>\n<ul>\n<li>National Center on Elder Abuse<br>\n<a href=\"http://www.ncea.aoa.gov/\">www.ncea.aoa.gov</a></li>\n<li>Illinois Department on Aging<br>\n<a href=\"http://www.state.il.us/aging/\">www.state.il.us/aging/</a></li>\n</ul>\n<h2 id=\"people-with-disabilities\">People with Disabilities</h2>\n<ul>\n<li>Illinois Images<br>\n<a href=\"http://illinoisimages.org/\">Illinoisimages.org</a></li>\n<li>National Center on Criminal Justice and Disability<br>\n<a href=\"http://www.thearc.org/nccjd\">www.thearc.org/nccjd</a></li>\n<li>National Disability Rights Network<br>\n<a href=\"http://www.ndrn.org/\">www.ndrn.org</a></li>\n</ul>\n<h2 id=\"sexual-abuse\">Sexual Abuse</h2>\n<ul>\n<li>Illinois Coalition Against Sexual Assault<br>\n<a href=\"http://www.icasa.org/\">www.icasa.org</a></li>\n<li>End Violence Against Women International<br>\n<a href=\"http://evawintl.org/\">Evawintl.org</a></li>\n<li>National Center on Domestic and Sexual Violence<br>\n<a href=\"http://www.ncdsv.org/\">www.ncdsv.org</a></li>\n<li>National Sexual Violence Resource Center<br>\n<a href=\"http://www.nsvrc.org/\">www.nsvrc.org</a></li>\n<li>RAINN<br>\n<a href=\"https://rainn.org/\">https://rainn.org/</a></li>\n</ul>\n<h2 id=\"child-abuse\">Child Abuse</h2>\n<ul>\n<li>Children’s Advocacy Centers of Illinois<br>\n<a href=\"http://www.cacionline.org/\">www.cacionline.org</a></li>\n<li>Illinois Department of Children &amp; Family Services<br>\n<a href=\"http://www.state.il.us/dcfs/index/shtml\">www.state.il.us/dcfs/index/shtml</a></li>\n<li>Prevent Child Abuse Illinois<br>\n<a href=\"http://www.preventchildabuseillinois.org/\">www.preventchildabuseillinois.org</a></li>\n</ul>\n<h2 id=\"other-resources\">Other Resources</h2>\n<ul>\n<li>DHS: Illinois Partner Abuse Intervention Program (PAIP) Protocol Programs<br>\n<a href=\"https://www.dhs.state.il.us/page.aspx?item=33888\">https://www.dhs.state.il.us/page.aspx?item=33888</a></li>\n<li>Illinois Automated Victim Notification<br>\n<a href=\"https://www.vinelink.com/vinelink/siteInfoAction.do?siteId=14004\">https://www.vinelink.com/vinelink/siteInfoAction.d…</a></li>\n<li>Illinois Department of Human Services<br>\n<a href=\"http://www.dhs.state.il.us/\">www.dhs.state.il.us</a></li>\n<li>Illinois Department of Public Health<br>\n<a href=\"http://www.idph.state.il.us/\">www.idph.state.il.us</a></li>\n<li>Illinois State Police<br>\n<a href=\"http://www.isp.state.il.us/\">http://www.isp.state.il.us/</a></li>\n<li>Office of the Illinois Attorney General<br>\n<a href=\"http://www.ag.state.il.us/\">www.ag.state.il.us</a></li>\n<li>Office for Victims of Crime<br>\n<a href=\"http://www.ovc.gov/\">www.ovc.gov</a></li>\n<li>Office on Violence Against Women<br>\n<a href=\"http://www.justice.gov/ovw\">http://www.justice.gov/ovw</a></li>\n<li>Vera Institute of Justice<br>\n<a href=\"http://www.vera.org/\">www.vera.org</a></li>\n<li>DHS Protocol for Approved Partner Abuse Intervention Programs<br>\nThe Department of Human Services funds and/or monitors Partner Abuse Intervention Programs across the state. These programs provide domestic violence perpetrator services such as assessment, individual and group education, and case coordination with referral sources. These services help perpetrators accept responsibility, modify abusive attitudes and beliefs, and give them tools to become and remain, healthy non-abusive partners and parents. All protocol approved programs must adhere to the standards established in Administrative Rule 89, Section 501.<br>\nThe following is a statewide list of programs that comply with the Illinois Protocol for Partner Abuse Intervention Programs. Also included is information on our funded domestic violence victim programs. The listing is organized by judicial districts. Consult the enclosed map to identify the judicial district which serves your county and correlates to the program service area. Sections of the list can be printed by highlighting the desired text, selecting print, selection.<br>\nPlease contact the Bureau of Domestic and Sexual Violence Prevention at 217-557-8306, if a different version is required or additional information is needed. Inquiries about protocol compliance may be directed to Teresa Tudor at 217-558-6192.<br>\nDownload: <a href=\"http://www.icjia.state.il.us/assets/ifvcc/IDHS%20PAIP%20judicial%20listing%20Dec%202012.pdf\">PAIP Listing – December 2012</a></li>\n</ul>\n",
@@ -374,6 +393,9 @@
             "Child Abuse",
             "Other Resources"
         ],
+        "route": "/resources/",
+        "summary": "IFVCC Resources ",
+        "url": "https://ifvcc.icjia.cloud/resources/",
         "toc": [
             {
                 "content": "Domestic Violence",
@@ -429,49 +451,54 @@
                 "parent": "",
                 "id": "toc-other-resources"
             }
-        ],
-        "route": "/resources/",
-        "summary": "IFVCC Resources "
+        ]
     },
     {
         "title": "Find a council",
         "contentType": "pages",
+        "type": "html",
         "section": "pages",
         "slug": "councils",
         "html": "",
         "markdown": "\n\n",
         "headings": [],
-        "toc": [],
         "route": "/councils/",
-        "summary": "Lorem markdownum stratosque sidera, est ferat dura dum. "
+        "summary": "Lorem markdownum stratosque sidera, est ferat dura dum. ",
+        "url": "https://ifvcc.icjia.cloud/councils/",
+        "toc": []
     },
     {
         "title": "News & Updates",
         "contentType": "pages",
+        "type": "html",
         "section": "pages",
         "slug": "news",
         "html": "",
         "markdown": "",
         "headings": [],
-        "toc": [],
         "route": "/news/",
-        "summary": ""
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/news/",
+        "toc": []
     },
     {
         "title": "Search",
         "contentType": "pages",
+        "type": "html",
         "section": "pages",
         "slug": "search",
         "html": "",
         "markdown": " ",
         "headings": [],
-        "toc": [],
         "route": "/search/",
-        "summary": ""
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/search/",
+        "toc": []
     },
     {
         "title": "1st Judicial Circuit",
         "contentType": "circuits",
+        "type": "html",
         "section": "circuits",
         "slug": "1st-judicial-circuit",
         "html": "<h2 id=\"counties-served\">Counties Served</h2>\n<ul>\n<li>Alexander</li>\n<li>Jackson</li>\n<li>Johnson</li>\n<li>Massac</li>\n<li>Pope</li>\n<li>Pulaski</li>\n<li>Saline</li>\n<li>Union</li>\n<li>Williamson</li>\n</ul>\n<h2 id=\"council-leadership\">Council Leadership</h2>\n<ul>\n<li>Council Inactive</li>\n</ul>\n<h2 id=\"coordinator\">Coordinator</h2>\n<ul>\n<li>Vacant</li>\n</ul>\n",
@@ -481,6 +508,9 @@
             "Council Leadership",
             "Coordinator"
         ],
+        "route": "/circuits/1st-judicial-circuit/",
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/circuits/1st-judicial-circuit/",
         "toc": [
             {
                 "content": "Counties Served",
@@ -509,13 +539,12 @@
                 "parent": "",
                 "id": "toc-coordinator"
             }
-        ],
-        "route": "/circuits/1st-judicial-circuit/",
-        "summary": ""
+        ]
     },
     {
         "title": "2nd Judicial Circuit",
         "contentType": "circuits",
+        "type": "html",
         "section": "circuits",
         "slug": "2nd-judicial-circuit",
         "html": "<h2 id=\"counties-served\">Counties Served</h2>\n<ul>\n<li>Crawford</li>\n<li>Edwards</li>\n<li>Franklin</li>\n<li>Gallatin</li>\n<li>Hamilton</li>\n<li>Hardin</li>\n<li>Jefferson</li>\n<li>Lawrence</li>\n<li>Richland</li>\n<li>Wabash</li>\n<li>Wayne</li>\n<li>White</li>\n</ul>\n<h2 id=\"council-leadership\">Council Leadership</h2>\n<ul>\n<li>Council Inactive</li>\n</ul>\n<h2 id=\"coordinator\">Coordinator</h2>\n<ul>\n<li>Vacant</li>\n</ul>\n",
@@ -525,6 +554,9 @@
             "Council Leadership",
             "Coordinator"
         ],
+        "route": "/circuits/2nd-judicial-circuit/",
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/circuits/2nd-judicial-circuit/",
         "toc": [
             {
                 "content": "Counties Served",
@@ -553,13 +585,12 @@
                 "parent": "",
                 "id": "toc-coordinator"
             }
-        ],
-        "route": "/circuits/2nd-judicial-circuit/",
-        "summary": ""
+        ]
     },
     {
         "title": "3rd Judicial Circuit",
         "contentType": "circuits",
+        "type": "html",
         "section": "circuits",
         "slug": "3rd-judicial-circuit",
         "html": "<h2 id=\"counties-served\">Counties Served</h2>\n<ul>\n<li>Bond</li>\n<li>Madison</li>\n</ul>\n<h2 id=\"council-leadership\">Council Leadership</h2>\n<ul>\n<li>Hon. William Mudge</li>\n<li>Hon. Maureen Schuette</li>\n</ul>\n<h2 id=\"coordinator\">Coordinator</h2>\n<ul>\n<li>Tina Culp</li>\n<li>(618) 465-1978</li>\n<li><a href=\"mailto:Tinaculp@oasisiwomenscenter.com\">Tinaculp@oasisiwomenscenter.com</a></li>\n</ul>\n",
@@ -569,6 +600,9 @@
             "Council Leadership",
             "Coordinator"
         ],
+        "route": "/circuits/3rd-judicial-circuit/",
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/circuits/3rd-judicial-circuit/",
         "toc": [
             {
                 "content": "Counties Served",
@@ -597,13 +631,12 @@
                 "parent": "",
                 "id": "toc-coordinator"
             }
-        ],
-        "route": "/circuits/3rd-judicial-circuit/",
-        "summary": ""
+        ]
     },
     {
         "title": "4th Judicial Circuit",
         "contentType": "circuits",
+        "type": "html",
         "section": "circuits",
         "slug": "4th-judicial-circuit",
         "html": "<h2 id=\"counties-served\">Counties Served</h2>\n<ul>\n<li>Christian</li>\n<li>Clay</li>\n<li>Clinton</li>\n<li>Effingham</li>\n<li>Fayette</li>\n<li>Jasper</li>\n<li>Marion</li>\n<li>Montgomery</li>\n<li>Shelby</li>\n</ul>\n<h2 id=\"council-leadership\">Council Leadership</h2>\n<ul>\n<li>Council Inactive</li>\n</ul>\n<h2 id=\"coordinator\">Coordinator</h2>\n<ul>\n<li>Vacant</li>\n</ul>\n",
@@ -613,6 +646,9 @@
             "Council Leadership",
             "Coordinator"
         ],
+        "route": "/circuits/4th-judicial-circuit/",
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/circuits/4th-judicial-circuit/",
         "toc": [
             {
                 "content": "Counties Served",
@@ -641,13 +677,12 @@
                 "parent": "",
                 "id": "toc-coordinator"
             }
-        ],
-        "route": "/circuits/4th-judicial-circuit/",
-        "summary": ""
+        ]
     },
     {
         "title": "5th Judicial Circuit",
         "contentType": "circuits",
+        "type": "html",
         "section": "circuits",
         "slug": "5th-judicial-circuit",
         "html": "<h2 id=\"counties-served\">Counties Served</h2>\n<ul>\n<li>Clark</li>\n<li>Coles</li>\n<li>Cumberland</li>\n<li>Edgar</li>\n<li>Vermillion</li>\n</ul>\n<h2 id=\"council-leadership\">Council Leadership</h2>\n<ul>\n<li>Hon. Mitchell Shick</li>\n</ul>\n<h2 id=\"coordinator\">Coordinator</h2>\n<ul>\n<li>Jennifer Branson</li>\n<li>(217) 549-8834</li>\n<li><a href=\"mailto:fifthfvcc@yahoo.com\">fifthfvcc@yahoo.com</a></li>\n</ul>\n",
@@ -657,6 +692,9 @@
             "Council Leadership",
             "Coordinator"
         ],
+        "route": "/circuits/5th-judicial-circuit/",
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/circuits/5th-judicial-circuit/",
         "toc": [
             {
                 "content": "Counties Served",
@@ -685,13 +723,12 @@
                 "parent": "",
                 "id": "toc-coordinator"
             }
-        ],
-        "route": "/circuits/5th-judicial-circuit/",
-        "summary": ""
+        ]
     },
     {
         "title": "6th Judicial Circuit",
         "contentType": "circuits",
+        "type": "html",
         "section": "circuits",
         "slug": "6th-judicial-circuit",
         "html": "<h2 id=\"counties-served\">Counties Served</h2>\n<ul>\n<li>Champaign</li>\n<li>De Witt</li>\n<li>Douglas</li>\n<li>Macon</li>\n<li>Moultrie</li>\n<li>Piatt</li>\n</ul>\n<h2 id=\"council-leadership\">Council Leadership</h2>\n<ul>\n<li>Hon. Karle Kontz</li>\n<li>Hon. A.G. Webber IV</li>\n</ul>\n<h2 id=\"coordinator\">Coordinator</h2>\n<ul>\n<li>Keyria Rodgers</li>\n<li>(217) 424-1310</li>\n<li><a href=\"mailto:krodgers@millikin.edu\">krodgers@millikin.edu</a></li>\n</ul>\n",
@@ -701,6 +738,9 @@
             "Council Leadership",
             "Coordinator"
         ],
+        "route": "/circuits/6th-judicial-circuit/",
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/circuits/6th-judicial-circuit/",
         "toc": [
             {
                 "content": "Counties Served",
@@ -729,13 +769,12 @@
                 "parent": "",
                 "id": "toc-coordinator"
             }
-        ],
-        "route": "/circuits/6th-judicial-circuit/",
-        "summary": ""
+        ]
     },
     {
         "title": "7th Judicial Circuit",
         "contentType": "circuits",
+        "type": "html",
         "section": "circuits",
         "slug": "7th-judicial-circuit",
         "html": "<h2 id=\"counties-served\">Counties Served</h2>\n<ul>\n<li>Greene</li>\n<li>Jersey</li>\n<li>Macoupin</li>\n<li>Morgan</li>\n<li>Sangamon</li>\n<li>Scott</li>\n</ul>\n<h2 id=\"council-leadership\">Council Leadership</h2>\n<ul>\n<li>Hon. Eric Pistorius</li>\n<li>Hon. Jennifer Ascher</li>\n</ul>\n<h2 id=\"coordinator\">Coordinator</h2>\n<ul>\n<li>Trisha Welsh</li>\n<li>(217) 535-3184</li>\n<li><a href=\"mailto:Trisha.Welsh@co.sangamon.il.us\">Trisha.Welsh@co.sangamon.il.us</a></li>\n</ul>\n",
@@ -745,6 +784,9 @@
             "Council Leadership",
             "Coordinator"
         ],
+        "route": "/circuits/7th-judicial-circuit/",
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/circuits/7th-judicial-circuit/",
         "toc": [
             {
                 "content": "Counties Served",
@@ -773,13 +815,12 @@
                 "parent": "",
                 "id": "toc-coordinator"
             }
-        ],
-        "route": "/circuits/7th-judicial-circuit/",
-        "summary": ""
+        ]
     },
     {
         "title": "8th Judicial Circuit",
         "contentType": "circuits",
+        "type": "html",
         "section": "circuits",
         "slug": "8th-judicial-circuit",
         "html": "<h2 id=\"counties-served\">Counties Served</h2>\n<ul>\n<li>Adams</li>\n<li>Brown</li>\n<li>Calhoun</li>\n<li>Cass</li>\n<li>Mason</li>\n<li>Menard</li>\n<li>Pike</li>\n<li>Schuyler</li>\n</ul>\n<h2 id=\"council-leadership\">Council Leadership</h2>\n<ul>\n<li>Hon. J. Frank McCartney</li>\n</ul>\n<h2 id=\"coordinator\">Coordinator</h2>\n<ul>\n<li>Laura Megown</li>\n<li>(217) 223-5700 x 116</li>\n<li><a href=\"mailto:lmegown@wciagingnetwork.org\">lmegown@wciagingnetwork.org</a></li>\n</ul>\n",
@@ -789,6 +830,9 @@
             "Council Leadership",
             "Coordinator"
         ],
+        "route": "/circuits/8th-judicial-circuit/",
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/circuits/8th-judicial-circuit/",
         "toc": [
             {
                 "content": "Counties Served",
@@ -817,13 +861,12 @@
                 "parent": "",
                 "id": "toc-coordinator"
             }
-        ],
-        "route": "/circuits/8th-judicial-circuit/",
-        "summary": ""
+        ]
     },
     {
         "title": "9th Judicial Circuit",
         "contentType": "circuits",
+        "type": "html",
         "section": "circuits",
         "slug": "9th-judicial-circuit",
         "html": "<h2 id=\"counties-served\">Counties Served</h2>\n<ul>\n<li>Fulton</li>\n<li>Hancock</li>\n<li>Henderson</li>\n<li>Knox</li>\n<li>McDonough</li>\n<li>Warren</li>\n</ul>\n<h2 id=\"council-leadership\">Council Leadership</h2>\n<ul>\n<li>Council Inactive</li>\n</ul>\n<h2 id=\"coordinator\">Coordinator</h2>\n<ul>\n<li>Vacant</li>\n</ul>\n",
@@ -833,6 +876,9 @@
             "Council Leadership",
             "Coordinator"
         ],
+        "route": "/circuits/9th-judicial-circuit/",
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/circuits/9th-judicial-circuit/",
         "toc": [
             {
                 "content": "Counties Served",
@@ -861,13 +907,12 @@
                 "parent": "",
                 "id": "toc-coordinator"
             }
-        ],
-        "route": "/circuits/9th-judicial-circuit/",
-        "summary": ""
+        ]
     },
     {
         "title": "10th Judicial Circuit",
         "contentType": "circuits",
+        "type": "html",
         "section": "circuits",
         "slug": "10th-judicial-circuit",
         "html": "<h2 id=\"counties-served\">Counties Served</h2>\n<ul>\n<li>Marshall</li>\n<li>Peoria</li>\n<li>Putnam</li>\n<li>Stark</li>\n<li>Tazewell</li>\n</ul>\n<h2 id=\"council-leadership\">Council Leadership</h2>\n<ul>\n<li>Hon. Paul Gilfillan</li>\n</ul>\n<h2 id=\"coordinator\">Coordinator</h2>\n<ul>\n<li>Mary Taylor</li>\n<li>(309) 672-6992</li>\n<li><a href=\"mailto:mtaylor@peoriacounty.org\">mtaylor@peoriacounty.org</a></li>\n</ul>\n",
@@ -877,6 +922,9 @@
             "Council Leadership",
             "Coordinator"
         ],
+        "route": "/circuits/10th-judicial-circuit/",
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/circuits/10th-judicial-circuit/",
         "toc": [
             {
                 "content": "Counties Served",
@@ -905,13 +953,12 @@
                 "parent": "",
                 "id": "toc-coordinator"
             }
-        ],
-        "route": "/circuits/10th-judicial-circuit/",
-        "summary": ""
+        ]
     },
     {
         "title": "11th Judicial Circuit",
         "contentType": "circuits",
+        "type": "html",
         "section": "circuits",
         "slug": "11th-judicial-circuit",
         "html": "<h2 id=\"counties-served\">Counties Served</h2>\n<ul>\n<li>Ford</li>\n<li>Livingston</li>\n<li>Logan</li>\n<li>McLean</li>\n<li>Woodford</li>\n</ul>\n<h2 id=\"council-leadership\">Council Leadership</h2>\n<ul>\n<li>Council Inactive</li>\n</ul>\n<h2 id=\"coordinator\">Coordinator</h2>\n<ul>\n<li>Vacant</li>\n</ul>\n",
@@ -921,6 +968,9 @@
             "Council Leadership",
             "Coordinator"
         ],
+        "route": "/circuits/11th-judicial-circuit/",
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/circuits/11th-judicial-circuit/",
         "toc": [
             {
                 "content": "Counties Served",
@@ -949,13 +999,12 @@
                 "parent": "",
                 "id": "toc-coordinator"
             }
-        ],
-        "route": "/circuits/11th-judicial-circuit/",
-        "summary": ""
+        ]
     },
     {
         "title": "12th Judicial Circuit",
         "contentType": "circuits",
+        "type": "html",
         "section": "circuits",
         "slug": "12th-judicial-circuit",
         "html": "<h2 id=\"counties-served\">Counties Served</h2>\n<ul>\n<li>Will</li>\n</ul>\n<h2 id=\"council-leadership\">Council Leadership</h2>\n<ul>\n<li>Hon. Richard C. Schoenstedt</li>\n<li>Hon. Matthew Bertani</li>\n</ul>\n<h2 id=\"coordinator\">Coordinator</h2>\n<ul>\n<li>Leanne Lantz</li>\n<li>(815) 722-2550</li>\n<li><a href=\"mailto:llantz@willcountyillinois.org\">llantz@willcountyillinois.org</a></li>\n</ul>\n",
@@ -965,6 +1014,9 @@
             "Council Leadership",
             "Coordinator"
         ],
+        "route": "/circuits/12th-judicial-circuit/",
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/circuits/12th-judicial-circuit/",
         "toc": [
             {
                 "content": "Counties Served",
@@ -993,13 +1045,12 @@
                 "parent": "",
                 "id": "toc-coordinator"
             }
-        ],
-        "route": "/circuits/12th-judicial-circuit/",
-        "summary": ""
+        ]
     },
     {
         "title": "13th Judicial Circuit",
         "contentType": "circuits",
+        "type": "html",
         "section": "circuits",
         "slug": "13th-judicial-circuit",
         "html": "<h2 id=\"counties-served\">Counties Served</h2>\n<ul>\n<li>Bureau</li>\n<li>Grundy</li>\n<li>LaSalle</li>\n</ul>\n<h2 id=\"council-leadership\">Council Leadership</h2>\n<ul>\n<li>Council Inactive</li>\n</ul>\n<h2 id=\"coordinator\">Coordinator</h2>\n<ul>\n<li>Vacant</li>\n</ul>\n",
@@ -1009,6 +1060,9 @@
             "Council Leadership",
             "Coordinator"
         ],
+        "route": "/circuits/13th-judicial-circuit/",
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/circuits/13th-judicial-circuit/",
         "toc": [
             {
                 "content": "Counties Served",
@@ -1037,13 +1091,12 @@
                 "parent": "",
                 "id": "toc-coordinator"
             }
-        ],
-        "route": "/circuits/13th-judicial-circuit/",
-        "summary": ""
+        ]
     },
     {
         "title": "14th Judicial Circuit",
         "contentType": "circuits",
+        "type": "html",
         "section": "circuits",
         "slug": "14th-judicial-circuit",
         "html": "<h2 id=\"counties-served\">Counties Served</h2>\n<ul>\n<li>Henry</li>\n<li>Mercer</li>\n<li>Rock Island</li>\n<li>Whiteside</li>\n</ul>\n<h2 id=\"council-leadership\">Council Leadership</h2>\n<ul>\n<li>Council Inactive</li>\n</ul>\n<h2 id=\"coordinator\">Coordinator</h2>\n<ul>\n<li>Vacant</li>\n</ul>\n",
@@ -1053,6 +1106,9 @@
             "Council Leadership",
             "Coordinator"
         ],
+        "route": "/circuits/14th-judicial-circuit/",
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/circuits/14th-judicial-circuit/",
         "toc": [
             {
                 "content": "Counties Served",
@@ -1081,13 +1137,12 @@
                 "parent": "",
                 "id": "toc-coordinator"
             }
-        ],
-        "route": "/circuits/14th-judicial-circuit/",
-        "summary": ""
+        ]
     },
     {
         "title": "15th Judicial Circuit",
         "contentType": "circuits",
+        "type": "html",
         "section": "circuits",
         "slug": "15th-judicial-circuit",
         "html": "<h2 id=\"counties-served\">Counties Served</h2>\n<ul>\n<li>Carroll</li>\n<li>Ogle</li>\n<li>Jo Daviess</li>\n<li>Lee</li>\n<li>Stephenson</li>\n</ul>\n<h2 id=\"council-leadership\">Council Leadership</h2>\n<ul>\n<li>Council Inactive</li>\n</ul>\n<h2 id=\"coordinator\">Coordinator</h2>\n<ul>\n<li>Vacant</li>\n</ul>\n",
@@ -1097,6 +1152,9 @@
             "Council Leadership",
             "Coordinator"
         ],
+        "route": "/circuits/15th-judicial-circuit/",
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/circuits/15th-judicial-circuit/",
         "toc": [
             {
                 "content": "Counties Served",
@@ -1125,13 +1183,12 @@
                 "parent": "",
                 "id": "toc-coordinator"
             }
-        ],
-        "route": "/circuits/15th-judicial-circuit/",
-        "summary": ""
+        ]
     },
     {
         "title": "16th Judicial Circuit",
         "contentType": "circuits",
+        "type": "html",
         "section": "circuits",
         "slug": "16th-judicial-circuit",
         "html": "<h2 id=\"counties-served\">Counties Served</h2>\n<ul>\n<li>Kane</li>\n</ul>\n<h2 id=\"council-leadership\">Council Leadership</h2>\n<ul>\n<li>Hon. Susan Clancy Boles</li>\n</ul>\n<h2 id=\"coordinator\">Coordinator</h2>\n<ul>\n<li>Robin Pelfrey</li>\n<li>(630) 453-9402</li>\n<li><a href=\"mailto:rpelfrey@fvcc1623.org\">rpelfrey@fvcc1623.org</a></li>\n</ul>\n",
@@ -1141,6 +1198,9 @@
             "Council Leadership",
             "Coordinator"
         ],
+        "route": "/circuits/16th-judicial-circuit/",
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/circuits/16th-judicial-circuit/",
         "toc": [
             {
                 "content": "Counties Served",
@@ -1169,13 +1229,12 @@
                 "parent": "",
                 "id": "toc-coordinator"
             }
-        ],
-        "route": "/circuits/16th-judicial-circuit/",
-        "summary": ""
+        ]
     },
     {
         "title": "17th Judicial Circuit",
         "contentType": "circuits",
+        "type": "html",
         "section": "circuits",
         "slug": "17th-judicial-circuit",
         "html": "<h2 id=\"counties-served\">Counties Served</h2>\n<ul>\n<li>Boone</li>\n<li>Winnebago</li>\n</ul>\n<h2 id=\"council-leadership\">Council Leadership</h2>\n<ul>\n<li>Hon. Eugene Doherty</li>\n<li>Hon. Rosemary Collins</li>\n</ul>\n<h2 id=\"coordinator\">Coordinator</h2>\n<ul>\n<li>Kelsey Hart</li>\n<li>(815) 516-2446</li>\n<li><a href=\"mailto:khart@17thcircuit.illinoiscourts.gov\">khart@17thcircuit.illinoiscourts.gov</a></li>\n</ul>\n",
@@ -1185,6 +1244,9 @@
             "Council Leadership",
             "Coordinator"
         ],
+        "route": "/circuits/17th-judicial-circuit/",
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/circuits/17th-judicial-circuit/",
         "toc": [
             {
                 "content": "Counties Served",
@@ -1213,13 +1275,12 @@
                 "parent": "",
                 "id": "toc-coordinator"
             }
-        ],
-        "route": "/circuits/17th-judicial-circuit/",
-        "summary": ""
+        ]
     },
     {
         "title": "18th Judicial Circuit",
         "contentType": "circuits",
+        "type": "html",
         "section": "circuits",
         "slug": "18th-judicial-circuit",
         "html": "<h2 id=\"counties-served\">Counties Served</h2>\n<ul>\n<li>DuPage</li>\n</ul>\n<h2 id=\"council-leadership\">Council Leadership</h2>\n<ul>\n<li>Hon. Daniel P. Guerin</li>\n</ul>\n<h2 id=\"coordinator\">Coordinator</h2>\n<ul>\n<li>Holly Smith</li>\n<li>(630) 407-8923</li>\n<li><a href=\"mailto:Holly.Smith@18thjudicial.org\">Holly.Smith@18thjudicial.org</a></li>\n</ul>\n",
@@ -1229,6 +1290,9 @@
             "Council Leadership",
             "Coordinator"
         ],
+        "route": "/circuits/18th-judicial-circuit/",
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/circuits/18th-judicial-circuit/",
         "toc": [
             {
                 "content": "Counties Served",
@@ -1257,13 +1321,12 @@
                 "parent": "",
                 "id": "toc-coordinator"
             }
-        ],
-        "route": "/circuits/18th-judicial-circuit/",
-        "summary": ""
+        ]
     },
     {
         "title": "19th Judicial Circuit",
         "contentType": "circuits",
+        "type": "html",
         "section": "circuits",
         "slug": "19th-judicial-circuit",
         "html": "<h2 id=\"counties-served\">Counties Served</h2>\n<ul>\n<li>Lake</li>\n</ul>\n<h2 id=\"council-leadership\">Council Leadership</h2>\n<ul>\n<li>Council Inactive</li>\n</ul>\n<h2 id=\"coordinator\">Coordinator</h2>\n<ul>\n<li>Vacant</li>\n</ul>\n",
@@ -1273,6 +1336,9 @@
             "Council Leadership",
             "Coordinator"
         ],
+        "route": "/circuits/19th-judicial-circuit/",
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/circuits/19th-judicial-circuit/",
         "toc": [
             {
                 "content": "Counties Served",
@@ -1301,13 +1367,12 @@
                 "parent": "",
                 "id": "toc-coordinator"
             }
-        ],
-        "route": "/circuits/19th-judicial-circuit/",
-        "summary": ""
+        ]
     },
     {
         "title": "20th Judicial Circuit",
         "contentType": "circuits",
+        "type": "html",
         "section": "circuits",
         "slug": "20th-judicial-circuit",
         "html": "<h2 id=\"counties-served\">Counties Served</h2>\n<ul>\n<li>Monroe</li>\n<li>Perry</li>\n<li>Randolph</li>\n<li>St. Clair</li>\n<li>Washington</li>\n</ul>\n<h2 id=\"council-leadership\">Council Leadership</h2>\n<ul>\n<li>Council Inactive</li>\n</ul>\n<h2 id=\"coordinator\">Coordinator</h2>\n<ul>\n<li>Vacant</li>\n</ul>\n",
@@ -1317,6 +1382,9 @@
             "Council Leadership",
             "Coordinator"
         ],
+        "route": "/circuits/20th-judicial-circuit/",
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/circuits/20th-judicial-circuit/",
         "toc": [
             {
                 "content": "Counties Served",
@@ -1345,13 +1413,12 @@
                 "parent": "",
                 "id": "toc-coordinator"
             }
-        ],
-        "route": "/circuits/20th-judicial-circuit/",
-        "summary": ""
+        ]
     },
     {
         "title": "21st Judicial Circuit",
         "contentType": "circuits",
+        "type": "html",
         "section": "circuits",
         "slug": "21st-judicial-circuit",
         "html": "<h2 id=\"counties-served\">Counties Served</h2>\n<ul>\n<li>Iroquois</li>\n<li>Kankakee</li>\n</ul>\n<h2 id=\"council-leadership\">Council Leadership</h2>\n<ul>\n<li>Hon. Kathy Bradshaw-Elliott</li>\n</ul>\n<h2 id=\"coordinator\">Coordinator</h2>\n<ul>\n<li>Carole Frank</li>\n<li>(815) 936-4633</li>\n<li><a href=\"mailto:cfranke@i-kan.org\">cfranke@i-kan.org</a></li>\n</ul>\n",
@@ -1361,6 +1428,9 @@
             "Council Leadership",
             "Coordinator"
         ],
+        "route": "/circuits/21st-judicial-circuit/",
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/circuits/21st-judicial-circuit/",
         "toc": [
             {
                 "content": "Counties Served",
@@ -1389,13 +1459,12 @@
                 "parent": "",
                 "id": "toc-coordinator"
             }
-        ],
-        "route": "/circuits/21st-judicial-circuit/",
-        "summary": ""
+        ]
     },
     {
         "title": "22nd Judicial Circuit",
         "contentType": "circuits",
+        "type": "html",
         "section": "circuits",
         "slug": "22nd-judicial-circuit",
         "html": "<h2 id=\"counties-served\">Counties Served</h2>\n<ul>\n<li>McHenry</li>\n</ul>\n<h2 id=\"council-leadership\">Council Leadership</h2>\n<ul>\n<li>Hon. James Cowlin</li>\n</ul>\n<h2 id=\"coordinator\">Coordinator</h2>\n<ul>\n<li>Linda Hooten</li>\n<li><a href=\"mailto:lahooten@22ndcircuit.illinoiscourts.gov\">lahooten@22ndcircuit.illinoiscourts.gov</a></li>\n</ul>\n",
@@ -1405,6 +1474,9 @@
             "Council Leadership",
             "Coordinator"
         ],
+        "route": "/circuits/22nd-judicial-circuit/",
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/circuits/22nd-judicial-circuit/",
         "toc": [
             {
                 "content": "Counties Served",
@@ -1433,13 +1505,12 @@
                 "parent": "",
                 "id": "toc-coordinator"
             }
-        ],
-        "route": "/circuits/22nd-judicial-circuit/",
-        "summary": ""
+        ]
     },
     {
         "title": "23rd Judicial Circuit",
         "contentType": "circuits",
+        "type": "html",
         "section": "circuits",
         "slug": "23rd-judicial-circuit",
         "html": "<h2 id=\"counties-served\">Counties Served</h2>\n<ul>\n<li>DeKalb</li>\n<li>Kendall</li>\n</ul>\n<h2 id=\"council-leadership\">Council Leadership</h2>\n<ul>\n<li>Hon. Robert Pilmer</li>\n</ul>\n<h2 id=\"coordinator\">Coordinator</h2>\n<ul>\n<li>Robin Pelfrey</li>\n<li>(630) 453-9402</li>\n<li><a href=\"mailto:rpelfrey@fvcc1623.org\">rpelfrey@fvcc1623.org</a></li>\n</ul>\n",
@@ -1449,6 +1520,9 @@
             "Council Leadership",
             "Coordinator"
         ],
+        "route": "/circuits/23rd-judicial-circuit/",
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/circuits/23rd-judicial-circuit/",
         "toc": [
             {
                 "content": "Counties Served",
@@ -1477,13 +1551,12 @@
                 "parent": "",
                 "id": "toc-coordinator"
             }
-        ],
-        "route": "/circuits/23rd-judicial-circuit/",
-        "summary": ""
+        ]
     },
     {
         "title": "Cook County",
         "contentType": "circuits",
+        "type": "html",
         "section": "circuits",
         "slug": "cook-county",
         "html": "<h2 id=\"counties-served\">Counties Served</h2>\n<ul>\n<li>Cook</li>\n</ul>\n",
@@ -1491,6 +1564,9 @@
         "headings": [
             "Counties Served"
         ],
+        "route": "/circuits/cook-county/",
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/circuits/cook-county/",
         "toc": [
             {
                 "content": "Counties Served",
@@ -1501,1208 +1577,1406 @@
                 "parent": "",
                 "id": "toc-counties-served"
             }
-        ],
-        "route": "/circuits/cook-county/",
-        "summary": ""
+        ]
     },
     {
         "title": "Carroll",
         "contentType": "counties",
+        "type": "html",
         "section": "counties",
         "slug": "carroll",
         "html": "",
         "markdown": "",
         "headings": [],
-        "toc": [],
         "route": "/counties/carroll/",
-        "summary": ""
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/counties/carroll/",
+        "toc": []
     },
     {
         "title": "White",
         "contentType": "counties",
+        "type": "html",
         "section": "counties",
         "slug": "white",
         "html": "",
         "markdown": "",
         "headings": [],
-        "toc": [],
         "route": "/counties/white/",
-        "summary": ""
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/counties/white/",
+        "toc": []
     },
     {
         "title": "Macoupin",
         "contentType": "counties",
+        "type": "html",
         "section": "counties",
         "slug": "macoupin",
         "html": "",
         "markdown": "",
         "headings": [],
-        "toc": [],
         "route": "/counties/macoupin/",
-        "summary": ""
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/counties/macoupin/",
+        "toc": []
     },
     {
         "title": "Clinton",
         "contentType": "counties",
+        "type": "html",
         "section": "counties",
         "slug": "clinton",
         "html": "",
         "markdown": "",
         "headings": [],
-        "toc": [],
         "route": "/counties/clinton/",
-        "summary": ""
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/counties/clinton/",
+        "toc": []
     },
     {
         "title": "Grundy",
         "contentType": "counties",
+        "type": "html",
         "section": "counties",
         "slug": "grundy",
         "html": "",
         "markdown": "",
         "headings": [],
-        "toc": [],
         "route": "/counties/grundy/",
-        "summary": ""
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/counties/grundy/",
+        "toc": []
     },
     {
         "title": "Richland",
         "contentType": "counties",
+        "type": "html",
         "section": "counties",
         "slug": "richland",
         "html": "",
         "markdown": "",
         "headings": [],
-        "toc": [],
         "route": "/counties/richland/",
-        "summary": ""
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/counties/richland/",
+        "toc": []
     },
     {
         "title": "Warren",
         "contentType": "counties",
+        "type": "html",
         "section": "counties",
         "slug": "warren",
         "html": "",
         "markdown": "",
         "headings": [],
-        "toc": [],
         "route": "/counties/warren/",
-        "summary": ""
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/counties/warren/",
+        "toc": []
     },
     {
         "title": "Union",
         "contentType": "counties",
+        "type": "html",
         "section": "counties",
         "slug": "union",
         "html": "",
         "markdown": "",
         "headings": [],
-        "toc": [],
         "route": "/counties/union/",
-        "summary": ""
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/counties/union/",
+        "toc": []
     },
     {
         "title": "Ogle",
         "contentType": "counties",
+        "type": "html",
         "section": "counties",
         "slug": "ogle",
         "html": "",
         "markdown": "",
         "headings": [],
-        "toc": [],
         "route": "/counties/ogle/",
-        "summary": ""
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/counties/ogle/",
+        "toc": []
     },
     {
         "title": "McDonough",
         "contentType": "counties",
+        "type": "html",
         "section": "counties",
         "slug": "mcdonough",
         "html": "",
         "markdown": "",
         "headings": [],
-        "toc": [],
         "route": "/counties/mcdonough/",
-        "summary": ""
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/counties/mcdonough/",
+        "toc": []
     },
     {
         "title": "Putnam",
         "contentType": "counties",
+        "type": "html",
         "section": "counties",
         "slug": "putnam",
         "html": "",
         "markdown": "",
         "headings": [],
-        "toc": [],
         "route": "/counties/putnam/",
-        "summary": ""
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/counties/putnam/",
+        "toc": []
     },
     {
         "title": "Brown",
         "contentType": "counties",
+        "type": "html",
         "section": "counties",
         "slug": "brown",
         "html": "",
         "markdown": "",
         "headings": [],
-        "toc": [],
         "route": "/counties/brown/",
-        "summary": ""
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/counties/brown/",
+        "toc": []
     },
     {
         "title": "Jefferson",
         "contentType": "counties",
+        "type": "html",
         "section": "counties",
         "slug": "jefferson",
         "html": "",
         "markdown": "",
         "headings": [],
-        "toc": [],
         "route": "/counties/jefferson/",
-        "summary": ""
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/counties/jefferson/",
+        "toc": []
     },
     {
         "title": "Ford",
         "contentType": "counties",
+        "type": "html",
         "section": "counties",
         "slug": "ford",
         "html": "",
         "markdown": "",
         "headings": [],
-        "toc": [],
         "route": "/counties/ford/",
-        "summary": ""
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/counties/ford/",
+        "toc": []
     },
     {
         "title": "Kendall",
         "contentType": "counties",
+        "type": "html",
         "section": "counties",
         "slug": "kendall",
         "html": "",
         "markdown": "",
         "headings": [],
-        "toc": [],
         "route": "/counties/kendall/",
-        "summary": ""
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/counties/kendall/",
+        "toc": []
     },
     {
         "title": "Pulaski",
         "contentType": "counties",
+        "type": "html",
         "section": "counties",
         "slug": "pulaski",
         "html": "",
         "markdown": "",
         "headings": [],
-        "toc": [],
         "route": "/counties/pulaski/",
-        "summary": ""
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/counties/pulaski/",
+        "toc": []
     },
     {
         "title": "Scott",
         "contentType": "counties",
+        "type": "html",
         "section": "counties",
         "slug": "scott",
         "html": "",
         "markdown": "",
         "headings": [],
-        "toc": [],
         "route": "/counties/scott/",
-        "summary": ""
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/counties/scott/",
+        "toc": []
     },
     {
         "title": "Iroquois",
         "contentType": "counties",
+        "type": "html",
         "section": "counties",
         "slug": "iroquois",
         "html": "",
         "markdown": "",
         "headings": [],
-        "toc": [],
         "route": "/counties/iroquois/",
-        "summary": ""
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/counties/iroquois/",
+        "toc": []
     },
     {
         "title": "Henry",
         "contentType": "counties",
+        "type": "html",
         "section": "counties",
         "slug": "henry",
         "html": "",
         "markdown": "",
         "headings": [],
-        "toc": [],
         "route": "/counties/henry/",
-        "summary": ""
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/counties/henry/",
+        "toc": []
     },
     {
         "title": "LaSalle",
         "contentType": "counties",
+        "type": "html",
         "section": "counties",
         "slug": "lasalle",
         "html": "",
         "markdown": "",
         "headings": [],
-        "toc": [],
         "route": "/counties/lasalle/",
-        "summary": ""
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/counties/lasalle/",
+        "toc": []
     },
     {
         "title": "Morgan",
         "contentType": "counties",
+        "type": "html",
         "section": "counties",
         "slug": "morgan",
         "html": "",
         "markdown": "",
         "headings": [],
-        "toc": [],
         "route": "/counties/morgan/",
-        "summary": ""
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/counties/morgan/",
+        "toc": []
     },
     {
         "title": "Lee",
         "contentType": "counties",
+        "type": "html",
         "section": "counties",
         "slug": "lee",
         "html": "",
         "markdown": "",
         "headings": [],
-        "toc": [],
         "route": "/counties/lee/",
-        "summary": ""
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/counties/lee/",
+        "toc": []
     },
     {
         "title": "St. Clair",
         "contentType": "counties",
+        "type": "html",
         "section": "counties",
         "slug": "st-clair",
         "html": "",
         "markdown": "",
         "headings": [],
-        "toc": [],
         "route": "/counties/st-clair/",
-        "summary": ""
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/counties/st-clair/",
+        "toc": []
     },
     {
         "title": "Knox",
         "contentType": "counties",
+        "type": "html",
         "section": "counties",
         "slug": "knox",
         "html": "",
         "markdown": "",
         "headings": [],
-        "toc": [],
         "route": "/counties/knox/",
-        "summary": ""
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/counties/knox/",
+        "toc": []
     },
     {
         "title": "Will",
         "contentType": "counties",
+        "type": "html",
         "section": "counties",
         "slug": "will",
         "html": "",
         "markdown": "",
         "headings": [],
-        "toc": [],
         "route": "/counties/will/",
-        "summary": ""
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/counties/will/",
+        "toc": []
     },
     {
         "title": "Jersey",
         "contentType": "counties",
+        "type": "html",
         "section": "counties",
         "slug": "jersey",
         "html": "",
         "markdown": "",
         "headings": [],
-        "toc": [],
         "route": "/counties/jersey/",
-        "summary": ""
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/counties/jersey/",
+        "toc": []
     },
     {
         "title": "Madison",
         "contentType": "counties",
+        "type": "html",
         "section": "counties",
         "slug": "madison",
         "html": "",
         "markdown": "",
         "headings": [],
-        "toc": [],
         "route": "/counties/madison/",
-        "summary": ""
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/counties/madison/",
+        "toc": []
     },
     {
         "title": "Woodford",
         "contentType": "counties",
+        "type": "html",
         "section": "counties",
         "slug": "woodford",
         "html": "",
         "markdown": "",
         "headings": [],
-        "toc": [],
         "route": "/counties/woodford/",
-        "summary": ""
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/counties/woodford/",
+        "toc": []
     },
     {
         "title": "Jasper",
         "contentType": "counties",
+        "type": "html",
         "section": "counties",
         "slug": "jasper",
         "html": "",
         "markdown": "",
         "headings": [],
-        "toc": [],
         "route": "/counties/jasper/",
-        "summary": ""
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/counties/jasper/",
+        "toc": []
     },
     {
         "title": "Coles",
         "contentType": "counties",
+        "type": "html",
         "section": "counties",
         "slug": "coles",
         "html": "",
         "markdown": "",
         "headings": [],
-        "toc": [],
         "route": "/counties/coles/",
-        "summary": ""
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/counties/coles/",
+        "toc": []
     },
     {
         "title": "DeKalb",
         "contentType": "counties",
+        "type": "html",
         "section": "counties",
         "slug": "dekalb",
         "html": "",
         "markdown": "",
         "headings": [],
-        "toc": [],
         "route": "/counties/dekalb/",
-        "summary": ""
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/counties/dekalb/",
+        "toc": []
     },
     {
         "title": "Saline",
         "contentType": "counties",
+        "type": "html",
         "section": "counties",
         "slug": "saline",
         "html": "",
         "markdown": "",
         "headings": [],
-        "toc": [],
         "route": "/counties/saline/",
-        "summary": ""
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/counties/saline/",
+        "toc": []
     },
     {
         "title": "Clay",
         "contentType": "counties",
+        "type": "html",
         "section": "counties",
         "slug": "clay",
         "html": "",
         "markdown": "",
         "headings": [],
-        "toc": [],
         "route": "/counties/clay/",
-        "summary": ""
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/counties/clay/",
+        "toc": []
     },
     {
         "title": "Greene",
         "contentType": "counties",
+        "type": "html",
         "section": "counties",
         "slug": "greene",
         "html": "",
         "markdown": "",
         "headings": [],
-        "toc": [],
         "route": "/counties/greene/",
-        "summary": ""
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/counties/greene/",
+        "toc": []
     },
     {
         "title": "Edwards",
         "contentType": "counties",
+        "type": "html",
         "section": "counties",
         "slug": "edwards",
         "html": "",
         "markdown": "",
         "headings": [],
-        "toc": [],
         "route": "/counties/edwards/",
-        "summary": ""
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/counties/edwards/",
+        "toc": []
     },
     {
         "title": "Vermilion",
         "contentType": "counties",
+        "type": "html",
         "section": "counties",
         "slug": "vermilion",
         "html": "",
         "markdown": "",
         "headings": [],
-        "toc": [],
         "route": "/counties/vermilion/",
-        "summary": ""
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/counties/vermilion/",
+        "toc": []
     },
     {
         "title": "Peoria",
         "contentType": "counties",
+        "type": "html",
         "section": "counties",
         "slug": "peoria",
         "html": "",
         "markdown": "",
         "headings": [],
-        "toc": [],
         "route": "/counties/peoria/",
-        "summary": ""
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/counties/peoria/",
+        "toc": []
     },
     {
         "title": "Hamilton",
         "contentType": "counties",
+        "type": "html",
         "section": "counties",
         "slug": "hamilton",
         "html": "",
         "markdown": "",
         "headings": [],
-        "toc": [],
         "route": "/counties/hamilton/",
-        "summary": ""
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/counties/hamilton/",
+        "toc": []
     },
     {
         "title": "Pike",
         "contentType": "counties",
+        "type": "html",
         "section": "counties",
         "slug": "pike",
         "html": "",
         "markdown": "",
         "headings": [],
-        "toc": [],
         "route": "/counties/pike/",
-        "summary": ""
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/counties/pike/",
+        "toc": []
     },
     {
         "title": "Calhoun",
         "contentType": "counties",
+        "type": "html",
         "section": "counties",
         "slug": "calhoun",
         "html": "",
         "markdown": "",
         "headings": [],
-        "toc": [],
         "route": "/counties/calhoun/",
-        "summary": ""
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/counties/calhoun/",
+        "toc": []
     },
     {
         "title": "Alexander",
         "contentType": "counties",
+        "type": "html",
         "section": "counties",
         "slug": "alexander",
         "html": "",
         "markdown": "",
         "headings": [],
-        "toc": [],
         "route": "/counties/alexander/",
-        "summary": ""
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/counties/alexander/",
+        "toc": []
     },
     {
         "title": "Sangamon",
         "contentType": "counties",
+        "type": "html",
         "section": "counties",
         "slug": "sangamon",
         "html": "",
         "markdown": "",
         "headings": [],
-        "toc": [],
         "route": "/counties/sangamon/",
-        "summary": ""
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/counties/sangamon/",
+        "toc": []
     },
     {
         "title": "Christian",
         "contentType": "counties",
+        "type": "html",
         "section": "counties",
         "slug": "christian",
         "html": "",
         "markdown": "",
         "headings": [],
-        "toc": [],
         "route": "/counties/christian/",
-        "summary": ""
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/counties/christian/",
+        "toc": []
     },
     {
         "title": "Jackson",
         "contentType": "counties",
+        "type": "html",
         "section": "counties",
         "slug": "jackson",
         "html": "",
         "markdown": "",
         "headings": [],
-        "toc": [],
         "route": "/counties/jackson/",
-        "summary": ""
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/counties/jackson/",
+        "toc": []
     },
     {
         "title": "Massac",
         "contentType": "counties",
+        "type": "html",
         "section": "counties",
         "slug": "massac",
         "html": "",
         "markdown": "",
         "headings": [],
-        "toc": [],
         "route": "/counties/massac/",
-        "summary": ""
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/counties/massac/",
+        "toc": []
     },
     {
         "title": "Mercer",
         "contentType": "counties",
+        "type": "html",
         "section": "counties",
         "slug": "mercer",
         "html": "",
         "markdown": "",
         "headings": [],
-        "toc": [],
         "route": "/counties/mercer/",
-        "summary": ""
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/counties/mercer/",
+        "toc": []
     },
     {
         "title": "Edgar",
         "contentType": "counties",
+        "type": "html",
         "section": "counties",
         "slug": "edgar",
         "html": "",
         "markdown": "",
         "headings": [],
-        "toc": [],
         "route": "/counties/edgar/",
-        "summary": ""
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/counties/edgar/",
+        "toc": []
     },
     {
         "title": "DuPage",
         "contentType": "counties",
+        "type": "html",
         "section": "counties",
         "slug": "dupage",
         "html": "",
         "markdown": "",
         "headings": [],
-        "toc": [],
         "route": "/counties/dupage/",
-        "summary": ""
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/counties/dupage/",
+        "toc": []
     },
     {
         "title": "Logan",
         "contentType": "counties",
+        "type": "html",
         "section": "counties",
         "slug": "logan",
         "html": "",
         "markdown": "",
         "headings": [],
-        "toc": [],
         "route": "/counties/logan/",
-        "summary": ""
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/counties/logan/",
+        "toc": []
     },
     {
         "title": "Cook",
         "contentType": "counties",
+        "type": "html",
         "section": "counties",
         "slug": "cook",
         "html": "",
         "markdown": "",
         "headings": [],
-        "toc": [],
         "route": "/counties/cook/",
-        "summary": ""
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/counties/cook/",
+        "toc": []
     },
     {
         "title": "Marion",
         "contentType": "counties",
+        "type": "html",
         "section": "counties",
         "slug": "marion",
         "html": "",
         "markdown": "",
         "headings": [],
-        "toc": [],
         "route": "/counties/marion/",
-        "summary": ""
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/counties/marion/",
+        "toc": []
     },
     {
         "title": "Lawrence",
         "contentType": "counties",
+        "type": "html",
         "section": "counties",
         "slug": "lawrence",
         "html": "",
         "markdown": "",
         "headings": [],
-        "toc": [],
         "route": "/counties/lawrence/",
-        "summary": ""
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/counties/lawrence/",
+        "toc": []
     },
     {
         "title": "Rock Island",
         "contentType": "counties",
+        "type": "html",
         "section": "counties",
         "slug": "rock-island",
         "html": "",
         "markdown": "",
         "headings": [],
-        "toc": [],
         "route": "/counties/rock-island/",
-        "summary": ""
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/counties/rock-island/",
+        "toc": []
     },
     {
         "title": "Macon",
         "contentType": "counties",
+        "type": "html",
         "section": "counties",
         "slug": "macon",
         "html": "",
         "markdown": "",
         "headings": [],
-        "toc": [],
         "route": "/counties/macon/",
-        "summary": ""
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/counties/macon/",
+        "toc": []
     },
     {
         "title": "Clark",
         "contentType": "counties",
+        "type": "html",
         "section": "counties",
         "slug": "clark",
         "html": "",
         "markdown": "",
         "headings": [],
-        "toc": [],
         "route": "/counties/clark/",
-        "summary": ""
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/counties/clark/",
+        "toc": []
     },
     {
         "title": "McLean",
         "contentType": "counties",
+        "type": "html",
         "section": "counties",
         "slug": "mclean",
         "html": "",
         "markdown": "",
         "headings": [],
-        "toc": [],
         "route": "/counties/mclean/",
-        "summary": ""
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/counties/mclean/",
+        "toc": []
     },
     {
         "title": "Wabash",
         "contentType": "counties",
+        "type": "html",
         "section": "counties",
         "slug": "wabash",
         "html": "",
         "markdown": "",
         "headings": [],
-        "toc": [],
         "route": "/counties/wabash/",
-        "summary": ""
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/counties/wabash/",
+        "toc": []
     },
     {
         "title": "Hancock",
         "contentType": "counties",
+        "type": "html",
         "section": "counties",
         "slug": "hancock",
         "html": "",
         "markdown": "",
         "headings": [],
-        "toc": [],
         "route": "/counties/hancock/",
-        "summary": ""
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/counties/hancock/",
+        "toc": []
     },
     {
         "title": "McHenry",
         "contentType": "counties",
+        "type": "html",
         "section": "counties",
         "slug": "mchenry",
         "html": "",
         "markdown": "",
         "headings": [],
-        "toc": [],
         "route": "/counties/mchenry/",
-        "summary": ""
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/counties/mchenry/",
+        "toc": []
     },
     {
         "title": "Monroe",
         "contentType": "counties",
+        "type": "html",
         "section": "counties",
         "slug": "monroe",
         "html": "",
         "markdown": "",
         "headings": [],
-        "toc": [],
         "route": "/counties/monroe/",
-        "summary": ""
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/counties/monroe/",
+        "toc": []
     },
     {
         "title": "Whiteside",
         "contentType": "counties",
+        "type": "html",
         "section": "counties",
         "slug": "whiteside",
         "html": "",
         "markdown": "",
         "headings": [],
-        "toc": [],
         "route": "/counties/whiteside/",
-        "summary": ""
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/counties/whiteside/",
+        "toc": []
     },
     {
         "title": "Champaign",
         "contentType": "counties",
+        "type": "html",
         "section": "counties",
         "slug": "champaign",
         "html": "",
         "markdown": "",
         "headings": [],
-        "toc": [],
         "route": "/counties/champaign/",
-        "summary": ""
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/counties/champaign/",
+        "toc": []
     },
     {
         "title": "Shelby",
         "contentType": "counties",
+        "type": "html",
         "section": "counties",
         "slug": "shelby",
         "html": "",
         "markdown": "",
         "headings": [],
-        "toc": [],
         "route": "/counties/shelby/",
-        "summary": ""
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/counties/shelby/",
+        "toc": []
     },
     {
         "title": "Johnson",
         "contentType": "counties",
+        "type": "html",
         "section": "counties",
         "slug": "johnson",
         "html": "",
         "markdown": "",
         "headings": [],
-        "toc": [],
         "route": "/counties/johnson/",
-        "summary": ""
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/counties/johnson/",
+        "toc": []
     },
     {
         "title": "Washington",
         "contentType": "counties",
+        "type": "html",
         "section": "counties",
         "slug": "washington",
         "html": "",
         "markdown": "",
         "headings": [],
-        "toc": [],
         "route": "/counties/washington/",
-        "summary": ""
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/counties/washington/",
+        "toc": []
     },
     {
         "title": "Kankakee",
         "contentType": "counties",
+        "type": "html",
         "section": "counties",
         "slug": "kankakee",
         "html": "",
         "markdown": "",
         "headings": [],
-        "toc": [],
         "route": "/counties/kankakee/",
-        "summary": ""
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/counties/kankakee/",
+        "toc": []
     },
     {
         "title": "Bureau",
         "contentType": "counties",
+        "type": "html",
         "section": "counties",
         "slug": "bureau",
         "html": "",
         "markdown": "",
         "headings": [],
-        "toc": [],
         "route": "/counties/bureau/",
-        "summary": ""
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/counties/bureau/",
+        "toc": []
     },
     {
         "title": "Fayette",
         "contentType": "counties",
+        "type": "html",
         "section": "counties",
         "slug": "fayette",
         "html": "",
         "markdown": "",
         "headings": [],
-        "toc": [],
         "route": "/counties/fayette/",
-        "summary": ""
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/counties/fayette/",
+        "toc": []
     },
     {
         "title": "Mason",
         "contentType": "counties",
+        "type": "html",
         "section": "counties",
         "slug": "mason",
         "html": "",
         "markdown": "",
         "headings": [],
-        "toc": [],
         "route": "/counties/mason/",
-        "summary": ""
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/counties/mason/",
+        "toc": []
     },
     {
         "title": "Lake",
         "contentType": "counties",
+        "type": "html",
         "section": "counties",
         "slug": "lake",
         "html": "",
         "markdown": "",
         "headings": [],
-        "toc": [],
         "route": "/counties/lake/",
-        "summary": ""
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/counties/lake/",
+        "toc": []
     },
     {
         "title": "Kane",
         "contentType": "counties",
+        "type": "html",
         "section": "counties",
         "slug": "kane",
         "html": "",
         "markdown": "",
         "headings": [],
-        "toc": [],
         "route": "/counties/kane/",
-        "summary": ""
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/counties/kane/",
+        "toc": []
     },
     {
         "title": "Stephenson",
         "contentType": "counties",
+        "type": "html",
         "section": "counties",
         "slug": "stephenson",
         "html": "",
         "markdown": "",
         "headings": [],
-        "toc": [],
         "route": "/counties/stephenson/",
-        "summary": ""
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/counties/stephenson/",
+        "toc": []
     },
     {
         "title": "Piatt",
         "contentType": "counties",
+        "type": "html",
         "section": "counties",
         "slug": "piatt",
         "html": "",
         "markdown": "",
         "headings": [],
-        "toc": [],
         "route": "/counties/piatt/",
-        "summary": ""
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/counties/piatt/",
+        "toc": []
     },
     {
         "title": "Cumberland",
         "contentType": "counties",
+        "type": "html",
         "section": "counties",
         "slug": "cumberland",
         "html": "",
         "markdown": "",
         "headings": [],
-        "toc": [],
         "route": "/counties/cumberland/",
-        "summary": ""
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/counties/cumberland/",
+        "toc": []
     },
     {
         "title": "Stark",
         "contentType": "counties",
+        "type": "html",
         "section": "counties",
         "slug": "stark",
         "html": "",
         "markdown": "",
         "headings": [],
-        "toc": [],
         "route": "/counties/stark/",
-        "summary": ""
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/counties/stark/",
+        "toc": []
     },
     {
         "title": "Marshall",
         "contentType": "counties",
+        "type": "html",
         "section": "counties",
         "slug": "marshall",
         "html": "",
         "markdown": "",
         "headings": [],
-        "toc": [],
         "route": "/counties/marshall/",
-        "summary": ""
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/counties/marshall/",
+        "toc": []
     },
     {
         "title": "Livingston",
         "contentType": "counties",
+        "type": "html",
         "section": "counties",
         "slug": "livingston",
         "html": "",
         "markdown": "",
         "headings": [],
-        "toc": [],
         "route": "/counties/livingston/",
-        "summary": ""
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/counties/livingston/",
+        "toc": []
     },
     {
         "title": "Bond",
         "contentType": "counties",
+        "type": "html",
         "section": "counties",
         "slug": "bond",
         "html": "",
         "markdown": "",
         "headings": [],
-        "toc": [],
         "route": "/counties/bond/",
-        "summary": ""
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/counties/bond/",
+        "toc": []
     },
     {
         "title": "Douglas",
         "contentType": "counties",
+        "type": "html",
         "section": "counties",
         "slug": "douglas",
         "html": "",
         "markdown": "",
         "headings": [],
-        "toc": [],
         "route": "/counties/douglas/",
-        "summary": ""
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/counties/douglas/",
+        "toc": []
     },
     {
         "title": "Jo Daviess",
         "contentType": "counties",
+        "type": "html",
         "section": "counties",
         "slug": "jo-daviess",
         "html": "",
         "markdown": "",
         "headings": [],
-        "toc": [],
         "route": "/counties/jo-daviess/",
-        "summary": ""
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/counties/jo-daviess/",
+        "toc": []
     },
     {
         "title": "De Witt",
         "contentType": "counties",
+        "type": "html",
         "section": "counties",
         "slug": "de-witt",
         "html": "",
         "markdown": "",
         "headings": [],
-        "toc": [],
         "route": "/counties/de-witt/",
-        "summary": ""
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/counties/de-witt/",
+        "toc": []
     },
     {
         "title": "Perry",
         "contentType": "counties",
+        "type": "html",
         "section": "counties",
         "slug": "perry",
         "html": "",
         "markdown": "",
         "headings": [],
-        "toc": [],
         "route": "/counties/perry/",
-        "summary": ""
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/counties/perry/",
+        "toc": []
     },
     {
         "title": "Franklin",
         "contentType": "counties",
+        "type": "html",
         "section": "counties",
         "slug": "franklin",
         "html": "",
         "markdown": "",
         "headings": [],
-        "toc": [],
         "route": "/counties/franklin/",
-        "summary": ""
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/counties/franklin/",
+        "toc": []
     },
     {
         "title": "Williamson",
         "contentType": "counties",
+        "type": "html",
         "section": "counties",
         "slug": "williamson",
         "html": "",
         "markdown": "",
         "headings": [],
-        "toc": [],
         "route": "/counties/williamson/",
-        "summary": ""
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/counties/williamson/",
+        "toc": []
     },
     {
         "title": "Wayne",
         "contentType": "counties",
+        "type": "html",
         "section": "counties",
         "slug": "wayne",
         "html": "",
         "markdown": "",
         "headings": [],
-        "toc": [],
         "route": "/counties/wayne/",
-        "summary": ""
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/counties/wayne/",
+        "toc": []
     },
     {
         "title": "Schuyler",
         "contentType": "counties",
+        "type": "html",
         "section": "counties",
         "slug": "schuyler",
         "html": "",
         "markdown": "",
         "headings": [],
-        "toc": [],
         "route": "/counties/schuyler/",
-        "summary": ""
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/counties/schuyler/",
+        "toc": []
     },
     {
         "title": "Tazewell",
         "contentType": "counties",
+        "type": "html",
         "section": "counties",
         "slug": "tazewell",
         "html": "",
         "markdown": "",
         "headings": [],
-        "toc": [],
         "route": "/counties/tazewell/",
-        "summary": ""
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/counties/tazewell/",
+        "toc": []
     },
     {
         "title": "Randolph",
         "contentType": "counties",
+        "type": "html",
         "section": "counties",
         "slug": "randolph",
         "html": "",
         "markdown": "",
         "headings": [],
-        "toc": [],
         "route": "/counties/randolph/",
-        "summary": ""
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/counties/randolph/",
+        "toc": []
     },
     {
         "title": "Moultrie",
         "contentType": "counties",
+        "type": "html",
         "section": "counties",
         "slug": "moultrie",
         "html": "",
         "markdown": "",
         "headings": [],
-        "toc": [],
         "route": "/counties/moultrie/",
-        "summary": ""
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/counties/moultrie/",
+        "toc": []
     },
     {
         "title": "Gallatin",
         "contentType": "counties",
+        "type": "html",
         "section": "counties",
         "slug": "gallatin",
         "html": "",
         "markdown": "",
         "headings": [],
-        "toc": [],
         "route": "/counties/gallatin/",
-        "summary": ""
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/counties/gallatin/",
+        "toc": []
     },
     {
         "title": "Menard",
         "contentType": "counties",
+        "type": "html",
         "section": "counties",
         "slug": "menard",
         "html": "",
         "markdown": "",
         "headings": [],
-        "toc": [],
         "route": "/counties/menard/",
-        "summary": ""
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/counties/menard/",
+        "toc": []
     },
     {
         "title": "Henderson",
         "contentType": "counties",
+        "type": "html",
         "section": "counties",
         "slug": "henderson",
         "html": "",
         "markdown": "",
         "headings": [],
-        "toc": [],
         "route": "/counties/henderson/",
-        "summary": ""
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/counties/henderson/",
+        "toc": []
     },
     {
         "title": "Effingham",
         "contentType": "counties",
+        "type": "html",
         "section": "counties",
         "slug": "effingham",
         "html": "",
         "markdown": "",
         "headings": [],
-        "toc": [],
         "route": "/counties/effingham/",
-        "summary": ""
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/counties/effingham/",
+        "toc": []
     },
     {
         "title": "Montgomery",
         "contentType": "counties",
+        "type": "html",
         "section": "counties",
         "slug": "montgomery",
         "html": "",
         "markdown": "",
         "headings": [],
-        "toc": [],
         "route": "/counties/montgomery/",
-        "summary": ""
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/counties/montgomery/",
+        "toc": []
     },
     {
         "title": "Boone",
         "contentType": "counties",
+        "type": "html",
         "section": "counties",
         "slug": "boone",
         "html": "",
         "markdown": "",
         "headings": [],
-        "toc": [],
         "route": "/counties/boone/",
-        "summary": ""
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/counties/boone/",
+        "toc": []
     },
     {
         "title": "Crawford",
         "contentType": "counties",
+        "type": "html",
         "section": "counties",
         "slug": "crawford",
         "html": "",
         "markdown": "",
         "headings": [],
-        "toc": [],
         "route": "/counties/crawford/",
-        "summary": ""
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/counties/crawford/",
+        "toc": []
     },
     {
         "title": "Pope",
         "contentType": "counties",
+        "type": "html",
         "section": "counties",
         "slug": "pope",
         "html": "",
         "markdown": "",
         "headings": [],
-        "toc": [],
         "route": "/counties/pope/",
-        "summary": ""
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/counties/pope/",
+        "toc": []
     },
     {
         "title": "Adams",
         "contentType": "counties",
+        "type": "html",
         "section": "counties",
         "slug": "adams",
         "html": "",
         "markdown": "",
         "headings": [],
-        "toc": [],
         "route": "/counties/adams/",
-        "summary": ""
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/counties/adams/",
+        "toc": []
     },
     {
         "title": "Fulton",
         "contentType": "counties",
+        "type": "html",
         "section": "counties",
         "slug": "fulton",
         "html": "",
         "markdown": "",
         "headings": [],
-        "toc": [],
         "route": "/counties/fulton/",
-        "summary": ""
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/counties/fulton/",
+        "toc": []
     },
     {
         "title": "Hardin",
         "contentType": "counties",
+        "type": "html",
         "section": "counties",
         "slug": "hardin",
         "html": "",
         "markdown": "",
         "headings": [],
-        "toc": [],
         "route": "/counties/hardin/",
-        "summary": ""
+        "summary": "",
+        "url": "https://ifvcc.icjia.cloud/counties/hardin/",
+        "toc": []
     }
 ]

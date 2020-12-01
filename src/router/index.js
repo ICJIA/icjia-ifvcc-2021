@@ -37,13 +37,13 @@ const routes = [
       import(/* webpackChunkName: "councils" */ "../views/CountySingle.vue"),
   },
   {
-    path: "/circuit/",
+    path: "/circuits/",
     name: "Circuits",
     component: () =>
       import(/* webpackChunkName: "councils" */ "../views/Councils.vue"),
   },
   {
-    path: "/circuit/:slug/",
+    path: "/circuits/:slug/",
     name: "CircuitSingle",
     component: () =>
       import(/* webpackChunkName: "councils" */ "../views/CircuitSingle.vue"),

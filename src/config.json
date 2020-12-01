@@ -38,13 +38,19 @@
             "prefix": "/events"
         },
         "pages": {
-            "prefix": ""
+            "prefix": "/"
         },
         "posts": {
             "prefix": "/news"
         },
         "crest": {
             "prefix": "/crest"
+        },
+        "counties": {
+            "prefix": "/counties"
+        },
+        "councils": {
+            "prefix": "/circuits"
         }
     },
     "search": {

@@ -23,7 +23,7 @@
         </div>
 
         <div class="mt-8 text-right" v-if="showLinkToCircuit">
-          <v-btn x-small :to="`/circuit/${items[0].slug}/`">
+          <v-btn x-small :to="`/circuits/${items[0].slug}/`">
             Link <v-icon right x-small>link</v-icon>
           </v-btn>
         </div>
