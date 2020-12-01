@@ -1,0 +1,1983 @@
+{
+    "keys": [
+        {
+            "path": [
+                "summary"
+            ],
+            "id": "summary",
+            "weight": 1,
+            "src": "summary"
+        },
+        {
+            "path": [
+                "title"
+            ],
+            "id": "title",
+            "weight": 1,
+            "src": "title"
+        },
+        {
+            "path": [
+                "name"
+            ],
+            "id": "name",
+            "weight": 1,
+            "src": "name"
+        },
+        {
+            "path": [
+                "headings"
+            ],
+            "id": "headings",
+            "weight": 1,
+            "src": "headings"
+        },
+        {
+            "path": [
+                "type"
+            ],
+            "id": "type",
+            "weight": 1,
+            "src": "type"
+        }
+    ],
+    "records": [
+        {
+            "i": 0,
+            "$": {
+                "0": {
+                    "v": "Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi.",
+                    "n": 0.316
+                },
+                "1": {
+                    "v": "Posuere Metus Vitae Ipsum Aliquam Non Mauris Morbi Non Lectus Aliquam Sit",
+                    "n": 0.289
+                },
+                "3": []
+            }
+        },
+        {
+            "i": 1,
+            "$": {
+                "0": {
+                    "v": "Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci",
+                    "n": 0.316
+                },
+                "1": {
+                    "v": "Curae Donec Pharetra Magna Vestibulum Aliquet Ultrices Erat Tortor Sollicitudin",
+                    "n": 0.316
+                },
+                "3": []
+            }
+        },
+        {
+            "i": 2,
+            "$": {
+                "0": {
+                    "v": "Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla",
+                    "n": 0.316
+                },
+                "1": {
+                    "v": "Maecenas Rhoncus Aliquam Lacus Morbi Quis Tortor Id",
+                    "n": 0.354
+                },
+                "3": [
+                    {
+                        "v": "Acmona inconsumpta fallit certasse locus luctusque sororis",
+                        "i": 1,
+                        "n": 0.378
+                    },
+                    {
+                        "v": "In Nais ara",
+                        "i": 0,
+                        "n": 0.577
+                    }
+                ]
+            }
+        },
+        {
+            "i": 3,
+            "$": {
+                "0": {
+                    "v": "Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id",
+                    "n": 0.316
+                },
+                "1": {
+                    "v": "Enim Lorem Ipsum Dolor Sit",
+                    "n": 0.447
+                },
+                "3": [
+                    {
+                        "v": "Acmona inconsumpta fallit certasse locus luctusque sororis",
+                        "i": 1,
+                        "n": 0.378
+                    },
+                    {
+                        "v": "In Nais ara",
+                        "i": 0,
+                        "n": 0.577
+                    }
+                ]
+            }
+        },
+        {
+            "i": 4,
+            "$": {
+                "0": {
+                    "v": "Family Violence Coordinating Councils, at both the state and local/circuit levels, provide a forum to improve the institutional, professional and community response to family violence including child abuse, domestic abuse, and elder abuse. Councils provide professional education and prevention; coordinate interventions and services for victims and perpetrators; and contribute to both the improvement of the legal system and the administration of justice.",
+                    "n": 0.127
+                },
+                "1": {
+                    "v": "About the IFVCC",
+                    "n": 0.577
+                },
+                "3": []
+            }
+        },
+        {
+            "i": 5,
+            "$": {
+                "1": {
+                    "v": "Archive",
+                    "n": 1
+                },
+                "3": [
+                    {
+                        "v": "Visitation Exchange Project",
+                        "i": 2,
+                        "n": 0.577
+                    },
+                    {
+                        "v": "Domestic Violence Court Systems Project",
+                        "i": 1,
+                        "n": 0.447
+                    },
+                    {
+                        "v": "Mediation and Family Violence",
+                        "i": 0,
+                        "n": 0.5
+                    }
+                ]
+            }
+        },
+        {
+            "i": 6,
+            "$": {
+                "0": {
+                    "v": "IFVCC military resources ",
+                    "n": 0.577
+                },
+                "1": {
+                    "v": "Military Resources",
+                    "n": 0.707
+                },
+                "3": [
+                    {
+                        "v": "Domestic Violence/Sexual Assault",
+                        "i": 7,
+                        "n": 0.577
+                    },
+                    {
+                        "v": "Courts/Legal",
+                        "i": 6,
+                        "n": 1
+                    },
+                    {
+                        "v": "Stalking",
+                        "i": 5,
+                        "n": 1
+                    },
+                    {
+                        "v": "Culture",
+                        "i": 4,
+                        "n": 1
+                    },
+                    {
+                        "v": "Veterans",
+                        "i": 3,
+                        "n": 1
+                    },
+                    {
+                        "v": "Family",
+                        "i": 2,
+                        "n": 1
+                    },
+                    {
+                        "v": "Intimate Partner Violence",
+                        "i": 1,
+                        "n": 0.577
+                    },
+                    {
+                        "v": "PTSD",
+                        "i": 0,
+                        "n": 1
+                    }
+                ]
+            }
+        },
+        {
+            "i": 7,
+            "$": {
+                "0": {
+                    "v": "IFVCC partners ",
+                    "n": 0.707
+                },
+                "1": {
+                    "v": "Partners",
+                    "n": 1
+                },
+                "3": [
+                    {
+                        "v": "Envision Illinois",
+                        "i": 2,
+                        "n": 0.707
+                    },
+                    {
+                        "v": "Illinois Imagines",
+                        "i": 1,
+                        "n": 0.707
+                    },
+                    {
+                        "v": "Steering Committee",
+                        "i": 0,
+                        "n": 0.707
+                    }
+                ]
+            }
+        },
+        {
+            "i": 8,
+            "$": {
+                "1": {
+                    "v": "Projects",
+                    "n": 1
+                },
+                "3": [
+                    {
+                        "v": "Schools Respond to Family Violence",
+                        "i": 5,
+                        "n": 0.447
+                    },
+                    {
+                        "v": "Elder Sensitivity Training",
+                        "i": 4,
+                        "n": 0.577
+                    },
+                    {
+                        "v": "Arrest Grant Advisory Committee",
+                        "i": 3,
+                        "n": 0.5
+                    },
+                    {
+                        "v": "Mini Toolkits",
+                        "i": 2,
+                        "n": 0.707
+                    },
+                    {
+                        "v": "Model Protocols",
+                        "i": 1,
+                        "n": 0.707
+                    },
+                    {
+                        "v": "Grant to Encourage Arrest and Enforcement of Orders of Protection",
+                        "i": 0,
+                        "n": 0.316
+                    }
+                ]
+            }
+        },
+        {
+            "i": 9,
+            "$": {
+                "0": {
+                    "v": "IFVCC Resources ",
+                    "n": 0.707
+                },
+                "1": {
+                    "v": "Resources",
+                    "n": 1
+                },
+                "3": [
+                    {
+                        "v": "Other Resources",
+                        "i": 5,
+                        "n": 0.707
+                    },
+                    {
+                        "v": "Child Abuse",
+                        "i": 4,
+                        "n": 0.707
+                    },
+                    {
+                        "v": "Sexual Abuse",
+                        "i": 3,
+                        "n": 0.707
+                    },
+                    {
+                        "v": "People with Disabilities",
+                        "i": 2,
+                        "n": 0.577
+                    },
+                    {
+                        "v": "Elder Abuse",
+                        "i": 1,
+                        "n": 0.707
+                    },
+                    {
+                        "v": "Domestic Violence",
+                        "i": 0,
+                        "n": 0.707
+                    }
+                ]
+            }
+        },
+        {
+            "i": 10,
+            "$": {
+                "0": {
+                    "v": "Lorem markdownum stratosque sidera, est ferat dura dum. ",
+                    "n": 0.354
+                },
+                "1": {
+                    "v": "Find a council",
+                    "n": 0.577
+                },
+                "3": []
+            }
+        },
+        {
+            "i": 11,
+            "$": {
+                "1": {
+                    "v": "News & Updates",
+                    "n": 0.577
+                },
+                "3": []
+            }
+        },
+        {
+            "i": 12,
+            "$": {
+                "1": {
+                    "v": "Search",
+                    "n": 1
+                },
+                "3": []
+            }
+        },
+        {
+            "i": 13,
+            "$": {
+                "1": {
+                    "v": "1st Judicial Circuit",
+                    "n": 0.577
+                },
+                "3": [
+                    {
+                        "v": "Coordinator",
+                        "i": 2,
+                        "n": 1
+                    },
+                    {
+                        "v": "Council Leadership",
+                        "i": 1,
+                        "n": 0.707
+                    },
+                    {
+                        "v": "Counties Served",
+                        "i": 0,
+                        "n": 0.707
+                    }
+                ]
+            }
+        },
+        {
+            "i": 14,
+            "$": {
+                "1": {
+                    "v": "2nd Judicial Circuit",
+                    "n": 0.577
+                },
+                "3": [
+                    {
+                        "v": "Coordinator",
+                        "i": 2,
+                        "n": 1
+                    },
+                    {
+                        "v": "Council Leadership",
+                        "i": 1,
+                        "n": 0.707
+                    },
+                    {
+                        "v": "Counties Served",
+                        "i": 0,
+                        "n": 0.707
+                    }
+                ]
+            }
+        },
+        {
+            "i": 15,
+            "$": {
+                "1": {
+                    "v": "3rd Judicial Circuit",
+                    "n": 0.577
+                },
+                "3": [
+                    {
+                        "v": "Coordinator",
+                        "i": 2,
+                        "n": 1
+                    },
+                    {
+                        "v": "Council Leadership",
+                        "i": 1,
+                        "n": 0.707
+                    },
+                    {
+                        "v": "Counties Served",
+                        "i": 0,
+                        "n": 0.707
+                    }
+                ]
+            }
+        },
+        {
+            "i": 16,
+            "$": {
+                "1": {
+                    "v": "4th Judicial Circuit",
+                    "n": 0.577
+                },
+                "3": [
+                    {
+                        "v": "Coordinator",
+                        "i": 2,
+                        "n": 1
+                    },
+                    {
+                        "v": "Council Leadership",
+                        "i": 1,
+                        "n": 0.707
+                    },
+                    {
+                        "v": "Counties Served",
+                        "i": 0,
+                        "n": 0.707
+                    }
+                ]
+            }
+        },
+        {
+            "i": 17,
+            "$": {
+                "1": {
+                    "v": "5th Judicial Circuit",
+                    "n": 0.577
+                },
+                "3": [
+                    {
+                        "v": "Coordinator",
+                        "i": 2,
+                        "n": 1
+                    },
+                    {
+                        "v": "Council Leadership",
+                        "i": 1,
+                        "n": 0.707
+                    },
+                    {
+                        "v": "Counties Served",
+                        "i": 0,
+                        "n": 0.707
+                    }
+                ]
+            }
+        },
+        {
+            "i": 18,
+            "$": {
+                "1": {
+                    "v": "6th Judicial Circuit",
+                    "n": 0.577
+                },
+                "3": [
+                    {
+                        "v": "Coordinator",
+                        "i": 2,
+                        "n": 1
+                    },
+                    {
+                        "v": "Council Leadership",
+                        "i": 1,
+                        "n": 0.707
+                    },
+                    {
+                        "v": "Counties Served",
+                        "i": 0,
+                        "n": 0.707
+                    }
+                ]
+            }
+        },
+        {
+            "i": 19,
+            "$": {
+                "1": {
+                    "v": "7th Judicial Circuit",
+                    "n": 0.577
+                },
+                "3": [
+                    {
+                        "v": "Coordinator",
+                        "i": 2,
+                        "n": 1
+                    },
+                    {
+                        "v": "Council Leadership",
+                        "i": 1,
+                        "n": 0.707
+                    },
+                    {
+                        "v": "Counties Served",
+                        "i": 0,
+                        "n": 0.707
+                    }
+                ]
+            }
+        },
+        {
+            "i": 20,
+            "$": {
+                "1": {
+                    "v": "8th Judicial Circuit",
+                    "n": 0.577
+                },
+                "3": [
+                    {
+                        "v": "Coordinator",
+                        "i": 2,
+                        "n": 1
+                    },
+                    {
+                        "v": "Council Leadership",
+                        "i": 1,
+                        "n": 0.707
+                    },
+                    {
+                        "v": "Counties Served",
+                        "i": 0,
+                        "n": 0.707
+                    }
+                ]
+            }
+        },
+        {
+            "i": 21,
+            "$": {
+                "1": {
+                    "v": "9th Judicial Circuit",
+                    "n": 0.577
+                },
+                "3": [
+                    {
+                        "v": "Coordinator",
+                        "i": 2,
+                        "n": 1
+                    },
+                    {
+                        "v": "Council Leadership",
+                        "i": 1,
+                        "n": 0.707
+                    },
+                    {
+                        "v": "Counties Served",
+                        "i": 0,
+                        "n": 0.707
+                    }
+                ]
+            }
+        },
+        {
+            "i": 22,
+            "$": {
+                "1": {
+                    "v": "10th Judicial Circuit",
+                    "n": 0.577
+                },
+                "3": [
+                    {
+                        "v": "Coordinator",
+                        "i": 2,
+                        "n": 1
+                    },
+                    {
+                        "v": "Council Leadership",
+                        "i": 1,
+                        "n": 0.707
+                    },
+                    {
+                        "v": "Counties Served",
+                        "i": 0,
+                        "n": 0.707
+                    }
+                ]
+            }
+        },
+        {
+            "i": 23,
+            "$": {
+                "1": {
+                    "v": "11th Judicial Circuit",
+                    "n": 0.577
+                },
+                "3": [
+                    {
+                        "v": "Coordinator",
+                        "i": 2,
+                        "n": 1
+                    },
+                    {
+                        "v": "Council Leadership",
+                        "i": 1,
+                        "n": 0.707
+                    },
+                    {
+                        "v": "Counties Served",
+                        "i": 0,
+                        "n": 0.707
+                    }
+                ]
+            }
+        },
+        {
+            "i": 24,
+            "$": {
+                "1": {
+                    "v": "12th Judicial Circuit",
+                    "n": 0.577
+                },
+                "3": [
+                    {
+                        "v": "Coordinator",
+                        "i": 2,
+                        "n": 1
+                    },
+                    {
+                        "v": "Council Leadership",
+                        "i": 1,
+                        "n": 0.707
+                    },
+                    {
+                        "v": "Counties Served",
+                        "i": 0,
+                        "n": 0.707
+                    }
+                ]
+            }
+        },
+        {
+            "i": 25,
+            "$": {
+                "1": {
+                    "v": "13th Judicial Circuit",
+                    "n": 0.577
+                },
+                "3": [
+                    {
+                        "v": "Coordinator",
+                        "i": 2,
+                        "n": 1
+                    },
+                    {
+                        "v": "Council Leadership",
+                        "i": 1,
+                        "n": 0.707
+                    },
+                    {
+                        "v": "Counties Served",
+                        "i": 0,
+                        "n": 0.707
+                    }
+                ]
+            }
+        },
+        {
+            "i": 26,
+            "$": {
+                "1": {
+                    "v": "14th Judicial Circuit",
+                    "n": 0.577
+                },
+                "3": [
+                    {
+                        "v": "Coordinator",
+                        "i": 2,
+                        "n": 1
+                    },
+                    {
+                        "v": "Council Leadership",
+                        "i": 1,
+                        "n": 0.707
+                    },
+                    {
+                        "v": "Counties Served",
+                        "i": 0,
+                        "n": 0.707
+                    }
+                ]
+            }
+        },
+        {
+            "i": 27,
+            "$": {
+                "1": {
+                    "v": "15th Judicial Circuit",
+                    "n": 0.577
+                },
+                "3": [
+                    {
+                        "v": "Coordinator",
+                        "i": 2,
+                        "n": 1
+                    },
+                    {
+                        "v": "Council Leadership",
+                        "i": 1,
+                        "n": 0.707
+                    },
+                    {
+                        "v": "Counties Served",
+                        "i": 0,
+                        "n": 0.707
+                    }
+                ]
+            }
+        },
+        {
+            "i": 28,
+            "$": {
+                "1": {
+                    "v": "16th Judicial Circuit",
+                    "n": 0.577
+                },
+                "3": [
+                    {
+                        "v": "Coordinator",
+                        "i": 2,
+                        "n": 1
+                    },
+                    {
+                        "v": "Council Leadership",
+                        "i": 1,
+                        "n": 0.707
+                    },
+                    {
+                        "v": "Counties Served",
+                        "i": 0,
+                        "n": 0.707
+                    }
+                ]
+            }
+        },
+        {
+            "i": 29,
+            "$": {
+                "1": {
+                    "v": "17th Judicial Circuit",
+                    "n": 0.577
+                },
+                "3": [
+                    {
+                        "v": "Coordinator",
+                        "i": 2,
+                        "n": 1
+                    },
+                    {
+                        "v": "Council Leadership",
+                        "i": 1,
+                        "n": 0.707
+                    },
+                    {
+                        "v": "Counties Served",
+                        "i": 0,
+                        "n": 0.707
+                    }
+                ]
+            }
+        },
+        {
+            "i": 30,
+            "$": {
+                "1": {
+                    "v": "18th Judicial Circuit",
+                    "n": 0.577
+                },
+                "3": [
+                    {
+                        "v": "Coordinator",
+                        "i": 2,
+                        "n": 1
+                    },
+                    {
+                        "v": "Council Leadership",
+                        "i": 1,
+                        "n": 0.707
+                    },
+                    {
+                        "v": "Counties Served",
+                        "i": 0,
+                        "n": 0.707
+                    }
+                ]
+            }
+        },
+        {
+            "i": 31,
+            "$": {
+                "1": {
+                    "v": "19th Judicial Circuit",
+                    "n": 0.577
+                },
+                "3": [
+                    {
+                        "v": "Coordinator",
+                        "i": 2,
+                        "n": 1
+                    },
+                    {
+                        "v": "Council Leadership",
+                        "i": 1,
+                        "n": 0.707
+                    },
+                    {
+                        "v": "Counties Served",
+                        "i": 0,
+                        "n": 0.707
+                    }
+                ]
+            }
+        },
+        {
+            "i": 32,
+            "$": {
+                "1": {
+                    "v": "20th Judicial Circuit",
+                    "n": 0.577
+                },
+                "3": [
+                    {
+                        "v": "Coordinator",
+                        "i": 2,
+                        "n": 1
+                    },
+                    {
+                        "v": "Council Leadership",
+                        "i": 1,
+                        "n": 0.707
+                    },
+                    {
+                        "v": "Counties Served",
+                        "i": 0,
+                        "n": 0.707
+                    }
+                ]
+            }
+        },
+        {
+            "i": 33,
+            "$": {
+                "1": {
+                    "v": "21st Judicial Circuit",
+                    "n": 0.577
+                },
+                "3": [
+                    {
+                        "v": "Coordinator",
+                        "i": 2,
+                        "n": 1
+                    },
+                    {
+                        "v": "Council Leadership",
+                        "i": 1,
+                        "n": 0.707
+                    },
+                    {
+                        "v": "Counties Served",
+                        "i": 0,
+                        "n": 0.707
+                    }
+                ]
+            }
+        },
+        {
+            "i": 34,
+            "$": {
+                "1": {
+                    "v": "22nd Judicial Circuit",
+                    "n": 0.577
+                },
+                "3": [
+                    {
+                        "v": "Coordinator",
+                        "i": 2,
+                        "n": 1
+                    },
+                    {
+                        "v": "Council Leadership",
+                        "i": 1,
+                        "n": 0.707
+                    },
+                    {
+                        "v": "Counties Served",
+                        "i": 0,
+                        "n": 0.707
+                    }
+                ]
+            }
+        },
+        {
+            "i": 35,
+            "$": {
+                "1": {
+                    "v": "23rd Judicial Circuit",
+                    "n": 0.577
+                },
+                "3": [
+                    {
+                        "v": "Coordinator",
+                        "i": 2,
+                        "n": 1
+                    },
+                    {
+                        "v": "Council Leadership",
+                        "i": 1,
+                        "n": 0.707
+                    },
+                    {
+                        "v": "Counties Served",
+                        "i": 0,
+                        "n": 0.707
+                    }
+                ]
+            }
+        },
+        {
+            "i": 36,
+            "$": {
+                "1": {
+                    "v": "Cook County",
+                    "n": 0.707
+                },
+                "3": [
+                    {
+                        "v": "Counties Served",
+                        "i": 0,
+                        "n": 0.707
+                    }
+                ]
+            }
+        },
+        {
+            "i": 37,
+            "$": {
+                "1": {
+                    "v": "Carroll",
+                    "n": 1
+                },
+                "3": []
+            }
+        },
+        {
+            "i": 38,
+            "$": {
+                "1": {
+                    "v": "White",
+                    "n": 1
+                },
+                "3": []
+            }
+        },
+        {
+            "i": 39,
+            "$": {
+                "1": {
+                    "v": "Macoupin",
+                    "n": 1
+                },
+                "3": []
+            }
+        },
+        {
+            "i": 40,
+            "$": {
+                "1": {
+                    "v": "Clinton",
+                    "n": 1
+                },
+                "3": []
+            }
+        },
+        {
+            "i": 41,
+            "$": {
+                "1": {
+                    "v": "Grundy",
+                    "n": 1
+                },
+                "3": []
+            }
+        },
+        {
+            "i": 42,
+            "$": {
+                "1": {
+                    "v": "Richland",
+                    "n": 1
+                },
+                "3": []
+            }
+        },
+        {
+            "i": 43,
+            "$": {
+                "1": {
+                    "v": "Warren",
+                    "n": 1
+                },
+                "3": []
+            }
+        },
+        {
+            "i": 44,
+            "$": {
+                "1": {
+                    "v": "Union",
+                    "n": 1
+                },
+                "3": []
+            }
+        },
+        {
+            "i": 45,
+            "$": {
+                "1": {
+                    "v": "Ogle",
+                    "n": 1
+                },
+                "3": []
+            }
+        },
+        {
+            "i": 46,
+            "$": {
+                "1": {
+                    "v": "McDonough",
+                    "n": 1
+                },
+                "3": []
+            }
+        },
+        {
+            "i": 47,
+            "$": {
+                "1": {
+                    "v": "Putnam",
+                    "n": 1
+                },
+                "3": []
+            }
+        },
+        {
+            "i": 48,
+            "$": {
+                "1": {
+                    "v": "Brown",
+                    "n": 1
+                },
+                "3": []
+            }
+        },
+        {
+            "i": 49,
+            "$": {
+                "1": {
+                    "v": "Jefferson",
+                    "n": 1
+                },
+                "3": []
+            }
+        },
+        {
+            "i": 50,
+            "$": {
+                "1": {
+                    "v": "Ford",
+                    "n": 1
+                },
+                "3": []
+            }
+        },
+        {
+            "i": 51,
+            "$": {
+                "1": {
+                    "v": "Kendall",
+                    "n": 1
+                },
+                "3": []
+            }
+        },
+        {
+            "i": 52,
+            "$": {
+                "1": {
+                    "v": "Pulaski",
+                    "n": 1
+                },
+                "3": []
+            }
+        },
+        {
+            "i": 53,
+            "$": {
+                "1": {
+                    "v": "Scott",
+                    "n": 1
+                },
+                "3": []
+            }
+        },
+        {
+            "i": 54,
+            "$": {
+                "1": {
+                    "v": "Iroquois",
+                    "n": 1
+                },
+                "3": []
+            }
+        },
+        {
+            "i": 55,
+            "$": {
+                "1": {
+                    "v": "Henry",
+                    "n": 1
+                },
+                "3": []
+            }
+        },
+        {
+            "i": 56,
+            "$": {
+                "1": {
+                    "v": "LaSalle",
+                    "n": 1
+                },
+                "3": []
+            }
+        },
+        {
+            "i": 57,
+            "$": {
+                "1": {
+                    "v": "Morgan",
+                    "n": 1
+                },
+                "3": []
+            }
+        },
+        {
+            "i": 58,
+            "$": {
+                "1": {
+                    "v": "Lee",
+                    "n": 1
+                },
+                "3": []
+            }
+        },
+        {
+            "i": 59,
+            "$": {
+                "1": {
+                    "v": "St. Clair",
+                    "n": 0.707
+                },
+                "3": []
+            }
+        },
+        {
+            "i": 60,
+            "$": {
+                "1": {
+                    "v": "Knox",
+                    "n": 1
+                },
+                "3": []
+            }
+        },
+        {
+            "i": 61,
+            "$": {
+                "1": {
+                    "v": "Will",
+                    "n": 1
+                },
+                "3": []
+            }
+        },
+        {
+            "i": 62,
+            "$": {
+                "1": {
+                    "v": "Jersey",
+                    "n": 1
+                },
+                "3": []
+            }
+        },
+        {
+            "i": 63,
+            "$": {
+                "1": {
+                    "v": "Madison",
+                    "n": 1
+                },
+                "3": []
+            }
+        },
+        {
+            "i": 64,
+            "$": {
+                "1": {
+                    "v": "Woodford",
+                    "n": 1
+                },
+                "3": []
+            }
+        },
+        {
+            "i": 65,
+            "$": {
+                "1": {
+                    "v": "Jasper",
+                    "n": 1
+                },
+                "3": []
+            }
+        },
+        {
+            "i": 66,
+            "$": {
+                "1": {
+                    "v": "Coles",
+                    "n": 1
+                },
+                "3": []
+            }
+        },
+        {
+            "i": 67,
+            "$": {
+                "1": {
+                    "v": "DeKalb",
+                    "n": 1
+                },
+                "3": []
+            }
+        },
+        {
+            "i": 68,
+            "$": {
+                "1": {
+                    "v": "Saline",
+                    "n": 1
+                },
+                "3": []
+            }
+        },
+        {
+            "i": 69,
+            "$": {
+                "1": {
+                    "v": "Clay",
+                    "n": 1
+                },
+                "3": []
+            }
+        },
+        {
+            "i": 70,
+            "$": {
+                "1": {
+                    "v": "Greene",
+                    "n": 1
+                },
+                "3": []
+            }
+        },
+        {
+            "i": 71,
+            "$": {
+                "1": {
+                    "v": "Edwards",
+                    "n": 1
+                },
+                "3": []
+            }
+        },
+        {
+            "i": 72,
+            "$": {
+                "1": {
+                    "v": "Vermilion",
+                    "n": 1
+                },
+                "3": []
+            }
+        },
+        {
+            "i": 73,
+            "$": {
+                "1": {
+                    "v": "Peoria",
+                    "n": 1
+                },
+                "3": []
+            }
+        },
+        {
+            "i": 74,
+            "$": {
+                "1": {
+                    "v": "Hamilton",
+                    "n": 1
+                },
+                "3": []
+            }
+        },
+        {
+            "i": 75,
+            "$": {
+                "1": {
+                    "v": "Pike",
+                    "n": 1
+                },
+                "3": []
+            }
+        },
+        {
+            "i": 76,
+            "$": {
+                "1": {
+                    "v": "Calhoun",
+                    "n": 1
+                },
+                "3": []
+            }
+        },
+        {
+            "i": 77,
+            "$": {
+                "1": {
+                    "v": "Alexander",
+                    "n": 1
+                },
+                "3": []
+            }
+        },
+        {
+            "i": 78,
+            "$": {
+                "1": {
+                    "v": "Sangamon",
+                    "n": 1
+                },
+                "3": []
+            }
+        },
+        {
+            "i": 79,
+            "$": {
+                "1": {
+                    "v": "Christian",
+                    "n": 1
+                },
+                "3": []
+            }
+        },
+        {
+            "i": 80,
+            "$": {
+                "1": {
+                    "v": "Jackson",
+                    "n": 1
+                },
+                "3": []
+            }
+        },
+        {
+            "i": 81,
+            "$": {
+                "1": {
+                    "v": "Massac",
+                    "n": 1
+                },
+                "3": []
+            }
+        },
+        {
+            "i": 82,
+            "$": {
+                "1": {
+                    "v": "Mercer",
+                    "n": 1
+                },
+                "3": []
+            }
+        },
+        {
+            "i": 83,
+            "$": {
+                "1": {
+                    "v": "Edgar",
+                    "n": 1
+                },
+                "3": []
+            }
+        },
+        {
+            "i": 84,
+            "$": {
+                "1": {
+                    "v": "DuPage",
+                    "n": 1
+                },
+                "3": []
+            }
+        },
+        {
+            "i": 85,
+            "$": {
+                "1": {
+                    "v": "Logan",
+                    "n": 1
+                },
+                "3": []
+            }
+        },
+        {
+            "i": 86,
+            "$": {
+                "1": {
+                    "v": "Cook",
+                    "n": 1
+                },
+                "3": []
+            }
+        },
+        {
+            "i": 87,
+            "$": {
+                "1": {
+                    "v": "Marion",
+                    "n": 1
+                },
+                "3": []
+            }
+        },
+        {
+            "i": 88,
+            "$": {
+                "1": {
+                    "v": "Lawrence",
+                    "n": 1
+                },
+                "3": []
+            }
+        },
+        {
+            "i": 89,
+            "$": {
+                "1": {
+                    "v": "Rock Island",
+                    "n": 0.707
+                },
+                "3": []
+            }
+        },
+        {
+            "i": 90,
+            "$": {
+                "1": {
+                    "v": "Macon",
+                    "n": 1
+                },
+                "3": []
+            }
+        },
+        {
+            "i": 91,
+            "$": {
+                "1": {
+                    "v": "Clark",
+                    "n": 1
+                },
+                "3": []
+            }
+        },
+        {
+            "i": 92,
+            "$": {
+                "1": {
+                    "v": "McLean",
+                    "n": 1
+                },
+                "3": []
+            }
+        },
+        {
+            "i": 93,
+            "$": {
+                "1": {
+                    "v": "Wabash",
+                    "n": 1
+                },
+                "3": []
+            }
+        },
+        {
+            "i": 94,
+            "$": {
+                "1": {
+                    "v": "Hancock",
+                    "n": 1
+                },
+                "3": []
+            }
+        },
+        {
+            "i": 95,
+            "$": {
+                "1": {
+                    "v": "McHenry",
+                    "n": 1
+                },
+                "3": []
+            }
+        },
+        {
+            "i": 96,
+            "$": {
+                "1": {
+                    "v": "Monroe",
+                    "n": 1
+                },
+                "3": []
+            }
+        },
+        {
+            "i": 97,
+            "$": {
+                "1": {
+                    "v": "Whiteside",
+                    "n": 1
+                },
+                "3": []
+            }
+        },
+        {
+            "i": 98,
+            "$": {
+                "1": {
+                    "v": "Champaign",
+                    "n": 1
+                },
+                "3": []
+            }
+        },
+        {
+            "i": 99,
+            "$": {
+                "1": {
+                    "v": "Shelby",
+                    "n": 1
+                },
+                "3": []
+            }
+        },
+        {
+            "i": 100,
+            "$": {
+                "1": {
+                    "v": "Johnson",
+                    "n": 1
+                },
+                "3": []
+            }
+        },
+        {
+            "i": 101,
+            "$": {
+                "1": {
+                    "v": "Washington",
+                    "n": 1
+                },
+                "3": []
+            }
+        },
+        {
+            "i": 102,
+            "$": {
+                "1": {
+                    "v": "Kankakee",
+                    "n": 1
+                },
+                "3": []
+            }
+        },
+        {
+            "i": 103,
+            "$": {
+                "1": {
+                    "v": "Bureau",
+                    "n": 1
+                },
+                "3": []
+            }
+        },
+        {
+            "i": 104,
+            "$": {
+                "1": {
+                    "v": "Fayette",
+                    "n": 1
+                },
+                "3": []
+            }
+        },
+        {
+            "i": 105,
+            "$": {
+                "1": {
+                    "v": "Mason",
+                    "n": 1
+                },
+                "3": []
+            }
+        },
+        {
+            "i": 106,
+            "$": {
+                "1": {
+                    "v": "Lake",
+                    "n": 1
+                },
+                "3": []
+            }
+        },
+        {
+            "i": 107,
+            "$": {
+                "1": {
+                    "v": "Kane",
+                    "n": 1
+                },
+                "3": []
+            }
+        },
+        {
+            "i": 108,
+            "$": {
+                "1": {
+                    "v": "Stephenson",
+                    "n": 1
+                },
+                "3": []
+            }
+        },
+        {
+            "i": 109,
+            "$": {
+                "1": {
+                    "v": "Piatt",
+                    "n": 1
+                },
+                "3": []
+            }
+        },
+        {
+            "i": 110,
+            "$": {
+                "1": {
+                    "v": "Cumberland",
+                    "n": 1
+                },
+                "3": []
+            }
+        },
+        {
+            "i": 111,
+            "$": {
+                "1": {
+                    "v": "Stark",
+                    "n": 1
+                },
+                "3": []
+            }
+        },
+        {
+            "i": 112,
+            "$": {
+                "1": {
+                    "v": "Marshall",
+                    "n": 1
+                },
+                "3": []
+            }
+        },
+        {
+            "i": 113,
+            "$": {
+                "1": {
+                    "v": "Livingston",
+                    "n": 1
+                },
+                "3": []
+            }
+        },
+        {
+            "i": 114,
+            "$": {
+                "1": {
+                    "v": "Bond",
+                    "n": 1
+                },
+                "3": []
+            }
+        },
+        {
+            "i": 115,
+            "$": {
+                "1": {
+                    "v": "Douglas",
+                    "n": 1
+                },
+                "3": []
+            }
+        },
+        {
+            "i": 116,
+            "$": {
+                "1": {
+                    "v": "Jo Daviess",
+                    "n": 0.707
+                },
+                "3": []
+            }
+        },
+        {
+            "i": 117,
+            "$": {
+                "1": {
+                    "v": "De Witt",
+                    "n": 0.707
+                },
+                "3": []
+            }
+        },
+        {
+            "i": 118,
+            "$": {
+                "1": {
+                    "v": "Perry",
+                    "n": 1
+                },
+                "3": []
+            }
+        },
+        {
+            "i": 119,
+            "$": {
+                "1": {
+                    "v": "Franklin",
+                    "n": 1
+                },
+                "3": []
+            }
+        },
+        {
+            "i": 120,
+            "$": {
+                "1": {
+                    "v": "Williamson",
+                    "n": 1
+                },
+                "3": []
+            }
+        },
+        {
+            "i": 121,
+            "$": {
+                "1": {
+                    "v": "Wayne",
+                    "n": 1
+                },
+                "3": []
+            }
+        },
+        {
+            "i": 122,
+            "$": {
+                "1": {
+                    "v": "Schuyler",
+                    "n": 1
+                },
+                "3": []
+            }
+        },
+        {
+            "i": 123,
+            "$": {
+                "1": {
+                    "v": "Tazewell",
+                    "n": 1
+                },
+                "3": []
+            }
+        },
+        {
+            "i": 124,
+            "$": {
+                "1": {
+                    "v": "Randolph",
+                    "n": 1
+                },
+                "3": []
+            }
+        },
+        {
+            "i": 125,
+            "$": {
+                "1": {
+                    "v": "Moultrie",
+                    "n": 1
+                },
+                "3": []
+            }
+        },
+        {
+            "i": 126,
+            "$": {
+                "1": {
+                    "v": "Gallatin",
+                    "n": 1
+                },
+                "3": []
+            }
+        },
+        {
+            "i": 127,
+            "$": {
+                "1": {
+                    "v": "Menard",
+                    "n": 1
+                },
+                "3": []
+            }
+        },
+        {
+            "i": 128,
+            "$": {
+                "1": {
+                    "v": "Henderson",
+                    "n": 1
+                },
+                "3": []
+            }
+        },
+        {
+            "i": 129,
+            "$": {
+                "1": {
+                    "v": "Effingham",
+                    "n": 1
+                },
+                "3": []
+            }
+        },
+        {
+            "i": 130,
+            "$": {
+                "1": {
+                    "v": "Montgomery",
+                    "n": 1
+                },
+                "3": []
+            }
+        },
+        {
+            "i": 131,
+            "$": {
+                "1": {
+                    "v": "Boone",
+                    "n": 1
+                },
+                "3": []
+            }
+        },
+        {
+            "i": 132,
+            "$": {
+                "1": {
+                    "v": "Crawford",
+                    "n": 1
+                },
+                "3": []
+            }
+        },
+        {
+            "i": 133,
+            "$": {
+                "1": {
+                    "v": "Pope",
+                    "n": 1
+                },
+                "3": []
+            }
+        },
+        {
+            "i": 134,
+            "$": {
+                "1": {
+                    "v": "Adams",
+                    "n": 1
+                },
+                "3": []
+            }
+        },
+        {
+            "i": 135,
+            "$": {
+                "1": {
+                    "v": "Fulton",
+                    "n": 1
+                },
+                "3": []
+            }
+        },
+        {
+            "i": 136,
+            "$": {
+                "1": {
+                    "v": "Hardin",
+                    "n": 1
+                },
+                "3": []
+            }
+        }
+    ]
+}

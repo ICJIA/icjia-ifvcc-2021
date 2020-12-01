@@ -41,7 +41,7 @@ global.Headers = global.Headers || Headers;
 
 const graphqlClient = new GraphQLClient(endpoint, {
   headers: {
-    Authorization: `Bearer ${JWT}`,
+    // Authorization: `Bearer ${JWT}`,
   },
 });
 
@@ -64,17 +64,28 @@ const query = gql`
       title
       summary
       slug
-      searchMeta
       body
     }
-    events {
+
+    pages {
       id
-      name
-      type
+      title
       summary
       slug
-      searchMeta
-      details
+      body
+    }
+
+    circuits: councils {
+      id
+      title
+      slug
+      body
+    }
+
+    county: counties {
+      id
+      title: name
+      slug
     }
   }
 `;
@@ -82,18 +93,18 @@ const query = gql`
 async function main() {
   const data = await graphqlClient.request(query);
   const sections = Object.keys(data);
+  console.log(sections);
 
   let index = sections.map((section) => {
     let items = data[section].map((item) => {
       let searchObj = {};
-      searchObj.id = item.id;
       searchObj.title = item.title || item.name;
-      //searchObj.contentType = section;
-      searchObj.type = item.type;
-      searchObj.searchMeta = item.searchMeta || "";
+      searchObj.contentType = section;
+      // searchObj.type = item.type;
+      // searchObj.searchMeta = item.searchMeta || "";
       searchObj.section = section;
       searchObj.slug = item.slug;
-      let markdown = item.body || item.details;
+      let markdown = item.body || "";
       searchObj.html = md.render(markdown);
       let $ = cheerio.load(searchObj.html);
       searchObj.markdown = markdown;
@@ -104,10 +115,15 @@ async function main() {
         headings.push(text);
       });
       searchObj.headings = headings;
-      // searchObj.toc = toc(markdown).json;
-      searchObj.route = `/${section}/${searchObj.slug}`;
+      searchObj.toc = toc(markdown).json;
+      if (section === "pages") {
+        searchObj.route = `/${searchObj.slug}/`;
+      } else {
+        searchObj.route = `/${section}/${searchObj.slug}/`;
+      }
+
       searchObj.summary = item.summary || "";
-      searchObj.url = `${myConfig.api.baseClient}${searchObj.route}`;
+      // searchObj.url = `${myConfig.api.baseClient}${searchObj.route}`;
       delete searchObj.markdown;
       delete searchObj.html;
       return searchObj;
