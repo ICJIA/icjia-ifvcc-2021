@@ -121,8 +121,14 @@ async function main() {
         searchObj.route = `/${section}/${searchObj.slug}/`;
       }
       searchObj.summary = item.summary || "";
-      searchObj.url = `${myConfig.api.baseClient}${searchObj.route}`;
-      searchObj.toc = toc(markdown).json;
+
+      if (myConfig.publicPath === "/") {
+        searchObj.url = `${myConfig.api.baseClient}${searchObj.route}`;
+      } else {
+        searchObj.url = `${myConfig.api.baseClient}${myConfig.publicPath}${searchObj.route}`;
+      }
+
+      // searchObj.toc = toc(markdown).json;
 
       return searchObj;
     });
