@@ -16,7 +16,7 @@
             {{ queryResults.length }} result{{ resultNumber }}
           </div>
 
-          <div v-if="query && query.length">
+          <div v-if="query && query.length" class="mb-12">
             <div
               v-for="(result, index) in queryResults"
               :key="index"
@@ -24,7 +24,7 @@
             >
               <v-card
                 elevation="0"
-                color="#f3f5f7"
+                color="#f1f3f5"
                 @click="route(result)"
                 class="hover py-2 px-2 mb-5"
               >
