@@ -145,6 +145,5 @@ export default {
   background: #ffff00;
   font-weight: 900;
   padding: 2px;
-  text-transform: uppercase;
 }
 </style>

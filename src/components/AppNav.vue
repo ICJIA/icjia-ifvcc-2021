@@ -40,6 +40,16 @@
         </span>
         <span v-else>{{ item.title }}</span>
       </v-btn>
+
+      <v-btn
+        text
+        style="font-weight: 900; margin-left: 2px; margin-right: 2px"
+        aria-label="Search"
+        small
+        to="/search/"
+        ><v-icon>search</v-icon>
+      </v-btn>
+
       <v-btn
         @click="toggleDrawer"
         text
@@ -49,13 +59,6 @@
         >Menu <v-icon right>menu</v-icon>
       </v-btn>
     </div>
-
-    <!-- <v-app-bar-nav-icon
-      aria-label="Toggle Menu"
-      style="color: black; margin-left: 10px"
-      large
-      @click="toggleDrawer"
-    /> -->
   </v-app-bar>
 </template>
 
