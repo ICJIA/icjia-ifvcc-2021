@@ -174,7 +174,8 @@ export default {
       //   window.open(`${item.route}`)
       //   // TODO: Add download event here for Google
       // }
-      console.log(item);
+      console.log(item.route);
+      this.$router.push(item.route);
     },
     instantSearch() {
       this.queryResults = highlight(this.fuse.search(this.query));

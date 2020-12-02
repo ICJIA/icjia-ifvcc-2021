@@ -65,6 +65,7 @@ const query = gql`
       summary
       slug
       body
+      pathPrefix
     }
 
     pages {
@@ -73,6 +74,7 @@ const query = gql`
       summary
       slug
       body
+      pathPrefix
     }
 
     circuits: councils {
@@ -80,12 +82,14 @@ const query = gql`
       title
       slug
       body
+      pathPrefix
     }
 
     counties {
       id
       title: name
       slug
+      pathPrefix
     }
   }
 `;
@@ -119,11 +123,8 @@ async function main() {
         .replace(/(\r\n|\n|\r)/gm, " ")
         .replace(/ +(?= )/g, "");
 
-      if (section === "pages") {
-        searchObj.route = `/${searchObj.slug}/`;
-      } else {
-        searchObj.route = `/${section}/${searchObj.slug}/`;
-      }
+      searchObj.route = `${item.pathPrefix}${searchObj.slug}/`;
+
       searchObj.summary = item.summary || "";
 
       if (myConfig.publicPath === "/") {
