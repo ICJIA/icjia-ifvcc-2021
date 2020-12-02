@@ -69,7 +69,7 @@
         "keys": [
             {
                 "name": "summary",
-                "weight": 1
+                "weight": 3
             },
             {
                 "name": "title",
@@ -81,10 +81,14 @@
             },
             {
                 "name": "headings",
-                "weight": 1
+                "weight": 3
             },
             {
                 "name": "type",
+                "weight": 2
+            },
+            {
+                "name": "rawText",
                 "weight": 1
             }
         ]

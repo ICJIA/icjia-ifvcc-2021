@@ -22,8 +22,13 @@
               :key="index"
               class="my-2"
             >
-              <div @click="route(result)" class="hover">
-                <v-btn
+              <v-card
+                elevation="0"
+                color="#f3f5f7"
+                @click="route(result)"
+                class="hover py-2 px-2 mb-5"
+              >
+                <!-- <v-btn
                   v-if="result.file"
                   color="#0d4474"
                   fab
@@ -35,9 +40,9 @@
                   @click="route(result)"
                 >
                   <v-icon>mdi-cloud-download</v-icon>
-                </v-btn>
+                </v-btn> -->
 
-                <div
+                <!-- <div
                   class="text-left"
                   style="
                     font-weight: bold;
@@ -48,7 +53,7 @@
                   "
                 >
                   <div style="display: inline" v-html="result.type"></div>
-                </div>
+                </div> -->
 
                 <div v-if="result.title">
                   <h2 v-html="result.title"></h2>
@@ -58,13 +63,17 @@
                   ><div v-html="result.description"></div
                 ></v-card-text>
 
-                <v-card-text
+                <!-- <v-card-text
                   v-if="result.headings"
                   style="margin-top: -15px; margin-left: 15px"
                 >
                   <h3 v-html="displayHeadings(result.headings)"></h3>
+                </v-card-text> -->
+
+                <v-card-text v-if="result.rawText">
+                  <span v-html="truncate(result.rawText, 100)"></span>
                 </v-card-text>
-              </div>
+              </v-card>
             </div>
           </div>
         </v-form> </v-col
@@ -142,6 +151,18 @@ export default {
     });
   },
   methods: {
+    truncate(string, maxWords = 50) {
+      var strippedString = string.trim();
+      var array = strippedString.split(" ");
+      var wordCount = array.length;
+      string = array.splice(0, maxWords).join(" ");
+
+      if (wordCount > maxWords) {
+        string += "...";
+      }
+
+      return string;
+    },
     route(item) {
       // console.log(item.type.includes('content'))
       // if (item.type.includes('content')) {
@@ -157,7 +178,7 @@ export default {
     },
     instantSearch() {
       this.queryResults = highlight(this.fuse.search(this.query));
-      console.log(this.queryResults);
+      //console.log(this.queryResults);
     },
     displayHeadings(headings) {
       if (typeof headings === "string") {

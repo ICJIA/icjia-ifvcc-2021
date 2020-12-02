@@ -114,6 +114,10 @@ async function main() {
         headings.push(text);
       });
       searchObj.headings = headings;
+      searchObj.rawText = searchObj.html
+        .replace(/<[^>]*>?/gm, "")
+        .replace(/(\r\n|\n|\r)/gm, " ")
+        .replace(/ +(?= )/g, "");
 
       if (section === "pages") {
         searchObj.route = `/${searchObj.slug}/`;
