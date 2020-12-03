@@ -7,7 +7,6 @@
     "api": {
         "base": "https://ifvcc.icjia-api.cloud",
         "baseGraphQL": "https://ifvcc.icjia-api.cloud/graphql",
-        "baseClient": "https://ifvcc.icjia.cloud",
         "forgetPassword": "/auth/forgot-password",
         "resetPassword": "/auth/reset-password",
         "resetPasswordCallback": "/reset",

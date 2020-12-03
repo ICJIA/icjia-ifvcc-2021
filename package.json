@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "serve": "npm run schema && vue-cli-service serve",
-    "build": "node generateSearchIndex && npm run schema && npm run build:lambda && vue-cli-service build",
+    "build": "node generateSearchIndex && node generateSitemap && npm run schema && npm run build:lambda && vue-cli-service build",
     "test:unit": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint",
     "build:lambda": "netlify-lambda build ./src/lambda",
@@ -44,6 +44,7 @@
     "netlify-lambda": "^2.0.1",
     "nprogress": "^0.2.0",
     "remarkable": "1.7.1",
+    "sitemap": "^6.3.3",
     "slug": "^4.0.2",
     "strip-color": "^0.1.0",
     "thumbor-url-builder": "^0.1.1",

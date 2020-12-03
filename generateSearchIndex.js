@@ -128,9 +128,9 @@ async function main() {
       searchObj.summary = item.summary || "";
 
       if (myConfig.publicPath === "/") {
-        searchObj.url = `${myConfig.api.baseClient}${searchObj.route}`;
+        searchObj.url = `${myConfig.clientURL}${searchObj.route}`;
       } else {
-        searchObj.url = `${myConfig.api.baseClient}${myConfig.publicPath}${searchObj.route}`;
+        searchObj.url = `${myConfig.clientURL}${myConfig.publicPath}${searchObj.route}`;
       }
 
       // searchObj.toc = toc(markdown).json;
@@ -142,12 +142,12 @@ async function main() {
 
   let siteMeta = index.flat();
   siteMeta = utils.filterUndefined(siteMeta);
-  const fuseIndex = Fuse.createIndex(myConfig.search.keys, siteMeta);
-  fs.writeFileSync(
-    "./public/fuse-index.json",
-    JSON.stringify(fuseIndex.toJSON())
-  );
-  console.log(`Fuse search index created: ./public/fuse-index.json"`);
+  // const fuseIndex = Fuse.createIndex(myConfig.search.keys, siteMeta);
+  // fs.writeFileSync(
+  //   "./public/fuse-index.json",
+  //   JSON.stringify(fuseIndex.toJSON())
+  // );
+  // console.log(`Fuse search index created: ./public/fuse-index.json"`);
 
   utils.saveJson(siteMeta, "./public/site-meta.json");
   console.log(`Site meta created: ./public/site-meta.json"`);
