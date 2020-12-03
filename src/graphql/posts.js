@@ -19,6 +19,10 @@ const GET_ALL_POSTS_QUERY = gql`
         caption
         formats
       }
+      councils {
+        title
+        slug
+      }
     }
   }
 `;
@@ -44,6 +48,10 @@ const GET_SINGLE_POST_QUERY = gql`
         alternativeText
         caption
         formats
+      }
+      councils {
+        title
+        slug
       }
     }
   }

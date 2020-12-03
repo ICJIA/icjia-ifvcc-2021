@@ -55,6 +55,9 @@
               @click="handleClicks"
               class="dynamic-content"
             ></div>
+            <div v-if="post.councils && post.councils.length">
+              <tagged-councils :councils="post.councils"></tagged-councils>
+            </div>
           </v-col>
           <v-col
             cols="12"
