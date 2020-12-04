@@ -7,7 +7,7 @@
           {{ items[0].name }}
         </div>
         <div style="font-size: 12px; color: #999" class="text-left">
-          Last updated: {{ items[0].updatedAt }}
+          Last updated {{ timeFromDate(items[0].updatedAt) }}
         </div>
 
         <v-card-text style="margin-top: -10px">
@@ -36,8 +36,14 @@
 import { handleClicks } from "@/mixins/handleClicks";
 import { renderToHtml } from "@/services/Markdown";
 import { getImageURL } from "@/services/Image";
+import { timeFromDate } from "@/services/DateTime";
 export default {
   mixins: [handleClicks],
+  data() {
+    return {
+      timeFromDate,
+    };
+  },
   methods: {
     render(content) {
       return renderToHtml(content);
