@@ -13775,18 +13775,6 @@
             "deprecationReason": null
           },
           {
-            "name": "showInSitemap",
-            "description": null,
-            "args": [],
-            "type": {
-              "kind": "SCALAR",
-              "name": "Boolean",
-              "ofType": null
-            },
-            "isDeprecated": false,
-            "deprecationReason": null
-          },
-          {
             "name": "showInFooter",
             "description": null,
             "args": [],
@@ -13836,6 +13824,18 @@
           },
           {
             "name": "showBanner",
+            "description": null,
+            "args": [],
+            "type": {
+              "kind": "SCALAR",
+              "name": "Boolean",
+              "ofType": null
+            },
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "showLastUpdated",
             "description": null,
             "args": [],
             "type": {
@@ -13879,16 +13879,6 @@
             "defaultValue": null
           },
           {
-            "name": "showInSitemap",
-            "description": null,
-            "type": {
-              "kind": "SCALAR",
-              "name": "Boolean",
-              "ofType": null
-            },
-            "defaultValue": null
-          },
-          {
             "name": "showInFooter",
             "description": null,
             "type": {
@@ -13930,6 +13920,16 @@
           },
           {
             "name": "showBanner",
+            "description": null,
+            "type": {
+              "kind": "SCALAR",
+              "name": "Boolean",
+              "ofType": null
+            },
+            "defaultValue": null
+          },
+          {
+            "name": "showLastUpdated",
             "description": null,
             "type": {
               "kind": "SCALAR",
@@ -13980,16 +13980,6 @@
             "defaultValue": null
           },
           {
-            "name": "showInSitemap",
-            "description": null,
-            "type": {
-              "kind": "SCALAR",
-              "name": "Boolean",
-              "ofType": null
-            },
-            "defaultValue": null
-          },
-          {
             "name": "showInFooter",
             "description": null,
             "type": {
@@ -14031,6 +14021,16 @@
           },
           {
             "name": "showBanner",
+            "description": null,
+            "type": {
+              "kind": "SCALAR",
+              "name": "Boolean",
+              "ofType": null
+            },
+            "defaultValue": null
+          },
+          {
+            "name": "showLastUpdated",
             "description": null,
             "type": {
               "kind": "SCALAR",

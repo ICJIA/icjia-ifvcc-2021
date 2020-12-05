@@ -19,7 +19,7 @@ const GET_ALL_PAGES_QUERY = gql`
         showTOC
         showInNav
         showInFooter
-        showInSitemap
+        showLastUpdated
         showInSidebar
         menuTitle
         menuRank
@@ -44,7 +44,7 @@ const GET_SINGLE_PAGE_QUERY = gql`
         showTOC
         showInNav
         showInFooter
-        showInSitemap
+        showLastUpdated
         showInSidebar
         menuTitle
         menuRank

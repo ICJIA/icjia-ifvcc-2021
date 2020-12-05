@@ -9,7 +9,6 @@ const GET_NAV_META_QUERY = gql`
         showTOC
         showInNav
         showInFooter
-        showInSitemap
         showInSidebar
         menuTitle
         menuRank
