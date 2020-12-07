@@ -5,6 +5,7 @@ const GET_NAV_META_QUERY = gql`
     pages {
       slug
       title
+      pathPrefix
       metaData {
         showTOC
         showInNav
