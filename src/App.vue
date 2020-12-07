@@ -5,7 +5,11 @@
       :key="`appNav-${$route.path}`"
       :isLoading="isLoading"
     ></AppNav>
-    <!-- <AppSidebar></AppSidebar> -->
+    <AppSidebar
+      :meta="appSidebar"
+      :key="`appSidebar-${$route.path}`"
+      :isLoading="isLoading"
+    ></AppSidebar>
 
     <v-main>
       <transition name="fade" mode="out-in">

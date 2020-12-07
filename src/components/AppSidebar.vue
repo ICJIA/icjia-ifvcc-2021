@@ -4,9 +4,9 @@
     app
     temporary
     disable-resize-watcher
-    color="grey lighten-4"
+    color="#eee"
   >
-    <div v-if="items">
+    <!-- <div v-if="items">
       <v-list dense class="mt-5">
         <v-list-item link to="/">
           <v-list-item-content>
@@ -40,7 +40,8 @@
           </v-list-item-content>
         </v-list-item>
       </v-list>
-    </div>
+    </div> -->
+    Links here
   </v-navigation-drawer>
 </template>
 
@@ -52,15 +53,9 @@ export default {
     drawer: false,
     items: null,
   }),
-  async created() {
-    this.items = await this.$content()
-      .where({ showInSidebar: true })
-      .only(["title", "menuTitle", "slug", "path", "menuRank"])
-      .sortBy("menuRank", "asc")
-      .fetch();
-  },
+  async created() {},
   mounted() {
-    EventBus.$on("toggleDrawer", () => {
+    EventBus.$on("toggle-drawer", () => {
       console.log("open drawer");
       this.drawer = !this.drawer;
     });
@@ -71,11 +66,11 @@ export default {
   },
   methods: {
     routeToPage(item) {
-      // console.log(item);
-      this.drawer = false;
-      this.$router.push(`${item.path}/`).catch(() => {
-        this.$vuetify.goTo(0);
-      });
+      console.log(item);
+      // this.drawer = false;
+      // this.$router.push(`${item.path}/`).catch(() => {
+      //   this.$vuetify.goTo(0);
+      // });
     },
   },
 };
