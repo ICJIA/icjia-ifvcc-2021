@@ -36,8 +36,11 @@
                 ></div>
               </v-card-text>
               <div v-if="council.posts.length && showNews">
-                <h2>Latest circuit news</h2>
-                {{ council.posts }}
+                <h2 style="font-weight: 900">Latest circuit news</h2>
+                <CouncilCardPosts
+                  :posts="council.posts"
+                  style="margin-left: 10px"
+                ></CouncilCardPosts>
               </div>
 
               <div class="mt-8 text-right" v-if="showLinkToCounty">

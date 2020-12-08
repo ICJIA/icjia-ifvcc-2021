@@ -27,12 +27,12 @@
             <v-divider />
           </div> -->
         </div>
-        <!-- <v-divider></v-divider> -->
-        <!-- <v-list-item link to="/search/">
+        <v-divider></v-divider>
+        <v-list-item link to="/search/">
           <v-list-item-content>
             <h3>Search</h3>
           </v-list-item-content>
-        </v-list-item> -->
+        </v-list-item>
       </v-list>
     </div>
   </v-navigation-drawer>
