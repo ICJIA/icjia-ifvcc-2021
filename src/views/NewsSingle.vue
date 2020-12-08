@@ -15,7 +15,12 @@
             order="2"
             order-sm="2"
           >
-            <h1>{{ post.title }}</h1>
+            <h1 style="margin-bottom: 10px">{{ post.title }}</h1>
+            <PostedMeta
+              :meta="post"
+              style="font-size: 14px"
+              class="mb-10"
+            ></PostedMeta>
             <div class="text-center">
               <v-img
                 v-if="post.splash"

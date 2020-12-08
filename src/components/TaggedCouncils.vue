@@ -1,7 +1,7 @@
 <template>
-  <div style="border-top: 1px solid #ccc">
+  <div style="border-top: 1px solid #ccc" class="pb-12">
     <div style="font-size: 14px; font-weight: bold" class="mt-5 mb-3">
-      Tags:
+      Circuits:
     </div>
     <span
       v-for="(council, index) in councils"

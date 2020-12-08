@@ -22,7 +22,12 @@ const timeFromDate = function (d = now, hideSuffix = false) {
   return dayjs(d).fromNow(hideSuffix);
 };
 
-const dateDiff = function (d1 = now, d2 = now, unit = "days", absolute = true) {
+const dateDiff = function (
+  d1 = now,
+  d2 = now,
+  unit = "hours",
+  absolute = true
+) {
   const date1 = dayjs(d1);
   const date2 = dayjs(d2);
   let diff = date1.diff(date2, unit);
