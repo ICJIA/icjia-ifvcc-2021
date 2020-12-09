@@ -6,7 +6,7 @@
       @click="$router.push(`/news/${item.slug}/`)"
     >
       <div style="font-size: 12px; margin-left: 15px">
-        {{ timeFromDate(item.createdAt) }}
+        {{ displayDate(item.createdAt) }}
       </div>
 
       <v-card-text v-if="item.title"
@@ -55,12 +55,12 @@
 <script>
 import { format, parseISO } from "date-fns";
 import { getImageURL } from "@/services/Image";
-import { timeFromDate } from "@/services/DateTime";
+import { displayDate } from "@/services/DateTime";
 
 export default {
   data() {
     return {
-      timeFromDate,
+      displayDate,
     };
   },
   props: {
