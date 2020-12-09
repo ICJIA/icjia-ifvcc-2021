@@ -28,13 +28,20 @@ const routes = [
   {
     path: "/counties/",
     name: "Counties",
-    redirect: "/councils",
+    redirect: "/councils/",
   },
   {
     path: "/counties/:slug/",
     name: "CountySingle",
     component: () =>
       import(/* webpackChunkName: "councils" */ "../views/CountySingle.vue"),
+  },
+  {
+    path: "/circuits/all/",
+    name: "AllCircuits",
+    meta: { showInSitemap: true },
+    component: () =>
+      import(/* webpackChunkName: "circuits" */ "../views/Circuits.vue"),
   },
   {
     path: "/circuits/",
@@ -48,12 +55,7 @@ const routes = [
     component: () =>
       import(/* webpackChunkName: "councils" */ "../views/CircuitSingle.vue"),
   },
-  // {
-  //   path: "/circuits/",
-  //   name: "AllCircuits",
-  //   component: () =>
-  //     import(/* webpackChunkName: "circuits" */ "../views/Circuits.vue"),
-  // },
+
   {
     path: "/search/",
     name: "Search",

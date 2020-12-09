@@ -118,6 +118,18 @@
           </v-col>
           <v-col md="2" cols="12"></v-col>
         </v-row>
+        <v-row>
+          <v-col>
+            <div
+              class="text-right mb-12"
+              style="font-size: 12px; margin-top: -50px"
+            >
+              <router-link to="/circuits/all/"
+                >List all councils&nbsp;&raquo;</router-link
+              >
+            </div>
+          </v-col>
+        </v-row>
       </v-container>
     </div>
     <!-- <div v-if="isLoading"><Loader></Loader></div> -->
@@ -163,20 +175,11 @@ export default {
   },
   created() {},
   mounted() {},
-  watch: {
-    // eslint-disable-next-line no-unused-vars
-    // selectBy(newValue, oldValue) {
-    //   if (newValue === "circuit") {
-    //     this.items = [];
-    //   } else {
-    //     this.items = this.counties;
-    //   }
-    // },
-  },
+  watch: {},
   methods: {
     toggle(e) {
       this.selectBy = e;
-      console.log("view: ", this.selectBy);
+      // console.log("view: ", this.selectBy);
     },
     goto404() {
       this.isLoading = false;
@@ -211,7 +214,7 @@ export default {
       }
     },
 
-    getImagePath(url, imgWidth = 450, imgHeight = 200, imageQuality = 30) {
+    getImagePath(url, imgWidth = 0, imgHeight = 0, imageQuality = 30) {
       let imgPath;
 
       imgPath = `https://ifvcc.icjia-api.cloud${url}`;

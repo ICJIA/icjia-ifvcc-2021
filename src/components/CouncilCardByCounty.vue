@@ -42,17 +42,6 @@
                   style="margin-left: 10px"
                 ></CouncilCardPosts>
               </div>
-
-              <div class="mt-8 text-right" v-if="showLinkToCounty">
-                <v-btn x-small :to="`/counties/${item.slug}/`">
-                  Link <v-icon right x-small>link</v-icon>
-                </v-btn>
-              </div>
-              <div class="mt-8 text-right" v-if="showLinkToCircuit">
-                <v-btn x-small :to="`/counties/${item.slug}/`">
-                  Link <v-icon right x-small>link</v-icon>
-                </v-btn>
-              </div>
             </div>
           </div>
         </div>
