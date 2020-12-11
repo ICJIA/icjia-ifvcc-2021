@@ -7,7 +7,10 @@ const myConfig = require("./src/config.json");
 const endpoint = myConfig.api.baseGraphQL;
 const utils = require("./lib/utils");
 const fs = require("fs");
+
 global.Headers = global.Headers || Headers;
+
+const manualRoutes = ["/circuits/all/"];
 
 const graphqlClient = new GraphQLClient(endpoint, {
   headers: {
@@ -73,17 +76,30 @@ async function main() {
 
       return searchObj;
     });
+
     return items;
   });
 
   let links = index.flat();
   links = utils.filterUndefined(links);
 
-  const stream = new SitemapStream({
-    hostname: "https://icjiaifvcc.netlify.app",
+  let manualLinks = manualRoutes.map((route) => {
+    let routeObj = {
+      url: route,
+      changefreq: "daily",
+      priority: 0.3,
+      lastmod: new Date().toJSON().substring(0, 10),
+    };
+    return routeObj;
   });
 
-  let sitemap = await streamToPromise(Readable.from(links).pipe(stream));
+  const sitemapInfo = [...links, ...manualLinks];
+
+  const stream = new SitemapStream({
+    hostname: `${myConfig.clientURL}`,
+  });
+
+  let sitemap = await streamToPromise(Readable.from(sitemapInfo).pipe(stream));
   fs.writeFileSync("./public/sitemap.xml", sitemap.toString());
   console.log(`Created: ./public/sitemap.xml`);
 }

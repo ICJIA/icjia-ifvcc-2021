@@ -39,7 +39,7 @@ const routes = [
   {
     path: "/circuits/all/",
     name: "AllCircuits",
-    meta: { showInSitemap: true },
+
     component: () =>
       import(/* webpackChunkName: "circuits" */ "../views/Circuits.vue"),
   },

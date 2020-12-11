@@ -4,8 +4,8 @@
 
     <div class="pr-10 py-0">
       <v-img
-        src="https://icjiaifvcc.netlify.app/img/logo3-purple-black.png"
-        :lazy-src="getImagePath(`/img/logo3-purple-black.png`, 0, 0, 20)"
+        :src="`${this.$myApp.config.clientURL}${this.$myApp.config.publicPath}img/logo3-purple-black.png`"
+        :lazy-src="getImagePath(`img/logo3-purple-black.png`, 0, 0, 20)"
         alt="Illinois HEALS"
         width="75"
         style="float: left; padding-right: 25px; padding-bottom: 15px"
@@ -33,7 +33,7 @@ export default {
   methods: {
     getImagePath(url, imgWidth = 0, imgHeight = 0, imageQuality = 100) {
       let imgPath;
-      imgPath = `${this.$myApp.config.clientURL}${url}`;
+      imgPath = `${this.$myApp.config.clientURL}${this.$myApp.config.publicPath}${url}`;
       const thumborImgPath = getImageURL(
         imgPath,
         imgWidth,
